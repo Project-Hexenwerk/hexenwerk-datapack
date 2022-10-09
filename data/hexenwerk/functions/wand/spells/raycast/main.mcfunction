@@ -1,0 +1,2 @@
+tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> ","color":"red"},{"text":"starting ","color":"green"},{"text":"raycast","color":"red"}]
+function hexenwerk:wand/spells/raycast/raycast
