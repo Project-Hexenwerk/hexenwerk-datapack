@@ -24,5 +24,5 @@ Download the current new version at: https://www.planetminecraft.com/data-pack/m
 
 ## Mod
 - I am planning to port this datapack to a mod. As soon as i did that the datapack project will probably still get continued which continiously. This might delay updates but that is an acceptable tradeoff for me!
-- Why Tho? 
+- Why am i doing this? 
 I wanted to learn modding for some time now and i think this is the perfect opportunity to do so while also continuing making datapacks.
