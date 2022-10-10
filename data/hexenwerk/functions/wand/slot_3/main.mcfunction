@@ -10,4 +10,4 @@ tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"tex
 # runs the function that runs the spell
 execute if score @s hexenwerk.spell_id matches 0 run tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> not running anything","color":"red"}]
 execute if score @s hexenwerk.spell_id matches 1..999 run function hexenwerk:wand/spells/no_raycast/main
-execute if score @s hexenwerk.spell_id matches 1000.. anchored eyes positioned ^ ^ ^0.1 run function hexenwerk:wand/spells/raycast/raycast
+execute if score @s hexenwerk.spell_id matches 1000.. anchored eyes positioned ^ ^ ^0.1 run function hexenwerk:wand/spells/raycast/main
