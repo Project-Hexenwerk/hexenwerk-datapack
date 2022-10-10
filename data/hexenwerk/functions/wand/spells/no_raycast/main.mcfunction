@@ -1,1 +1,1 @@
-tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> ","color":"red"},{"text":"not using","color":"dark_green"},{"text":" raycast","color":"red"}]
+tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> ","color":"red"},{"text":"executing direct spell function","color":"red"}]

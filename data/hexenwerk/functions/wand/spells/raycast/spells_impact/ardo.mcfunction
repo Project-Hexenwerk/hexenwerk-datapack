@@ -1,2 +1,0 @@
-tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> ","color":"red"},{"text":"executing ","color":"green"},{"text":"impact event for spell ","color":"red"},{"text":"ardo ","color":"aqua"},{"text":"(id: ","color":"red"},{"text":"1001","color":"gold"},{"text":")","color":"red"}]
-setblock ^ ^ ^-0.1 fire keep
