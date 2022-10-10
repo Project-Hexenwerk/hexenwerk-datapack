@@ -1,7 +1,7 @@
 
-
-execute unless block ~ ~ ~ #hexenwerk:transparent positioned ^ ^ ^-0.1 run function hexenwerk:wand/spells/raycast/block_impact
 execute if entity @e[dx=0.1,dy=0.1,dz=0.1,tag=!hexenwerk.spell.caster] run function hexenwerk:wand/spells/raycast/entity_impact
+execute unless block ~ ~ ~ #hexenwerk:transparent positioned ^ ^ ^-0.1 run function hexenwerk:wand/spells/raycast/block_impact
+
 
 execute if score @s hexenwerk.spell_id matches 1001 if predicate hexenwerk:20_percent run particle flame ^ ^ ^-0.1 
 execute if score @s hexenwerk.spell_id matches 1002 if predicate hexenwerk:20_percent run particle end_rod ^ ^ ^-0.1 
