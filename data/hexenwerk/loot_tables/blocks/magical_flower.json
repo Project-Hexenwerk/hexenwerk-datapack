@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glow_item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.magical_flower\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"translate\":\"lore.hexenwerk.magical_flower\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:1725,hexenwerk.magical_flower:1b,EntityTag:{Invisible:1b,Item:{id:\"minecraft:barrier\",Count:1b,tag:{hexenwerk.place_magical_flower:1b}}}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
