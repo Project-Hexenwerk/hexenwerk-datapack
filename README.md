@@ -9,6 +9,7 @@ Download the current new version at: https://www.planetminecraft.com/data-pack/m
 - More (Coming Soon)
 
 ## Blocks
+- Magical Flower 
 - More (Coming Soon)
 
 ## Mobs
