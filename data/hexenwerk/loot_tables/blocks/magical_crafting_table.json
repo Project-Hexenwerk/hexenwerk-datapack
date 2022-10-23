@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.magical_crafting_table\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1727,hexenwerk-magical_crafting_table:1b,EntityTag:{Invisible:1b,Item:{id:\"minecraft:barrier\",Count:1b,tag:{hexenwerk.place_magical_crafting_table:1b,hexenwerk.place_block:1b}}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

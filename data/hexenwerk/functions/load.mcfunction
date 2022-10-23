@@ -1,4 +1,5 @@
 say Hexenwerk Datapack by Flynecraft loaded!
+tellraw @a {"translate":"You currently don't have the required recourcepack installed!","color":"red"}
 
 #Add Scoreboards
 scoreboard objectives add hexenwerk.used_wfoas minecraft.used:minecraft.warped_fungus_on_a_stick
@@ -11,6 +12,8 @@ scoreboard objectives add hexenwerk.mana_regen dummy
 scoreboard objectives add hexenwerk.mana_percentage dummy
 scoreboard objectives add hexenwerk.temp dummy
 scoreboard objectives add hexenwerk.join minecraft.custom:minecraft.leave_game
+scoreboard objectives add hexenwerk.deaths deathCount
+scoreboard objectives add hexenwerk.broken_svs minecraft.mined:minecraft.structure_void
 
 #Update stuff from config
 function hexenwerk:config

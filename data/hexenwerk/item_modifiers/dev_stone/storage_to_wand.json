@@ -1,0 +1,17 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "hexenwerk:temp"
+      },
+      "ops": [
+        {
+          "source": "spell_id",
+          "target": "hexenwerk-spells[0]",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+  

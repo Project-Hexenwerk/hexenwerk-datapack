@@ -1,6 +1,6 @@
 {
     "pack":{
         "pack_format":10,
-        "description":"Hexenwerk Datapack by Flynecraft"
+        "description":[{"text":"Hexenwerk - The Great Rewrite","color":"light_purple"},{"text":"\n"},{"text":"\u2022 Version ID: ","color":"#62DEDE"},{"text":"1.0","color":"green"},{"text":"\n"},{"text":"\u2022 Status: ","color":"#62DEDE"},{"text":"Unfinished","color":"dark_aqua"},{"text":"\n"},{"text":"\u2022 By: ","color":"#62DEDE"},{"text":"Flynecraft","color":"green"},{"text":"\n"},{"text":"\u2022 Additional Credit: ","color":"#62DEDE"},{"text":"None","color":"gray"},{"text":"\n"},{"text":"\u2022 Contains Dev Features: ","color":"#62DEDE"},{"text":"True","color":"green"}]
     }
 }

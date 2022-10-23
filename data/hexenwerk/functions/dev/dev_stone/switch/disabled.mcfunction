@@ -3,4 +3,3 @@ tellraw @s ["",{"text":"Disabled ","color":"dark_aqua"},{"text":"Dev Stone","col
 tag @s remove hexenwerk.debug
 tag @s remove hexenwerk.dev
 tag @s add hexenwerk.dev_stone.just_switched
-title @s actionbar ""

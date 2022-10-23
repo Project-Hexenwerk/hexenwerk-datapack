@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.wand\",\"color\":\"#62DEDE\",\"italic\":false}'},HideFlags:4,Unbreakable:1b,CustomModelData:1725,hexenwerk-spells:[1001,1002,1],hexenwerk-mana_cost:[5,5,5],hexenwerk-selected_wand_slot:1,hexenwerk-wand:1b}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.wand\",\"color\":\"#62DEDE\",\"italic\":false}'},HideFlags:4,Unbreakable:1b,CustomModelData:1725,hexenwerk-spells:[1,1002,1],hexenwerk-mana_cost:[5,5,5],hexenwerk-selected_wand_slot:1,hexenwerk-wand:1b}"
               }
             ]
           }

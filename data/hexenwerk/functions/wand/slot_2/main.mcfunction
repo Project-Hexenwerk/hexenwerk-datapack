@@ -13,5 +13,5 @@ execute if predicate hexenwerk:is_holding_wand_offhand store result score @s hex
 tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> mana cost of selected spell is ","color":"red"},{"score":{"name":"@s","objective":"hexenwerk.mana_cost"},"color":"gold"}]
 
 execute if score @s hexenwerk.mana_cost >= @s hexenwerk.mana_current run tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> not doing anything since player doesn't have enough mana","color":"red"}]
-execute if score @s hexenwerk.mana_cost >= @s hexenwerk.mana_current run tellraw @s {"text":"You don't have enough mana to cast that spell!","color":"red"}
+execute if score @s hexenwerk.mana_cost >= @s hexenwerk.mana_current run tellraw @s {"translate":"text.hexenwerk.spell.not_enough_mana","color":"red"}
 execute if score @s hexenwerk.mana_cost <= @s hexenwerk.mana_current run function hexenwerk:wand/spells/cast

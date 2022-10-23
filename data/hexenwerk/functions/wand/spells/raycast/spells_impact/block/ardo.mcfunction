@@ -2,3 +2,6 @@ tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"tex
 particle flame ~ ~ ~ 0.1 0.1 0.1 0.2 10 normal
 particle minecraft:large_smoke ~ ~ ~ 0.1 0.1 0.1 0.1 2 normal
 setblock ^ ^ ^ fire keep
+
+
+execute as @a[tag=hexenwerk.spell.caster] run tellraw @a[tag=hexenwerk.announce_spell_uses] ["",{"text":"<"},{"selector":"@s"},{"text":"> "},{"text":"Ardo!","color":"aqua"}]
