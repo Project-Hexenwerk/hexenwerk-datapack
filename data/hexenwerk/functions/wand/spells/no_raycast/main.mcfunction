@@ -4,3 +4,4 @@ playsound minecraft:item.axe.scrape voice @s ~ ~ ~ 0.5 1.8
 playsound minecraft:block.grindstone.use voice @s ~ ~ ~ 0.5 2
 execute if score @s hexenwerk.spell_id matches 1 at @s run function hexenwerk:wand/spells/no_raycast/spells_effect/auxiliare
 execute if score @s hexenwerk.spell_id matches 2 at @s run function hexenwerk:wand/spells/no_raycast/spells_effect/commovus
+execute if score @s hexenwerk.spell_id matches 3 at @s run function hexenwerk:wand/spells/no_raycast/spells_effect/amogius

@@ -5,5 +5,4 @@ effect give @s slowness 5 1 true
 particle wax_off ~ ~1 ~ .5 1 .5 0 15 normal
 particle wax_on ~ ~1 ~ .5 1 .5 0 15 normal
 
-
-execute as @a[tag=hexenwerk.spell.caster] run tellraw @a[tag=hexenwerk.announce_spell_uses] ["",{"text":"<"},{"selector":"@s"},{"text":"> "},{"text":"Auxiliare!","color":"aqua"}]
+tellraw @a[tag=hexenwerk.announce_spell_uses] ["",{"text":"<"},{"selector":"@s"},{"text":"> "},{"text":"Auxiliare!","color":"aqua"}]
