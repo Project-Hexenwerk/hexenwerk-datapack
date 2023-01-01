@@ -1,4 +1,5 @@
+tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"selector":"@s","color":"light_purple"},{"text":" -> switchig magical crafting table mode to wand crafting","color":"red"},{"text":"\n"},{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> adding \"hexenwerk.magical_crafting_table.wand\" tag","color":"red"}]
 tag @s add hexenwerk.magical_crafting_table.wand
-item replace block ~ ~ ~ container.17 with barrier{display: {Name: '{"text":""}'}, HideFlags: 32, CustomModelData: 1725, clear: 1b} 1
-item replace block ~ ~ ~ container.26 with barrier{display: {Name: '{"translate":"gui.hexenwerk.button.magical_crafting","italic":false,"color":"white"}'}, HideFlags: 32, CustomModelData: 1727, clear: 1b} 1
-say wand
+
+data modify block ~ ~ ~ Items set from storage hexenwerk_guis wand_crafting
+tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> setting gui items from storage","color":"red"}]

@@ -1,7 +1,7 @@
 #schedule stuff
 execute as @a[scores={hexenwerk.join=1..}] run function hexenwerk:mana/run_regen
 
-#general functions
+#run functions
 execute as @a[predicate=hexenwerk:is_holding_wand] at @s run function hexenwerk:wand/main
 execute as @a[predicate=hexenwerk:is_holding_wand_offhand] at @s run function hexenwerk:wand/main
 execute as @e[type=glow_item_frame,tag=hexenwerk.block] at @s run function hexenwerk:blocks/main
@@ -14,8 +14,11 @@ execute as @a[scores={hexenwerk.broken_svs=1..}] run function hexenwerk:mana/reg
 execute as @e[scores={hexenwerk.deaths=1..}] run function hexenwerk:mana/on_death
 
 #clear stuff
-clear @a barrier{clear: 1b}
-kill @e[type=minecraft:item,nbt={Item: {tag: {clear: 1b}}}]
+execute as @a store result score @s hexenwerk.took_gui run clear @a barrier{hexenwerk.gui: 1b} 0
+execute as @a[scores={hexenwerk.took_gui=1..}] at @s run function hexenwerk:blocks/magical_crafting_table/gui/fix_items
+kill @e[type=minecraft:item,nbt={Item: {tag: {hexenwerk.gui: 1b}}}]
+#THIS SHOULDN'T BE NEEDED AND IF YOU FIND OUT WHY PLEASE MAKE A PULL REQUEST AND FIX THIS AHHHHHH
+
 #debug display
 execute as @a[tag=hexenwerk.debug] run title @s actionbar ["",{"text":"Mana: ","color":"aqua"},{"score":{"name":"@s","objective":"hexenwerk.mana_current"},"color":"aqua"},{"text":"/","color":"aqua"},{"score":{"name":"@s","objective":"hexenwerk.mana_max"},"color":"aqua"},{"text":" Spell Slot: ","color":"aqua"},{"score":{"name":"@s","objective":"hexenwerk.spell_slot"},"color":"aqua"}]
 

@@ -10,6 +10,7 @@ scoreboard objectives remove hexenwerk.temp
 scoreboard objectives remove hexenwerk.join
 scoreboard objectives remove hexenwerk.deaths
 scoreboard objectives remove hexenwerk.broken_svs
+scoreboard objectives remove hexenwerk.took_gui
 
 tellraw @a {"translate":"Successfully uninstalled the Datapack, you can now remove it from the world folder!","color":"green"}
 datapack disable "file/Hexenwerk Datapack"
