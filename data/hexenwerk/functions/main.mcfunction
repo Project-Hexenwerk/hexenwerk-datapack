@@ -17,6 +17,9 @@ execute as @e[scores={hexenwerk.deaths=1..}] run function hexenwerk:mana/on_deat
 execute as @a store result score @s hexenwerk.took_gui run clear @a barrier{hexenwerk.gui: 1b} 0
 execute as @a[scores={hexenwerk.took_gui=1..}] at @s run function hexenwerk:blocks/magical_crafting_table/gui/fix_items
 kill @e[type=minecraft:item,nbt={Item: {tag: {hexenwerk.gui: 1b}}}]
+kill @e[type=minecraft:item,nbt={Item: {tag: {hexenwerk.gui_but_not_actually: 1b}}}]
+clear @a barrier{hexenwerk.gui_but_not_actually: 1b} 1
+
 #THIS SHOULDN'T BE NEEDED AND IF YOU FIND OUT WHY PLEASE MAKE A PULL REQUEST AND FIX THIS AHHHHHH
 
 #debug display
