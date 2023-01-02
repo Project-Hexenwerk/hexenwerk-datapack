@@ -15,6 +15,8 @@ scoreboard objectives add hexenwerk.join minecraft.custom:minecraft.leave_game
 scoreboard objectives add hexenwerk.deaths deathCount
 scoreboard objectives add hexenwerk.broken_svs minecraft.mined:minecraft.structure_void
 scoreboard objectives add hexenwerk.took_gui dummy
+scoreboard objectives add hexenwerk.has_wand dummy
+
 
 scoreboard players set #100 hexenwerk.temp 100
 

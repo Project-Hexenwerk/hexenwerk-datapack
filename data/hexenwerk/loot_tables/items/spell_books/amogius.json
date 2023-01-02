@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Amogius\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1725,hexenwerk-spellbook:1b, hexenwerk-contained_spell: 3 ,hexenwerk-mana_cost: 0, hexenwerk-lore_display:'{\"text\":\"• Amogius\",\"color\":\"gray\",\"italic\":false}'}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
