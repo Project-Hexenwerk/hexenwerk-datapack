@@ -16,7 +16,7 @@ execute unless data block ~ ~ ~ Items[{Slot: 22b, tag: {hexenwerk.gui: 1b}}] run
 execute unless data block ~ ~ ~ Items[{Slot: 23b, tag: {hexenwerk.gui: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.id set from block ~ ~ ~ Items[{Slot: 23b}].id
 execute unless data block ~ ~ ~ Items[{Slot: 24b, tag: {hexenwerk.gui: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.id set from block ~ ~ ~ Items[{Slot: 24b}].id
 execute unless data block ~ ~ ~ Items[{Slot: 25b, tag: {hexenwerk.gui: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.id set from block ~ ~ ~ Items[{Slot: 25b}].id
-execute unless data block ~ ~ ~ Items[{Slot: 26b, tag: {hexenwerk.gui_but_not_actually: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.id set from block ~ ~ ~ Items[{Slot: 25b}].id
+execute unless data block ~ ~ ~ Items[{Slot: 26b, tag: {hexenwerk.gui_but_not_actually: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.id set from block ~ ~ ~ Items[{Slot: 26b}].id
 
 execute unless data block ~ ~ ~ Items[{Slot: 0b, tag: {hexenwerk.gui: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.tag set from block ~ ~ ~ Items[{Slot: 0b}].tag
 execute unless data block ~ ~ ~ Items[{Slot: 4b, tag: {hexenwerk.gui: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.tag set from block ~ ~ ~ Items[{Slot: 4b}].tag
@@ -34,7 +34,7 @@ execute unless data block ~ ~ ~ Items[{Slot: 22b, tag: {hexenwerk.gui: 1b}}] run
 execute unless data block ~ ~ ~ Items[{Slot: 23b, tag: {hexenwerk.gui: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.tag set from block ~ ~ ~ Items[{Slot: 23b}].tag
 execute unless data block ~ ~ ~ Items[{Slot: 24b, tag: {hexenwerk.gui: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.tag set from block ~ ~ ~ Items[{Slot: 24b}].tag
 execute unless data block ~ ~ ~ Items[{Slot: 25b, tag: {hexenwerk.gui: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.tag set from block ~ ~ ~ Items[{Slot: 25b}].tag
-execute unless data block ~ ~ ~ Items[{Slot: 26b, tag: {hexenwerk.gui_but_not_actually: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.tag set from block ~ ~ ~ Items[{Slot: 25b}].tag
+execute unless data block ~ ~ ~ Items[{Slot: 26b, tag: {hexenwerk.gui_but_not_actually: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.tag set from block ~ ~ ~ Items[{Slot: 26b}].tag
 
 
 execute unless data block ~ ~ ~ Items[{Slot: 0b, tag: {hexenwerk.gui: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.Count set from block ~ ~ ~ Items[{Slot: 0b}].Count
@@ -53,7 +53,7 @@ execute unless data block ~ ~ ~ Items[{Slot: 22b, tag: {hexenwerk.gui: 1b}}] run
 execute unless data block ~ ~ ~ Items[{Slot: 23b, tag: {hexenwerk.gui: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.Count set from block ~ ~ ~ Items[{Slot: 23b}].Count
 execute unless data block ~ ~ ~ Items[{Slot: 24b, tag: {hexenwerk.gui: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.Count set from block ~ ~ ~ Items[{Slot: 24b}].Count
 execute unless data block ~ ~ ~ Items[{Slot: 25b, tag: {hexenwerk.gui: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.Count set from block ~ ~ ~ Items[{Slot: 25b}].Count
-execute unless data block ~ ~ ~ Items[{Slot: 26b, tag: {hexenwerk.gui_but_not_actually: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.Count set from block ~ ~ ~ Items[{Slot: 25b}].Count
+execute unless data block ~ ~ ~ Items[{Slot: 26b, tag: {hexenwerk.gui_but_not_actually: 1b}}] run data modify entity @e[type=item,tag=extraitem,sort=nearest,limit=1] Item.Count set from block ~ ~ ~ Items[{Slot: 26b}].Count
 
 data remove entity @e[type=item,tag=extraitem,nbt=!{Item: {id: "minecraft:barrier", Count: 1b}},nbt={Item: {tag: {Changed: 0b}}},sort=nearest,limit=1] Item.tag.Changed
 tag @e[type=item,tag=extraitem,nbt=!{Item: {tag: {Changed: 0b}, id: "minecraft:barrier", Count: 1b}}] remove extraitem
