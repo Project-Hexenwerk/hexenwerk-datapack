@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "player": [],
+          "recipe": "hexenwerk:wand"
+        }
+      }
+    },
+    "rewards": {
+      "function": "hexenwerk:craft/wand"
+    }
+  }
+  

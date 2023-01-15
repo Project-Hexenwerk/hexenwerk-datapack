@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "player": [],
+          "recipe": "hexenwerk:magical_crafting_table"
+        }
+      }
+    },
+    "rewards": {
+      "function": "hexenwerk:craft/magical_crafting_table"
+    }
+  }
+  

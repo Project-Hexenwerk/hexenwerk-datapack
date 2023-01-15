@@ -20,8 +20,6 @@ kill @e[type=minecraft:item,nbt={Item: {tag: {hexenwerk.gui: 1b}}}]
 kill @e[type=minecraft:item,nbt={Item: {tag: {hexenwerk.gui_but_not_actually: 1b}}}]
 clear @a barrier{hexenwerk.gui_but_not_actually: 1b} 1
 
-#THIS SHOULDN'T BE NEEDED AND IF YOU FIND OUT WHY PLEASE MAKE A PULL REQUEST AND FIX THIS AHHHHHH
-
 #debug display
 execute as @a[tag=hexenwerk.debug] run title @s actionbar ["",{"text":"Mana: ","color":"aqua"},{"score":{"name":"@s","objective":"hexenwerk.mana_current"},"color":"aqua"},{"text":"/","color":"aqua"},{"score":{"name":"@s","objective":"hexenwerk.mana_max"},"color":"aqua"},{"text":" Spell Slot: ","color":"aqua"},{"score":{"name":"@s","objective":"hexenwerk.spell_slot"},"color":"aqua"}]
 
