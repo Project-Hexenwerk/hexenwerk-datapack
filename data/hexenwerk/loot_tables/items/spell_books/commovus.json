@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Commovus\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1725,hexenwerk-spellbook:1b, hexenwerk-contained_spell:2 ,hexenwerk-mana_cost: 15, hexenwerk-chat_display:'{\"text\":\"Commovus\",\"color\":\"aqua\"}', hexenwerk-lore_display:'{\"text\":\"• Commovus\",\"color\":\"gray\",\"italic\":false}'}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Commovus\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1725,hexenwerk-spellbook:1b, hexenwerk-contained_spell:2 ,hexenwerk-mana_cost: 15, hexenwerk-chat_display:'{\"text\":\"Commovus\",\"color\":\"#62DEDE\"}', hexenwerk-lore_display:'{\"text\":\"• Commovus\",\"color\":\"gray\",\"italic\":false}'}"
               }
             ]
           }

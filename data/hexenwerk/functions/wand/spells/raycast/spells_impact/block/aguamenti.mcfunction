@@ -5,5 +5,3 @@ execute if predicate hexenwerk:is_in_nether run particle minecraft:large_smoke ~
 execute unless predicate hexenwerk:is_in_nether run setblock ^ ^ ^ water
 execute if predicate hexenwerk:is_in_nether run playsound minecraft:block.fire.extinguish block @a ~ ~ ~
 execute unless predicate hexenwerk:is_in_nether run playsound minecraft:item.bucket.empty_axolotl voice @a ~ ~ ~
-
-execute as @a[tag=hexenwerk.spell.caster] run tellraw @a[tag=hexenwerk.announce_spell_uses] ["",{"text":"<"},{"selector":"@s"},{"text":"> "},{"text":"Aguamenti!","color":"aqua"}]
