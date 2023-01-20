@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Ardo\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1725,hexenwerk-spellbook:1b, hexenwerk-contained_spell:1001,hexenwerk-mana_cost: 10,hexenwerk-chat_display:'{\"text\":\"Ardo\",\"color\":\"#62DEDE\"}',hexenwerk-lore_display:'{\"text\":\"• Ardo\",\"color\":\"gray\",\"italic\":false}'}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Ardo\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1726,hexenwerk-spellbook:1b, hexenwerk-contained_spell:1001,hexenwerk-mana_cost: 10,hexenwerk-chat_display:'{\"text\":\"Ardo\",\"color\":\"#62DEDE\"}',hexenwerk-lore_display:'{\"text\":\"• Ardo\",\"color\":\"gray\",\"italic\":false}'}"
               }
             ]
           }
