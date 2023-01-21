@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "advancement.hexenwerk.spell"
+        },
+        "description": {
+            "translate": "advancement.hexenwerk.description.spell",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:book",
+            "nbt": "{CustomModelData:1725}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "spell": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "hexenwerk:wand"
+}
