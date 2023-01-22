@@ -64,7 +64,6 @@
         "minecraft:turtle",
         "minecraft:villager",
         "minecraft:wandering_trader",
-        "minecraft:player",
-        "minecraft:tnt"
+        "minecraft:player"
     ]
 }

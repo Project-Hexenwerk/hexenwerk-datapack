@@ -16,7 +16,7 @@
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false,
-        "background": "minecraft:textures/item/gui/advancements/backgrounds/magical_crystal.png"
+        "background": "minecraft:textures/item/gui/advancements/backgrounds/advancement_bg.png"
     },
     "criteria": {
         "tick": {

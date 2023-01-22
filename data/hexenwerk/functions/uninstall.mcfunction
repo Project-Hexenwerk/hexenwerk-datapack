@@ -1,6 +1,8 @@
 scoreboard objectives remove hexenwerk.used_wfoas
 scoreboard objectives remove hexenwerk.spell_id
 scoreboard objectives remove hexenwerk.spell_slot
+scoreboard objectives remove hexenwerk.spell_event_id
+scoreboard objectives remove hexenwerk.spell_event_timer
 scoreboard objectives remove hexenwerk.mana_current
 scoreboard objectives remove hexenwerk.mana_cost
 scoreboard objectives remove hexenwerk.mana_max
@@ -13,8 +15,9 @@ scoreboard objectives remove hexenwerk.broken_svs
 scoreboard objectives remove hexenwerk.took_gui
 scoreboard objectives remove hexenwerk.has_wand
 scoreboard objectives remove hexenwerk.temp
+scoreboard objectives remove hexenwerk.took_gui_item
 
 
-tellraw @a {"translate":"Successfully uninstalled the Datapack, you can now remove it from the world folder!","color":"green"}
+tellraw @a {"translate":"Successfully uninstalled the Datapack, you can now remove it from the world folder! It also has been disabled for your convenience!","color":"green"}
 datapack disable "file/Hexenwerk Datapack"
 

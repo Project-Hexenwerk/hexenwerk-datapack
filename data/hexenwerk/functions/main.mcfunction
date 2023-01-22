@@ -4,6 +4,7 @@ execute as @a[scores={hexenwerk.join=1..}] run function hexenwerk:mana/run_regen
 #run functions
 execute as @a[predicate=hexenwerk:is_holding_wand] at @s run function hexenwerk:wand/main
 execute as @a[predicate=hexenwerk:is_holding_wand_offhand] at @s run function hexenwerk:wand/main
+execute as @e[type=marker,tag=hexenwerk.spell_event] at @s run function hexenwerk:spell_events/main
 execute as @e[type=glow_item_frame,tag=hexenwerk.block] at @s run function hexenwerk:blocks/main
 execute as @e[type=glow_item_frame,nbt={Item: {id: "minecraft:glow_item_frame", Count: 1b, tag: {hexenwerk.place_block: 1b}}}] at @s run function hexenwerk:blocks/main_place
 execute as @a[gamemode=survival,tag=!hexenwerk.debug,predicate=hexenwerk:not_drowning] run function hexenwerk:mana/display

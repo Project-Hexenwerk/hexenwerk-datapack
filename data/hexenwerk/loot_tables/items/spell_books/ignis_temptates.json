@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Ignis Temptates\",\"color\":\"#c882e5\",\"italic\":false}']},CustomModelData:1725,hexenwerk-spellbook:1b, hexenwerk-contained_spell:1006,hexenwerk-mana_cost: 75,hexenwerk-chat_display:'{\"text\":\"Ignis Temptates\",\"color\":\"#c882e5\"}', hexenwerk-lore_display:'{\"text\":\"• Ignis Temptates\",\"color\":\"#c882e5\",\"italic\":false}'}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ light[level=5] keep
