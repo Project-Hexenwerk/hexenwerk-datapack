@@ -1,6 +1,21 @@
 {
     "pack":{
         "pack_format": 10,
-        "description":[{"text":"\"Hexenwerk - The Great Rewrite\"","color":"light_purple"},{"text":"\n"},{"text":"\u2022 Version ID: ","color":"#62DEDE"},{"text":"a0.11","color":"green"},{"text":"\n"},{"text":"\u2022 Version Type: ","color":"#62DEDE"},{"text":"Alpha","color":"red"},{"text":"\n"},{"text":"\u2022 By: ","color":"#62DEDE"},{"text":"Flynecraft","color":"green"},{"text":"\n"},{"text":"\u2022 Additional Credit: ","color":"#62DEDE"},{"text":"LoginatorV, MythicalDream69, Whimzee","color":"gray"},{"text":"\n"}]
+        "description":[
+        {"text":"\"Hexenwerk - The Great Rewrite\"","color":"light_purple"},
+        {"text":"\n"},
+        {"text":"\u2022 Version ID: ","color":"white"},
+        {"text":"a","color":"red"},{"text":"0.1.2","color":"white"},
+        {"text":"\n"},
+        {"text":"\u2022 Version Type: ","color":"white"},{"text":"Alpha","color":"red"},
+        {"text":"\n"},
+        {"text":"\u2022 Creator: ","color":"white"},{"text":"Flynecraft","color":"white"},
+        {"text":"\n"},
+        {"text":"\u2022 Textures: ","color":"white"},{"text":"PlayfulPotato","color":"white"},
+        {"text":"\n"},
+        {"text":"\u2022 Contains Dev Features: ","color":"white"},{"text":"\u2713","color":"green","bold": true},
+        {"text":"\n"},
+        {"text":"\u2022 Download on: ","color":"white"},{"text":"Modrinth, PMC (Previous Versions)","color":"white"}
+    ]
     }
   }
