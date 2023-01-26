@@ -10,6 +10,7 @@ execute if score @s hexenwerk.spell_id matches 1003 if predicate hexenwerk:20_pe
 execute if score @s hexenwerk.spell_id matches 1004 if predicate hexenwerk:20_percent run particle falling_honey ^ ^ ^-0.1 0 0 0 0 2
 execute if score @s hexenwerk.spell_id matches 1006 if predicate hexenwerk:5_percent run particle flame ^ ^ ^-0.1
 execute if score @s hexenwerk.spell_id matches 1007 if predicate hexenwerk:5_percent run particle end_rod ^ ^ ^-0.1
+execute if score @s hexenwerk.spell_id matches 1008 if predicate hexenwerk:5_percent run particle minecraft:block dirt ^ ^ ^ 0.2 0.2 0.2 1 2
 
 execute if score @s[predicate=!hexenwerk:is_in_nether] hexenwerk.spell_id matches 1005 if predicate hexenwerk:20_percent run particle falling_water ^ ^ ^-0.1 0 0 0 0 2
 execute if score @s[predicate=hexenwerk:is_in_nether] hexenwerk.spell_id matches 1005 if predicate hexenwerk:5_percent run particle smoke ^ ^ ^-0.1 0 0 0 0 2

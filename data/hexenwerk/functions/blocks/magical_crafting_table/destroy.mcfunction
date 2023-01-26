@@ -2,5 +2,7 @@ tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"sel
 execute as @p if entity @s[gamemode=!creative] run loot spawn ~ ~ ~ loot hexenwerk:blocks/magical_crafting_table
 tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> killing nearest barrel item","color":"red"}]
 kill @e[type=item,distance=..2,limit=1,nbt={Item: {id: "minecraft:barrel"}}]
+tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> killing dropped spellbooks","color":"red"}]
+kill @e[type=item,distance=..2,sort=nearest,limit=3,nbt={Item: {id: "minecraft:book",tag:{hexenwerk-spellbook:1b}},Age:0s}]
 tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> killing self","color":"red"}]
 kill @s
