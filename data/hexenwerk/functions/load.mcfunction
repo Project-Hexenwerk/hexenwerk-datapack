@@ -21,6 +21,8 @@ scoreboard objectives add hexenwerk.broken_svs minecraft.mined:minecraft.structu
 scoreboard objectives add hexenwerk.took_gui dummy
 scoreboard objectives add hexenwerk.has_wand dummy
 scoreboard objectives add hexenwerk.temp dummy
+scoreboard objectives add hexenwerk.config_only dummy
+# below might not actually be needed but i don't want to break anything so this is staying for now
 scoreboard objectives add took_gui_item dummy
 
 scoreboard players set #100 hexenwerk.temp 100

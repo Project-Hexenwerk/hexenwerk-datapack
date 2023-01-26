@@ -1,4 +1,5 @@
-
+scoreboard players set #max_raycast_travel hexenwerk.temp 10
+scoreboard players operation #max_raycast_travel hexenwerk.temp *= #max_raycast_distance hexenwerk.config_only
 scoreboard players add #raycast.traveled hexenwerk.temp 1
 
 execute if entity @e[type=#hexenwerk:mob,dx=0.05,dy=0.05,dz=0.05,tag=!hexenwerk.spell.caster] run function hexenwerk:wand/spells/raycast/entity_impact
@@ -15,10 +16,9 @@ execute if score @s hexenwerk.spell_id matches 1008 if predicate hexenwerk:5_per
 execute if score @s[predicate=!hexenwerk:is_in_nether] hexenwerk.spell_id matches 1005 if predicate hexenwerk:20_percent run particle falling_water ^ ^ ^-0.1 0 0 0 0 2
 execute if score @s[predicate=hexenwerk:is_in_nether] hexenwerk.spell_id matches 1005 if predicate hexenwerk:5_percent run particle smoke ^ ^ ^-0.1 0 0 0 0 2
 
-execute if score #raycast.traveled hexenwerk.temp matches 1001.. run tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> ","color":"red"},{"text":"ending raycast after 100 blocks","color":"red"}]
+execute if score #raycast.traveled hexenwerk.temp >= #max_raycast_travel hexenwerk.temp run tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> ","color":"red"},{"text":"ending raycast after ","color":"red"},{"score":{"name":"#max_raycast_distance","objective":"hexenwerk.config_only"},"color":"gold"},{"text":" blocks","color":"red"}]
 
-
-execute unless score #raycast.traveled hexenwerk.temp matches 1001.. if block ~ ~ ~ #hexenwerk:transparent unless entity @e[type=#hexenwerk:mob,dx=0.05,dy=0.05,dz=0.05,tag=!hexenwerk.spell.caster] positioned ^ ^ ^0.1 run function hexenwerk:wand/spells/raycast/raycast
+execute unless score #raycast.traveled hexenwerk.temp >= #max_raycast_travel hexenwerk.temp if block ~ ~ ~ #hexenwerk:transparent unless entity @e[type=#hexenwerk:mob,dx=0.05,dy=0.05,dz=0.05,tag=!hexenwerk.spell.caster] positioned ^ ^ ^0.1 run function hexenwerk:wand/spells/raycast/raycast
 
 
 
