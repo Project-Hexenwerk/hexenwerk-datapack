@@ -20,6 +20,9 @@
         "minecraft:barrel",
         "minecraft:smoker",
         "minecraft:blast_furnace",
-        "minecraft:lectern"
+        "minecraft:lectern",
+        "minecraft:structure_block",
+        "minecraft:light",
+        "minecraft:jigsaw"
     ]
 }
