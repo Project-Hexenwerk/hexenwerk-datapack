@@ -13,9 +13,8 @@ execute as @e[type=glow_item_frame,tag=hexenwerk.block] at @s run function hexen
 execute as @e[type=glow_item_frame,nbt={Item: {id: "minecraft:glow_item_frame", Count: 1b, tag: {hexenwerk.place_block: 1b}}}] at @s run function hexenwerk:blocks/main_place
 
 # Display
-execute as @a[predicate=hexenwerk:able_to_display] run function hexenwerk:mana/display
-execute as @a[gamemode=survival,tag=!hexenwerk.debug,predicate=!hexenwerk:not_drowning] run function hexenwerk:mana/display_water
-execute as @a[gamemode=adventure,tag=!hexenwerk.debug,predicate=!hexenwerk:not_drowning] run function hexenwerk:mana/display_water
+execute as @a[predicate=hexenwerk:display/normal] run function hexenwerk:mana/display
+execute as @a[predicate=hexenwerk:display/water] run function hexenwerk:mana/display_water
 
 # Misc
 execute as @a[scores={hexenwerk.broken_svs=1..}] run function hexenwerk:mana/regen_of_flower
