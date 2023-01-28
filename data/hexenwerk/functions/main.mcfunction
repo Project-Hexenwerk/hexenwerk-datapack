@@ -1,16 +1,23 @@
 #schedule stuff
 execute as @a[scores={hexenwerk.join=1..}] run function hexenwerk:mana/run_regen
 
-#run functions
+# Is Holding Wand
 execute as @a[predicate=hexenwerk:is_holding_wand] at @s run function hexenwerk:wand/main
 execute as @a[predicate=hexenwerk:is_holding_wand_offhand] at @s run function hexenwerk:wand/main
+
+# Spell Events
 execute as @e[type=marker,tag=hexenwerk.spell_event] at @s run function hexenwerk:spell_events/main
+
+# Blocks
 execute as @e[type=glow_item_frame,tag=hexenwerk.block] at @s run function hexenwerk:blocks/main
 execute as @e[type=glow_item_frame,nbt={Item: {id: "minecraft:glow_item_frame", Count: 1b, tag: {hexenwerk.place_block: 1b}}}] at @s run function hexenwerk:blocks/main_place
-execute as @a[gamemode=survival,tag=!hexenwerk.debug,predicate=hexenwerk:not_drowning] run function hexenwerk:mana/display
-execute as @a[gamemode=adventure,tag=!hexenwerk.debug,predicate=hexenwerk:not_drowning] run function hexenwerk:mana/display
+
+# Display
+execute as @a[predicate=hexenwerk:able_to_display] run function hexenwerk:mana/display
 execute as @a[gamemode=survival,tag=!hexenwerk.debug,predicate=!hexenwerk:not_drowning] run function hexenwerk:mana/display_water
 execute as @a[gamemode=adventure,tag=!hexenwerk.debug,predicate=!hexenwerk:not_drowning] run function hexenwerk:mana/display_water
+
+# Misc
 execute as @a[scores={hexenwerk.broken_svs=1..}] run function hexenwerk:mana/regen_of_flower
 execute as @e[scores={hexenwerk.deaths=1..}] run function hexenwerk:mana/on_death
 
