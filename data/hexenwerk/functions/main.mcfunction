@@ -10,7 +10,7 @@ execute as @e[type=marker,tag=hexenwerk.spell_event] at @s run function hexenwer
 
 # Blocks
 execute as @e[type=glow_item_frame,tag=hexenwerk.block] at @s run function hexenwerk:blocks/main
-execute as @e[type=glow_item_frame,nbt={Item: {id: "minecraft:glow_item_frame", Count: 1b, tag: {hexenwerk.place_block: 1b}}}] at @s run function hexenwerk:blocks/main_place
+execute as @e[type=glow_item_frame,tag=hexenwerk.place] at @s run function hexenwerk:blocks/main_place
 
 # Display
 execute as @a[predicate=hexenwerk:display/normal] run function hexenwerk:mana/display
