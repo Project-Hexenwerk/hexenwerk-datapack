@@ -10,4 +10,4 @@ scoreboard players set #default hexenwerk.mana_regen 1
 
 #* Maximum Raycast Range 
 # The maxiumum distance raycasts (such as spells) work from the player.
-scoreboard players set #max_raycast_distance hexenwerk.config_only 50
+scoreboard players set #max_raycast_distance hexenwerk.config_only 5000
