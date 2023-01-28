@@ -1,11 +1,13 @@
-tp @s ~ ~ ~ ~5 ~
+tp @s ~ ~ ~ ~7 ~
 
-execute positioned ~ ~0.5 ~ run particle flame ^ ^ ^2 0 0 0 0 1
-execute positioned ~ ~0.5 ~ run particle flame ^ ^ ^-2 0 0 0 0 1
-execute positioned ~ ~0.5 ~ run particle flame ^2 ^ ^ 0 0 0 0 1
-execute positioned ~ ~0.5 ~ run particle flame ^-2 ^ ^ 0 0 0 0 1
+execute positioned ^ ^ ^1.5 run particle flame ~ ~0.5 ~ ^ ^ ^-1000000 0.0000001 0
+execute positioned ^ ^ ^-1.5 run particle flame ~ ~0.5 ~ ^ ^ ^1000000 0.0000001 0
+execute positioned ^1.5 ^ ^ rotated ~270 ~ run particle flame ~ ~0.5 ~ ^ ^ ^-1000000 0.0000001 0
+execute positioned ^-1.5 ^ ^ rotated ~270 ~ run particle flame ~ ~0.5 ~ ^ ^ ^1000000 0.0000001 0
 
-execute if predicate hexenwerk:20_percent positioned ~ ~0.5 ~ run particle flame ^ ^ ^1 0 0 0 0 1
-execute if predicate hexenwerk:20_percent positioned ~ ~0.5 ~ run particle flame ^ ^ ^-1 0 0 0 0 1
-execute if predicate hexenwerk:20_percent positioned ~ ~0.5 ~ run particle flame ^1 ^ ^ 0 0 0 0 1
-execute if predicate hexenwerk:20_percent positioned ~ ~0.5 ~ run particle flame ^-1 ^ ^ 0 0 0 0 1
+execute positioned ^ ^ ^-1.5 run particle flame ~ ~0.5 ~ 0 0 0 0 1
+execute positioned ^ ^ ^1.5 run particle flame ~ ~0.5 ~ 0 0 0 0 1
+execute positioned ^-1.5 ^ ^ run particle flame ~ ~0.5 ~ 0 0 0 0 1
+execute positioned ^1.5 ^ ^ run particle flame ~ ~0.5 ~ 0 0 0 0 1
+
+# particle flame ~ ~ ~ ^ ^ ^100000000 0.00000001 0 force
