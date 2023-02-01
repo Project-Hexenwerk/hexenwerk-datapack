@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+          "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chain_command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.magical_stone\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"lore.hexenwerk.magical_stone.empty\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1726,hexenwerk-magical_stone:1b, hexenwerk-magical_stone_id:0}"
+            }
+        ]
+      }
+    ]
+  }
+]
+}
