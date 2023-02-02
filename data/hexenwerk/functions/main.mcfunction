@@ -37,3 +37,9 @@ execute as @a[predicate=hexenwerk:holding/dev_stone,scores={hexenwerk.used_wfoas
 # Set Scoreboards
 scoreboard players set @a[scores={hexenwerk.used_wfoas=1..}] hexenwerk.used_wfoas 0
 scoreboard players operation @a[tag=!hexenwerk.ignore_default_mana_max] hexenwerk.mana_max = #default hexenwerk.mana_max
+
+# Unlock Triggers
+scoreboard players enable @a hexenwerk.contributors
+
+# Run Triggers
+execute as @a run function hexenwerk:triggers/main

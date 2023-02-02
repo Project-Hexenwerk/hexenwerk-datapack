@@ -1,0 +1,1 @@
+execute if score @s hexenwerk.contributors matches 1.. run function hexenwerk:triggers/contributors
