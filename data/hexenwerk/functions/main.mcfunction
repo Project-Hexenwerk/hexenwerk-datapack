@@ -25,7 +25,7 @@ execute as @a[scores={hexenwerk.broken_svs=1..}] run function hexenwerk:mana/reg
 execute as @e[scores={hexenwerk.deaths=1..}] run function hexenwerk:mana/on_death
 
 # Clear Stuff
-execute as @a store result score @s hexenwerk.took_gui run clear @a barrier{hexenwerk.gui: 1b} 0
+execute as @a store result score @s hexenwerk.took_gui run clear @a barrier{hexenwerk-gui: 1b} 0
 execute as @a[scores={hexenwerk.took_gui=1..}] at @s run function hexenwerk:blocks/magical_crafting_table/gui/fix_items
 
 # Debug

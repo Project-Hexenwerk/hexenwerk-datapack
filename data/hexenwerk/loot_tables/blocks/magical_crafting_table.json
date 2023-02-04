@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.magical_crafting_table\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1727,hexenwerk-magical_crafting_table:1b,EntityTag:{Tags:[\"hexenwerk.place\",\"hexenwerk.place.magical_crafting_table\"],Invisible:1b,Item:{id:\"minecraft:glow_item_frame\",Count:1b,tag:{CustomModelData:1727}}}}"
+              "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.magical_crafting_table\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1726,hexenwerk-magical_crafting_table:1b,EntityTag:{Tags:[\"hexenwerk.place\",\"hexenwerk.place.magical_crafting_table\"],Invisible:1b,Item:{id:\"minecraft:glow_item_frame\",Count:1b,tag:{CustomModelData:1727}}}}"
             }
           ]
         }
