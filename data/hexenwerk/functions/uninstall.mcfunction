@@ -22,5 +22,5 @@ scoreboard objectives remove hexenwerk.contributors
 scoreboard objectives remove hexenwerk.gui.page
 
 tellraw @a {"translate":"Successfully uninstalled the Datapack, you can now remove it from the world folder! It also has been disabled for your convenience!","color":"green"}
-datapack disable "file/Hexenwerk Datapack"
+datapack disable "file/Hexenwerk-Datapack"
 

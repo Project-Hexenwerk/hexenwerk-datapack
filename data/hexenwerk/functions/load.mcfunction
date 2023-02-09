@@ -25,13 +25,15 @@ scoreboard objectives add hexenwerk.holding_wand_timer dummy
 scoreboard objectives add hexenwerk.config_only dummy
 scoreboard objectives add hexenwerk.contributors trigger
 scoreboard objectives add hexenwerk.gui.page dummy
-# below might not actually be needed but i don't want to break anything so this is staying for now
+#below might not actually be needed but i don't want to break anything so this is staying for now
 scoreboard objectives add took_gui_item dummy
 
-scoreboard players set #100 hexenwerk.temp 100
+#set scores
+execute unless score #default hexenwerk.mana_max matches -2147483648..2147483647 run scoreboard players set #default hexenwerk.mana_max 100
+execute unless score #default hexenwerk.mana_regen matches -2147483648..2147483647 run scoreboard players set #default hexenwerk.mana_regen 1
+execute unless score #max_raycast_distance hexenwerk.config_only matches -2147483648..2147483647 run scoreboard players set #default hexenwerk.mana_regen 1
 
-#Update stuff from config
-function hexenwerk:config
+scoreboard players set #100 hexenwerk.temp 100
 
 #run schedules
 schedule clear hexenwerk:mana/run_regen
