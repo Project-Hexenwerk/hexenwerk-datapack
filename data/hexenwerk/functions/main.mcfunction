@@ -8,7 +8,6 @@ execute as @a[predicate=hexenwerk:holding/wand_offhand] at @s run function hexen
 # Is Not Holding Wand
 execute as @a[predicate=!hexenwerk:holding/wand_offhand,predicate=!hexenwerk:holding/wand,scores={hexenwerk.holding_wand_timer=1..}] run function hexenwerk:wand/on_unselect
 
-
 # Spell Events
 execute as @e[type=marker,tag=hexenwerk.spell_event] at @s run function hexenwerk:spell_events/main
 
@@ -43,3 +42,6 @@ scoreboard players enable @a hexenwerk.contributors
 
 # Run Triggers
 execute as @a run function hexenwerk:triggers/main
+
+# Get selected hotbar slot
+execute store result score @s hexenwerk.selected_minecraft_slot_old run data get entity @s SelectedItemSlot

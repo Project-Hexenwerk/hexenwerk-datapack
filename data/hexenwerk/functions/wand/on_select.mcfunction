@@ -4,3 +4,4 @@ execute if predicate hexenwerk:holding/wand_offhand store result score @s hexenw
 title @s title ""
 title @s times 0 2147483647 0
 scoreboard players set @s hexenwerk.holding_wand_timer 1
+
