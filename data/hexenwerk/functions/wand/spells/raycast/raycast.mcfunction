@@ -2,8 +2,8 @@ scoreboard players set #max_raycast_travel hexenwerk.temp 10
 scoreboard players operation #max_raycast_travel hexenwerk.temp *= #max_raycast_distance hexenwerk.config_only
 scoreboard players add #raycast.traveled hexenwerk.temp 1
 
-execute unless block ~ ~ ~ #hexenwerk:transparent positioned ^ ^ ^-0.1 run function hexenwerk:wand/spells/raycast/block_impact
 execute if entity @e[type=#hexenwerk:mob,dx=0.05,dy=0.05,dz=0.05,tag=!hexenwerk.spell.caster] run function hexenwerk:wand/spells/raycast/entity_impact
+execute unless block ~ ~ ~ #hexenwerk:transparent positioned ^ ^ ^-0.1 run function hexenwerk:wand/spells/raycast/block_impact
 
 execute unless entity @e[type=player,tag=hexenwerk.spell.caster,distance=..2] run function hexenwerk:wand/spells/raycast/particle
 

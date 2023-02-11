@@ -7,3 +7,7 @@ execute if score #current hexenwerk.spell_id matches 1004 if predicate hexenwerk
 execute if score #current hexenwerk.spell_id matches 1006 if predicate hexenwerk:percent/5 run particle flame ^ ^ ^-0.1 0 0 0 0 1 force
 execute if score #current hexenwerk.spell_id matches 1007 if predicate hexenwerk:percent/5 run particle end_rod ^ ^ ^-0.1 0 0 0 0 1 force
 execute if score #current hexenwerk.spell_id matches 1008 if predicate hexenwerk:percent/5 run particle minecraft:block dirt ^ ^ ^ 0.2 0.2 0.2 1 2 force
+
+#spellpack v 
+function #hexenwerk_spellpack:raycast/particles
+#spellpack ^
