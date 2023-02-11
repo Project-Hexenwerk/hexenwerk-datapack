@@ -1,12 +1,12 @@
 tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> ","color":"red"},{"text":"starting raycast","color":"red"}]
 
-execute unless predicate hexenwerk:holding/wand_offhand if score @s hexenwerk.spell_slot matches 1 run tellraw @a[tag=hexenwerk.announce_spell_uses] ["","<",{"selector":"@s"},"> ",{"nbt":"SelectedItem.tag.hexenwerk-spell_chat_display[0]","entity":"@s","interpret":true},"!"]
-execute unless predicate hexenwerk:holding/wand_offhand if score @s hexenwerk.spell_slot matches 2 run tellraw @a[tag=hexenwerk.announce_spell_uses] ["","<",{"selector":"@s"},"> ",{"nbt":"SelectedItem.tag.hexenwerk-spell_chat_display[1]","entity":"@s","interpret":true},"!"]
-execute unless predicate hexenwerk:holding/wand_offhand if score @s hexenwerk.spell_slot matches 3 run tellraw @a[tag=hexenwerk.announce_spell_uses] ["","<",{"selector":"@s"},"> ",{"nbt":"SelectedItem.tag.hexenwerk-spell_chat_display[2]","entity":"@s","interpret":true},"!"]
+execute unless predicate hexenwerk:holding/wand_offhand if score @s hexenwerk.spell_slot matches 1 run tellraw @a[tag=!hexenwerk.mute_spell_uses] ["","<",{"selector":"@s"},"> ",{"nbt":"SelectedItem.tag.hexenwerk-spell_chat_display[0]","entity":"@s","interpret":true},"!"]
+execute unless predicate hexenwerk:holding/wand_offhand if score @s hexenwerk.spell_slot matches 2 run tellraw @a[tag=!hexenwerk.mute_spell_uses] ["","<",{"selector":"@s"},"> ",{"nbt":"SelectedItem.tag.hexenwerk-spell_chat_display[1]","entity":"@s","interpret":true},"!"]
+execute unless predicate hexenwerk:holding/wand_offhand if score @s hexenwerk.spell_slot matches 3 run tellraw @a[tag=!hexenwerk.mute_spell_uses] ["","<",{"selector":"@s"},"> ",{"nbt":"SelectedItem.tag.hexenwerk-spell_chat_display[2]","entity":"@s","interpret":true},"!"]
 
-execute if predicate hexenwerk:holding/wand_offhand if score @s hexenwerk.spell_slot matches 1 run tellraw @a[tag=hexenwerk.announce_spell_uses] ["","<",{"selector":"@s"},"> ",{"nbt":"Inventory[{Slot: -106b}].tag.hexenwerk-spell_chat_display[0]","entity":"@s","interpret":true},"!"]
-execute if predicate hexenwerk:holding/wand_offhand if score @s hexenwerk.spell_slot matches 2 run tellraw @a[tag=hexenwerk.announce_spell_uses] ["","<",{"selector":"@s"},"> ",{"nbt":"Inventory[{Slot: -106b}].tag.hexenwerk-spell_chat_display[1]","entity":"@s","interpret":true},"!"]
-execute if predicate hexenwerk:holding/wand_offhand if score @s hexenwerk.spell_slot matches 3 run tellraw @a[tag=hexenwerk.announce_spell_uses] ["","<",{"selector":"@s"},"> ",{"nbt":"Inventory[{Slot: -106b}].tag.hexenwerk-spell_chat_display[2]","entity":"@s","interpret":true},"!"]
+execute if predicate hexenwerk:holding/wand_offhand if score @s hexenwerk.spell_slot matches 1 run tellraw @a[tag=!hexenwerk.mute_spell_uses] ["","<",{"selector":"@s"},"> ",{"nbt":"Inventory[{Slot: -106b}].tag.hexenwerk-spell_chat_display[0]","entity":"@s","interpret":true},"!"]
+execute if predicate hexenwerk:holding/wand_offhand if score @s hexenwerk.spell_slot matches 2 run tellraw @a[tag=!hexenwerk.mute_spell_uses] ["","<",{"selector":"@s"},"> ",{"nbt":"Inventory[{Slot: -106b}].tag.hexenwerk-spell_chat_display[1]","entity":"@s","interpret":true},"!"]
+execute if predicate hexenwerk:holding/wand_offhand if score @s hexenwerk.spell_slot matches 3 run tellraw @a[tag=!hexenwerk.mute_spell_uses] ["","<",{"selector":"@s"},"> ",{"nbt":"Inventory[{Slot: -106b}].tag.hexenwerk-spell_chat_display[2]","entity":"@s","interpret":true},"!"]
 
 tag @s add hexenwerk.spell.caster
 scoreboard players set #raycast.traveled hexenwerk.temp 0
