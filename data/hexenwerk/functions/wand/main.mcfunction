@@ -20,5 +20,3 @@ execute if predicate hexenwerk:holding/wand_offhand if score @s hexenwerk.spell_
 execute if predicate hexenwerk:holding/wand if score @s hexenwerk.spell_slot matches 1 run title @s subtitle [{"nbt":"SelectedItem.tag.hexenwerk-spell_display[0]","entity":"@s","interpret":true},{"nbt":"SelectedItem.tag.hexenwerk-spell_display[0]","entity":"@s","interpret":true}]
 execute if predicate hexenwerk:holding/wand if score @s hexenwerk.spell_slot matches 2 run title @s subtitle [{"nbt":"SelectedItem.tag.hexenwerk-spell_display[1]","entity":"@s","interpret":true},{"nbt":"SelectedItem.tag.hexenwerk-spell_display[1]","entity":"@s","interpret":true}]
 execute if predicate hexenwerk:holding/wand if score @s hexenwerk.spell_slot matches 3 run title @s subtitle [{"nbt":"SelectedItem.tag.hexenwerk-spell_display[2]","entity":"@s","interpret":true},{"nbt":"SelectedItem.tag.hexenwerk-spell_display[2]","entity":"@s","interpret":true}]
-
-say test
