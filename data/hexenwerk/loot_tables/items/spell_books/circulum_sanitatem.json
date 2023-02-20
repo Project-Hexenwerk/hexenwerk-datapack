@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Circulum Sanitatem\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1725,hexenwerk-spellbook:1b, hexenwerk-contained_spell:4,hexenwerk-mana_cost: 30, hexenwerk-chat_display:'{\"text\":\"Circulum Sanitatem\",\"color\":\"#62DEDE\"}', hexenwerk-lore_display:'{\"text\":\"\u2022 Circulum Sanitatem\",\"color\":\"gray\",\"italic\":false}',hexenwerk-spell_display:'{\"text\":\"\uE502\",\"color\":\"#FF0000\",\"italic\":false}'}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Circulum Sanitatem\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1733,hexenwerk-spellbook:1b, hexenwerk-contained_spell:4,hexenwerk-mana_cost: 30, hexenwerk-chat_display:'{\"text\":\"Circulum Sanitatem\",\"color\":\"#62DEDE\"}', hexenwerk-lore_display:'{\"text\":\"\u2022 Circulum Sanitatem\",\"color\":\"gray\",\"italic\":false}',hexenwerk-spell_display:'{\"text\":\"\uE510\",\"color\":\"#FF0000\",\"italic\":false}'}"
               }
             ]
           }
