@@ -1,3 +1,6 @@
+# Get selected hotbar slot
+execute as @a store result score @s hexenwerk.selected_minecraft_slot run data get entity @s SelectedItemSlot
+
 # Schedule Stuff
 execute as @a[scores={hexenwerk.join=1..}] run function hexenwerk:mana/run_regen
 
@@ -44,4 +47,4 @@ scoreboard players enable @a hexenwerk.contributors
 execute as @a run function hexenwerk:triggers/main
 
 # Get selected hotbar slot
-execute store result score @s hexenwerk.selected_minecraft_slot_old run data get entity @s SelectedItemSlot
+execute as @a store result score @s hexenwerk.selected_minecraft_slot_old run data get entity @s SelectedItemSlot
