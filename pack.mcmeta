@@ -5,7 +5,7 @@
             {"text":"\"Hexenwerk - The Great Rewrite\"","color":"light_purple"},
             {"text":"\n"},
             {"text":"\u2022 Version ID: ","color":"white"},
-            {"text":"a","color":"red"},{"text":"0.1.4","color":"white"},
+            {"text":"a","color":"red"},{"text":"0.0.1.5","color":"white"},
             {"text":"\n"},
             {"text":"\u2022 Version Type: ","color":"white"},{"text":"Alpha","color":"red"},
             {"text":"\n"},
