@@ -10,5 +10,9 @@ data modify block ~ ~ ~ Items set from storage hexenwerk_guis wand_crafting
 tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> adding \"hexenwerk.magical_crafting_table.wand\" tag","color":"red"}]
 tag @e[type=minecraft:glow_item_frame,tag=hexenwerk.magical_crafting_table,sort=nearest,limit=1] add hexenwerk.magical_crafting_table.wand
 
+tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> reset \"hexenwerk.crafting_result_time\" for self","color":"red"}]
+scoreboard players set @e[type=minecraft:glow_item_frame,tag=hexenwerk.magical_crafting_table,sort=nearest,limit=1] hexenwerk.crafting_result_time 0
+
 tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> killing self","color":"red"}]
 execute if entity @s[type=glow_item_frame] run kill @s
+

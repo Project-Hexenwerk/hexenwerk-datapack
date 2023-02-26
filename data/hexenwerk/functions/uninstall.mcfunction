@@ -22,6 +22,18 @@ scoreboard objectives remove hexenwerk.contributors
 scoreboard objectives remove hexenwerk.gui.page
 scoreboard objectives remove hexenwerk.selected_minecraft_slot
 scoreboard objectives remove hexenwerk.selected_minecraft_slot_old
+scoreboard objectives remove hexenwerk.valid_craft
+scoreboard objectives remove hexenwerk.magical_crafting_slot0_count
+scoreboard objectives remove hexenwerk.magical_crafting_slot1_count
+scoreboard objectives remove hexenwerk.magical_crafting_slot2_count
+scoreboard objectives remove hexenwerk.magical_crafting_slot3_count
+scoreboard objectives remove hexenwerk.magical_crafting_slot4_count
+scoreboard objectives remove hexenwerk.magical_crafting_slot5_count
+scoreboard objectives remove hexenwerk.magical_crafting_slot6_count
+scoreboard objectives remove hexenwerk.magical_crafting_slot7_count
+scoreboard objectives remove hexenwerk.magical_crafting_slot8_count
+scoreboard objectives remove hexenwerk.crafting_result_time
+scoreboard objectives remove hexenwerk.crafting_recipe
 
 tellraw @a {"translate":"Successfully uninstalled the Datapack, you can now remove it from the world folder! It also has been disabled for your convenience!","color":"green"}
 datapack disable "file/Hexenwerk-Datapack"
