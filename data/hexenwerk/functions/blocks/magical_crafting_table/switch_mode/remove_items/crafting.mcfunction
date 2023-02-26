@@ -3,21 +3,26 @@ execute if data block ~ ~ ~ Items[{Slot: 6b}] unless data block ~ ~ ~ Items[{Slo
 execute if data block ~ ~ ~ Items[{Slot: 6b}] unless data block ~ ~ ~ Items[{Slot: 6b, tag:{hexenwerk-spellbook:1b}}] run data modify entity @e[type=item,tag=hexenwerk.removed_item_1,sort=nearest,limit=1] Item.id set from block ~ ~ ~ Items[{Slot: 6b}].id
 execute if data block ~ ~ ~ Items[{Slot: 6b}] unless data block ~ ~ ~ Items[{Slot: 6b, tag:{hexenwerk-spellbook:1b}}] run data modify entity @e[type=item,tag=hexenwerk.removed_item_1,sort=nearest,limit=1] Item.tag set from block ~ ~ ~ Items[{Slot: 6b}].tag
 execute if data block ~ ~ ~ Items[{Slot: 6b}] unless data block ~ ~ ~ Items[{Slot: 6b, tag:{hexenwerk-spellbook:1b}}] run data modify entity @e[type=item,tag=hexenwerk.removed_item_1,sort=nearest,limit=1] Item.Count set from block ~ ~ ~ Items[{Slot: 6b}].Count
+execute as @e[type=item,tag=hexenwerk-removed_item_1,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear
 
 execute if data block ~ ~ ~ Items[{Slot: 15b}] unless data block ~ ~ ~ Items[{Slot: 15b, tag:{hexenwerk-spellbook:1b}}] at @p run summon item ~ ~ ~ {Item: {id: "minecraft:barrier",tag:{hexenwerk-clear:1b}, Count: 1b}, Tags: ["hexenwerk.removed_item_2"]}
 execute if data block ~ ~ ~ Items[{Slot: 15b}] unless data block ~ ~ ~ Items[{Slot: 15b, tag:{hexenwerk-spellbook:1b}}] run data modify entity @e[type=item,tag=hexenwerk.removed_item_2,sort=nearest,limit=1] Item.id set from block ~ ~ ~ Items[{Slot: 15b}].id
 execute if data block ~ ~ ~ Items[{Slot: 15b}] unless data block ~ ~ ~ Items[{Slot: 15b, tag:{hexenwerk-spellbook:1b}}] run data modify entity @e[type=item,tag=hexenwerk.removed_item_2,sort=nearest,limit=1] Item.tag set from block ~ ~ ~ Items[{Slot: 15b}].tag
 execute if data block ~ ~ ~ Items[{Slot: 15b}] run data modify entity @e[type=item,tag=hexenwerk.removed_item_2,sort=nearest,limit=1] Item.Count set from block ~ ~ ~ Items[{Slot: 15b}].Count
+execute as @e[type=item,tag=hexenwerk-removed_item_2,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear
 
 execute if data block ~ ~ ~ Items[{Slot: 24b}] unless data block ~ ~ ~ Items[{Slot: 24b, tag:{hexenwerk-spellbook:1b}}] at @p run summon item ~ ~ ~ {Item: {id: "minecraft:barrier",tag:{hexenwerk-clear:1b}, Count: 1b}, Tags: ["hexenwerk-removed_item_3"]}
 execute if data block ~ ~ ~ Items[{Slot: 24b}] unless data block ~ ~ ~ Items[{Slot: 24b, tag:{hexenwerk-spellbook:1b}}] run data modify entity @e[type=item,tag=hexenwerk-removed_item_3,sort=nearest,limit=1] Item.id set from block ~ ~ ~ Items[{Slot: 24b}].id
 execute if data block ~ ~ ~ Items[{Slot: 24b}] unless data block ~ ~ ~ Items[{Slot: 24b, tag:{hexenwerk-spellbook:1b}}] run data modify entity @e[type=item,tag=hexenwerk-removed_item_3,sort=nearest,limit=1] Item.tag set from block ~ ~ ~ Items[{Slot: 24b}].tag
 execute if data block ~ ~ ~ Items[{Slot: 24b}] run data modify entity @e[type=item,tag=hexenwerk-removed_item_3,sort=nearest,limit=1] Item.Count set from block ~ ~ ~ Items[{Slot: 24b}].Count
+execute as @e[type=item,tag=hexenwerk-removed_item_3,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear
 
 execute if data block ~ ~ ~ Items[{Slot: 12b}] at @p run summon item ~ ~ ~ {Item: {id: "minecraft:barrier",tag:{hexenwerk-clear:1b}, Count: 1b}, Tags: ["hexenwerk-removed_item_4"]}
 execute if data block ~ ~ ~ Items[{Slot: 12b}] run data modify entity @e[type=item,tag=hexenwerk-removed_item_4,sort=nearest,limit=1] Item.id set from block ~ ~ ~ Items[{Slot: 12b}].id
 execute if data block ~ ~ ~ Items[{Slot: 12b}] run data modify entity @e[type=item,tag=hexenwerk-removed_item_4,sort=nearest,limit=1] Item.tag set from block ~ ~ ~ Items[{Slot: 12b}].tag
 execute if data block ~ ~ ~ Items[{Slot: 12b}] run data modify entity @e[type=item,tag=hexenwerk-removed_item_4,sort=nearest,limit=1] Item.Count set from block ~ ~ ~ Items[{Slot: 12b}].Count
+execute as @e[type=item,tag=hexenwerk-removed_item_4,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear
+
 
 item replace block ~ ~ ~ container.17 with air
 item replace block ~ ~ ~ container.6 with air

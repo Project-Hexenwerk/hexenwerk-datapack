@@ -52,3 +52,14 @@ item replace block ~ ~ ~ container.21 with air
 item replace block ~ ~ ~ container.17 with air
 item replace block ~ ~ ~ container.6 with air
 item replace block ~ ~ ~ container.24 with air
+
+execute as @e[type=item,tag=hexenwerk-removed_item_2,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear
+execute as @e[type=item,tag=hexenwerk-removed_item_3,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear
+execute as @e[type=item,tag=hexenwerk-removed_item_4,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear
+execute as @e[type=item,tag=hexenwerk-removed_item_10,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear
+execute as @e[type=item,tag=hexenwerk-removed_item_11,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear
+execute as @e[type=item,tag=hexenwerk-removed_item_12,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear
+execute as @e[type=item,tag=hexenwerk-removed_item_16,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear
+execute as @e[type=item,tag=hexenwerk-removed_item_20,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear
+execute as @e[type=item,tag=hexenwerk-removed_item_21,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear
+execute as @e[type=item,tag=hexenwerk-removed_item_22,sort=nearest,limit=1] unless data entity @s {Item:{id:"minecraft:barrier"}} run data remove entity @s Item.tag.hexenwerk-clear

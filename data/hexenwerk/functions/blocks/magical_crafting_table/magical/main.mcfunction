@@ -1,11 +1,8 @@
-execute store result score @s hexenwerk.magical_crafting_slot0_count run data get block ~ ~ ~ Items[{Slot:1b}].Count
-execute store result score @s hexenwerk.magical_crafting_slot1_count run data get block ~ ~ ~ Items[{Slot:2b}].Count
-execute store result score @s hexenwerk.magical_crafting_slot2_count run data get block ~ ~ ~ Items[{Slot:3b}].Count
-execute store result score @s hexenwerk.magical_crafting_slot3_count run data get block ~ ~ ~ Items[{Slot:10b}].Count
-execute store result score @s hexenwerk.magical_crafting_slot4_count run data get block ~ ~ ~ Items[{Slot:11b}].Count
-execute store result score @s hexenwerk.magical_crafting_slot5_count run data get block ~ ~ ~ Items[{Slot:12b}].Count
-execute store result score @s hexenwerk.magical_crafting_slot6_count run data get block ~ ~ ~ Items[{Slot:19b}].Count
-execute store result score @s hexenwerk.magical_crafting_slot7_count run data get block ~ ~ ~ Items[{Slot:20b}].Count
-execute store result score @s hexenwerk.magical_crafting_slot8_count run data get block ~ ~ ~ Items[{Slot:21b}].Count
+execute if data block ~ ~ ~ Items[{Slot: 15b}] unless data block ~ ~ ~ Items[{Slot: 15b,tag:{hexenwerk-crafting_result:1b}}] at @p run summon item ~ ~ ~ {Item: {id: "minecraft:barrier",tag:{hexenwerk-clear:1b}, Count: 1b}, Tags: ["hexenwerk.removed_item_21"]}
+execute if data block ~ ~ ~ Items[{Slot: 15b}] unless data block ~ ~ ~ Items[{Slot: 15b,tag:{hexenwerk-crafting_result:1b}}] run data modify entity @e[type=item,tag=hexenwerk.removed_item_21,sort=nearest,limit=1] Item.id set from block ~ ~ ~ Items[{Slot: 15b}].id
+execute if data block ~ ~ ~ Items[{Slot: 15b}] unless data block ~ ~ ~ Items[{Slot: 15b,tag:{hexenwerk-crafting_result:1b}}] run data modify entity @e[type=item,tag=hexenwerk.removed_item_21,sort=nearest,limit=1] Item.tag set from block ~ ~ ~ Items[{Slot: 15b}].tag
+execute if data block ~ ~ ~ Items[{Slot: 15b}] unless data block ~ ~ ~ Items[{Slot: 15b,tag:{hexenwerk-crafting_result:1b}}] run data modify entity @e[type=item,tag=hexenwerk.removed_item_21,sort=nearest,limit=1] Item.Count set from block ~ ~ ~ Items[{Slot: 15b}].Count
+execute if data block ~ ~ ~ Items[{Slot: 15b}] unless data block ~ ~ ~ Items[{Slot: 15b,tag:{hexenwerk-crafting_result:1b}}] run item replace block ~ ~ ~ container.15 with air
 
-execute if score @s hexenwerk.magical_crafting_slot4_count matches 1.. run function hexenwerk:blocks/magical_crafting_table/magical/check_recipes
+function hexenwerk:blocks/magical_crafting_table/magical/check_recipes
+

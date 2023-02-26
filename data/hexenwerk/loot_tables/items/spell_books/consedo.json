@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Consedo\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1734,hexenwerk-spellbook:1b, hexenwerk-contained_spell:1004,hexenwerk-mana_cost: 25,hexenwerk-chat_display:'{\"text\":\"Consedo\",\"color\":\"#62DEDE\"}', hexenwerk-lore_display:'{\"text\":\"\u2022 Consedo\",\"color\":\"gray\",\"italic\":false}',hexenwerk-spell_display:'{\"text\":\"\uE511\",\"color\":\"#FF0000\",\"italic\":false}'}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Consedo\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1734,hexenwerk-spellbook:1b,   hexenwerk-contained_spell:1004,hexenwerk-mana_cost: 25,hexenwerk-chat_display:'{\"text\":\"Consedo\",\"color\":\"#62DEDE\"}', hexenwerk-lore_display:'{\"text\":\"\u2022 Consedo\",\"color\":\"gray\",\"italic\":false}',hexenwerk-spell_display:'{\"text\":\"\uE511\",\"color\":\"#FF0000\",\"italic\":false}'}"
               }
             ]
           }

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Attonus\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1732,hexenwerk-spellbook:1b, hexenwerk-contained_spell:1003,hexenwerk-mana_cost: 20,hexenwerk-chat_display:'{\"text\":\"Attonus\",\"color\":\"#62DEDE\"}', hexenwerk-lore_display:'{\"text\":\"\u2022 Attonus\",\"color\":\"gray\",\"italic\":false}',hexenwerk-spell_display:'{\"text\":\"\uE509\",\"color\":\"#FF0000\",\"italic\":false}'}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Attonus\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1732,hexenwerk-spellbook:1b,  hexenwerk-contained_spell:1003,hexenwerk-mana_cost: 20,hexenwerk-chat_display:'{\"text\":\"Attonus\",\"color\":\"#62DEDE\"}', hexenwerk-lore_display:'{\"text\":\"\u2022 Attonus\",\"color\":\"gray\",\"italic\":false}',hexenwerk-spell_display:'{\"text\":\"\uE509\",\"color\":\"#FF0000\",\"italic\":false}'}"
               }
             ]
           }
