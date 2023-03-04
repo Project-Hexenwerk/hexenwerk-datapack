@@ -1,0 +1,16 @@
+{
+    "name": "hexenwerk:magical_flower_patch",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "hexenwerk:magical_flower_patch",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

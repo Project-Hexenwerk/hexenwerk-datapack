@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "hexenwerk:magical_flower_patch",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 1,
+    "salt": 1646237470
+  }
+}
