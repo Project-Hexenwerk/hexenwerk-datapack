@@ -3,5 +3,5 @@ execute if entity @s[type=glow_item_frame,tag=hexenwerk.magical_flower] unless b
 execute if entity @s[type=glow_item_frame,tag=hexenwerk.magical_crafting_table] unless block ~ ~ ~ barrel run function hexenwerk:blocks/magical_crafting_table/destroy
 execute if entity @s[type=glow_item_frame,tag=hexenwerk.dev_desk] unless block ~ ~ ~ barrel run function hexenwerk:blocks/dev_desk/destroy
 
-execute if entity @s[type=glow_item_frame,tag=hexenwerk.magical_crafting_table] run function hexenwerk:blocks/magical_crafting_table/main
-execute if entity @s[type=glow_item_frame,tag=hexenwerk.dev_desk] run function hexenwerk:blocks/dev_desk/main
+execute if block ~ ~ ~ minecraft:barrel[open=true] if entity @s[type=glow_item_frame,tag=hexenwerk.magical_crafting_table] run function hexenwerk:blocks/magical_crafting_table/main
+execute if block ~ ~ ~ minecraft:barrel[open=true] if entity @s[type=glow_item_frame,tag=hexenwerk.dev_desk] run function hexenwerk:blocks/dev_desk/main
