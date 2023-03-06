@@ -57,4 +57,3 @@ execute if score @s hexenwerk.crafting_recipe matches 8 run function hexenwerk:b
 execute if score @s hexenwerk.crafting_recipe matches 9 run function hexenwerk:blocks/magical_crafting_table/magical/craft/attonus
 execute if score @s hexenwerk.crafting_recipe matches 10 run function hexenwerk:blocks/magical_crafting_table/magical/craft/terrae_motus
 execute if score @s hexenwerk.crafting_recipe matches 11 run function hexenwerk:blocks/magical_crafting_table/magical/craft/consedo
-say lol
