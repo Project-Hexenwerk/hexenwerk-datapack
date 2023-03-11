@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Terrae Motus\",\"color\":\"#c882e5\",\"italic\":false}']},CustomModelData:1737,hexenwerk-spellbook:1b,   hexenwerk-contained_spell:1008,hexenwerk-mana_cost: 80,hexenwerk-chat_display:'{\"text\":\"Terrae Motus\",\"color\":\"#c882e5\"}', hexenwerk-lore_display:'{\"text\":\"\u2022 Terrae Motus\",\"color\":\"#c882e5\",\"italic\":false}',hexenwerk-spell_display:'{\"text\":\"\uE514\",\"color\":\"#FF0000\",\"italic\":false}'}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Terrae Motus\",\"color\":\"#c882e5\",\"italic\":false}']},CustomModelData:1737,hexenwerk-spellbook:1b,   hexenwerk-contained_spell:1008,hexenwerk-mana_cost: 70,hexenwerk-chat_display:'{\"text\":\"Terrae Motus\",\"color\":\"#c882e5\"}', hexenwerk-lore_display:'{\"text\":\"\u2022 Terrae Motus\",\"color\":\"#c882e5\",\"italic\":false}',hexenwerk-spell_display:'{\"text\":\"\uE514\",\"color\":\"#FF0000\",\"italic\":false}'}"
               }
             ]
           }
