@@ -34,6 +34,7 @@ scoreboard objectives remove hexenwerk.magical_crafting_slot7_count
 scoreboard objectives remove hexenwerk.magical_crafting_slot8_count
 scoreboard objectives remove hexenwerk.crafting_result_time
 scoreboard objectives remove hexenwerk.crafting_recipe
+scoreboard objectives remove hexenwerk.id
 
 tellraw @a {"translate":"Successfully uninstalled the Datapack, you can now remove it from the world folder! It also has been disabled for your convenience!","color":"green"}
 datapack disable "file/Hexenwerk-Datapack"

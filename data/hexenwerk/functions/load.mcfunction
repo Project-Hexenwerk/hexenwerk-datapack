@@ -39,6 +39,7 @@ scoreboard objectives add hexenwerk.magical_crafting_slot7_count dummy
 scoreboard objectives add hexenwerk.magical_crafting_slot8_count dummy
 scoreboard objectives add hexenwerk.crafting_result_time dummy
 scoreboard objectives add hexenwerk.crafting_recipe dummy
+scoreboard objectives add hexenwerk.id dummy
 
 #below might not actually be needed but i don't want to break anything so this is staying for now
 scoreboard objectives add took_gui_item dummy
