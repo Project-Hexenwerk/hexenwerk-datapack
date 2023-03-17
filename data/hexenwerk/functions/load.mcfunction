@@ -47,7 +47,7 @@ scoreboard objectives add took_gui_item dummy
 #set scores
 execute unless score #default hexenwerk.mana_max matches -2147483648..2147483647 run scoreboard players set #default hexenwerk.mana_max 100
 execute unless score #default hexenwerk.mana_regen matches -2147483648..2147483647 run scoreboard players set #default hexenwerk.mana_regen 1
-execute unless score #max_raycast_distance hexenwerk.config_only matches -2147483648..2147483647 run scoreboard players set #default hexenwerk.mana_regen 1
+execute unless score #max_raycast_distance hexenwerk.config_only matches -2147483648..2147483647 run scoreboard players set #max_raycast_distance hexenwerk.config_only 50
 
 scoreboard players set #100 hexenwerk.temp 100
 

@@ -9,30 +9,31 @@ tag @a remove hexenwerk.event_owner
 
 summon marker ~ ~ ~ {Tags:[hexenwerk.spell_event_helper]}
 
-spreadplayers ~ ~ 5 5 false @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..1]
-execute at @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..5] run setblock ~ ~ ~ fire keep
-tp @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..5] ~ ~ ~
+spreadplayers ~ ~ 5 5 false @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1,distance=..1]
+execute at @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1] run setblock ~ ~ ~ fire keep
+tp @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1] ~ ~ ~
 
-spreadplayers ~ ~ 5 5 false @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..1]
-execute at @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..5] run setblock ~ ~ ~ fire keep
-tp @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..5] ~ ~ ~
+spreadplayers ~ ~ 5 5 false @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1,distance=..1]
+execute at @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1] run setblock ~ ~ ~ fire keep
+tp @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1] ~ ~ ~
 
-spreadplayers ~ ~ 5 5 false @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..1]
-execute at @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..5] run setblock ~ ~ ~ fire keep
-tp @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..5] ~ ~ ~
+spreadplayers ~ ~ 5 5 false @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1,distance=..1]
+execute at @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1] run setblock ~ ~ ~ fire keep
+tp @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1] ~ ~ ~
 
-spreadplayers ~ ~ 5 5 false @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..1]
-execute at @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..5] run setblock ~ ~ ~ fire keep
-tp @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..5] ~ ~ ~
+spreadplayers ~ ~ 5 5 false @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1,distance=..1]
+execute at @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1] run setblock ~ ~ ~ fire keep
+tp @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1] ~ ~ ~
 
-spreadplayers ~ ~ 5 5 false @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..1]
-execute at @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..5] run setblock ~ ~ ~ fire keep
-tp @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..5] ~ ~ ~
+spreadplayers ~ ~ 5 5 false @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1,distance=..1]
+execute at @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1] run setblock ~ ~ ~ fire keep
+tp @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1] ~ ~ ~
 
-kill @e[type=marker,tag=hexenwerk.spell_event_helper,sort=nearest,limit=1,distance=..5]
+kill @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1]
 
 fill ~ ~ ~ ~ ~ ~ fire replace light[level=5]
 
 particle explosion ~ ~ ~ 0 2 0 1 5
 
 kill @s
+
