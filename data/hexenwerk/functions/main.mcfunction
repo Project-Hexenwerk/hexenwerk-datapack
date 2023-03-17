@@ -48,3 +48,7 @@ execute as @a run function hexenwerk:triggers/main
 
 # Get selected hotbar slot
 execute as @a store result score @s hexenwerk.selected_minecraft_slot_old run data get entity @s SelectedItemSlot
+
+# Other Stuff
+scoreboard players add @e[tag=hexenwerk.commovus.item_display,scores={hexenwerk.spell_event_timer=1..}] hexenwerk.spell_event_timer 1
+kill @e[tag=hexenwerk.commovus.item_display,scores={hexenwerk.spell_event_timer=6..}]
