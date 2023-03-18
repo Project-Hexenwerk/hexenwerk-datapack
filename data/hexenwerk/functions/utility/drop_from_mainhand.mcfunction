@@ -1,4 +1,4 @@
-tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> dropping clone of mainhand item ","color":"red"}]
+ 
 
 tag @s add hexenwerk.drop_mainhand
 summon item ~ ~ ~ {Item:{id:"minecraft:barrier",Count:1b},Tags:[hexenwerk.copy_mainhand.copy_to],PickupDelay:0s}

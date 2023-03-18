@@ -1,4 +1,4 @@
-tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> ","color":"red"},{"text":"executing spell effect for spell ","color":"red"},{"text":"auxiliare ","color":"aqua"},{"text":"(id: ","color":"red"},{"text":"1","color":"gold"},{"text":")","color":"red"}]
+ 
 
 summon minecraft:item_display ~ ~1 ~ {item:{id:"minecraft:barrier",tag:{CustomModelData:1734},Count:1b},Glowing:1b,glow_color_override:8454143,Tags:["hexenwerk.commovus.item_display"],transformation:[1f,0f,0f,-0.375f,0f,1f,0f,-0.625f,0f,0f,1f,0f,0f,0f,0f,1f]}
 

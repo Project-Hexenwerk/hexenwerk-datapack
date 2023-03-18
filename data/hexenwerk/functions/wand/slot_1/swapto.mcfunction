@@ -1,4 +1,4 @@
-tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> sucessfully swapped wand slot to ","color":"red"},{"text":"1","color":"gold"}]
+ 
 scoreboard players set @s hexenwerk.spell_slot 1
 
 execute store result score @s hexenwerk.spell_id run data get entity @s SelectedItem.tag.hexenwerk-spells[0]

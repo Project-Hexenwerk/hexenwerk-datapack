@@ -1,4 +1,4 @@
-tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> ","color":"red"},{"text":"executing block impact event for spell ","color":"red"},{"text":"aguamenti ","color":"aqua"},{"text":"(id: ","color":"red"},{"text":"1005","color":"gold"},{"text":")","color":"red"}]
+ 
 execute unless predicate hexenwerk:flags/is_in_nether run particle splash ~ ~ ~ 0.1 0.1 0.1 0.2 10 normal
 particle minecraft:large_smoke ~ ~ ~ 0.1 0.1 0.1 0.1 2 normal
 execute if predicate hexenwerk:flags/is_in_nether run particle minecraft:large_smoke ~ ~ ~ 0.5 0.5 0.5 0 25 normal

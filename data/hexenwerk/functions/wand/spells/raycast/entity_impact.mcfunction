@@ -1,4 +1,4 @@
-tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> raycast hit entity ","color":"red"}]
+ 
 scoreboard players operation .current hexenwerk.spell_id = @s hexenwerk.spell_id
 
 execute if score .current hexenwerk.spell_id matches 1001 as @e[type=#hexenwerk:mob,dx=0.05,dy=0.05,dz=0.05,tag=!hexenwerk.spell.caster,limit=1,sort=nearest] at @s run function hexenwerk:wand/spells/raycast/spells_impact/entity/ardo

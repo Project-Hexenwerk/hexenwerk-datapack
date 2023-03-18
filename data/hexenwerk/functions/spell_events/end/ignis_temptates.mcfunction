@@ -1,4 +1,4 @@
-tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"|-> ","color":"red"},{"text":"running \"end\" spell event event after 30 ticks","color":"red"}]
+ 
 particle flame ~ ~1 ~ 0.1 2 0.1 0.75 2000
 particle explosion ~ ~1 ~ 0.1 2 0.1 0.75 5
 
