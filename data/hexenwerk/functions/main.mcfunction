@@ -26,10 +26,6 @@ execute as @a[predicate=hexenwerk:display/water] run function hexenwerk:mana/dis
 execute as @a[scores={hexenwerk.broken_svs=1..}] run function hexenwerk:mana/regen_of_flower
 execute as @e[scores={hexenwerk.deaths=1..}] run function hexenwerk:mana/on_death
 
-# Clear Stuff
-execute as @a store result score @s hexenwerk.took_gui run clear @a barrier{hexenwerk-gui: 1b} 0
-execute as @a[scores={hexenwerk.took_gui=1..}] at @s run function hexenwerk:blocks/magical_crafting_table/gui/fix_items
-
 # Debug
 execute as @a[tag=hexenwerk.debug] run title @s actionbar ["",{"text":"Mana: "},{"score":{"name":"@s","objective":"hexenwerk.mana_current"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_max"}},{"text":" Spell Slot: "},{"score":{"name":"@s","objective":"hexenwerk.spell_slot"}},{"text":" Spell ID: "},{"score":{"name":"@s","objective":"hexenwerk.spell_id"}}]
 

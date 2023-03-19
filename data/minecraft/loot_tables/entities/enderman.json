@@ -20,7 +20,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Ender Core\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1725,hexenwerk-ender_core:1b}"
+              "tag": "{display:{Name:'{\"text\":\"item.hexenwerk.ender_core\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1725,hexenwerk-ender_core:1b}"
             }
           ]
         },

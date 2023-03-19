@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:barrier",
+        "minecraft:book",
+        "minecraft:repeating_command_block",
+        "minecraft:glow_item_frame"
+    ]
+}
