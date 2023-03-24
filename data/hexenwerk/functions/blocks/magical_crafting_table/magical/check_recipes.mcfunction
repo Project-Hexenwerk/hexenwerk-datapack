@@ -71,3 +71,5 @@ execute if score @s hexenwerk.crafting_recipe matches 12 run function hexenwerk:
 execute if score @s hexenwerk.crafting_recipe matches 13 run function hexenwerk:blocks/magical_crafting_table/magical/craft/magical_crafting_table
 execute if score @s hexenwerk.crafting_recipe matches 14 run function hexenwerk:blocks/magical_crafting_table/magical/craft/wand
 execute if score @s hexenwerk.crafting_recipe matches 15 run function hexenwerk:blocks/magical_crafting_table/magical/craft/magical_crystal
+execute if score @s hexenwerk.crafting_recipe matches 0 run item replace block ~ ~ ~ container.15 with air
+execute if score @s hexenwerk.crafting_recipe matches 0 run scoreboard players set @s hexenwerk.crafting_result_time 0
