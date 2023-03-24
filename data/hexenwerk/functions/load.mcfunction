@@ -43,6 +43,9 @@ scoreboard objectives add hexenwerk.id dummy
 scoreboard objectives add hexenwerk.patrons trigger
 scoreboard objectives add hexenwerk.rng_constant dummy
 scoreboard objectives add hexenwerk.rng_variable dummy
+scoreboard objectives add hexenwerk.settings trigger
+scoreboard objectives add hexenwerk.settings_action trigger
+
 
 # below might not actually be needed but i don't want to break anything so this is staying for now
 scoreboard objectives add took_gui_item dummy

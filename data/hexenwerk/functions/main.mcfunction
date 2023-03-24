@@ -16,7 +16,7 @@ execute as @e[type=marker,tag=hexenwerk.spell_event] at @s run function hexenwer
 
 # Blocks
 execute as @e[type=#hexenwerk:custom_block,tag=hexenwerk.block] at @s run function hexenwerk:blocks/main
-execute as @e[type=glow_item_frame,tag=hexenwerk.place] at @s run function hexenwerk:blocks/main_place
+execute as @e[type=glow_item_frame,tag=hexenwerk.place] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function hexenwerk:blocks/main_place
 
 # Display
 execute as @a[predicate=hexenwerk:display/normal] run function hexenwerk:mana/display
@@ -39,6 +39,8 @@ scoreboard players operation @a[tag=!hexenwerk.ignore_default_mana_max] hexenwer
 # Unlock Triggers
 scoreboard players enable @a hexenwerk.contributors
 scoreboard players enable @a hexenwerk.patrons
+scoreboard players enable @a hexenwerk.settings
+scoreboard players enable @a hexenwerk.settings_action
 
 # Run Triggers
 execute as @a run function hexenwerk:triggers/main
