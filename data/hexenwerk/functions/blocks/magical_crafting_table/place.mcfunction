@@ -1,4 +1,4 @@
- 
+  
 execute align y run summon item_display ~ ~ ~ {Tags: ["hexenwerk.block", "hexenwerk.magical_crafting_table"], item: {id: "minecraft:glow_item_frame", Count: 1b, tag: {CustomModelData: 1726}},transformation:[1.01f,0f,0f,0f,0f,1.01f,0f,0.4999999999999999f,0f,0f,1.01f,0f,0f,0f,0f,1f],brightness:{sky:15,block:15}}
 
  
