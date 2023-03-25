@@ -1,6 +1,6 @@
-tellraw @a[tag=hexenwerk.debug] ["",{"text":"[DEBUG] ","color":"dark_red"},{"text":"-> ","color":"red"},{"text":"executing entity impact event for spell ","color":"red"},{"text":"ardo ","color":"aqua"},{"text":"(id: ","color":"red"},{"text":"1001","color":"gold"},{"text":")","color":"red"}]
+ 
 data merge entity @s {Fire:150s}
-particle flame ~ ~ ~ 0.1 0.1 0.1 0.2 10 normal
-particle minecraft:large_smoke ~ ~ ~ 0.1 0.1 0.1 0.1 2 normal
+particle flame ~ ~ ~ 0.1 0.1 0.1 0.2 10 force @a[tag=!hexenwerk.hide_spell_particles]
+particle minecraft:large_smoke ~ ~ ~ 0.1 0.1 0.1 0.1 2 force @a[tag=!hexenwerk.hide_spell_particles]
 
 
