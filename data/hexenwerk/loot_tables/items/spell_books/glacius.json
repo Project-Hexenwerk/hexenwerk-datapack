@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Glacius\",\"color\":\"#c882e5\",\"italic\":false}']},CustomModelData:1738,hexenwerk-spellbook:1b,  hexenwerk-contained_spell:1009,hexenwerk-mana_cost: 75,hexenwerk-chat_display:'{\"text\":\"Glacius\",\"color\":\"#c882e5\"}', hexenwerk-lore_display:'{\"text\":\"\u2022 Glacius\",\"color\":\"#c882e5\",\"italic\":false}',hexenwerk-spell_display:'{\"text\":\"\uE515\",\"color\":\"#FF0000\",\"italic\":false}'}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  } 

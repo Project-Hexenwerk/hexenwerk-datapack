@@ -40,6 +40,7 @@ scoreboard objectives remove hexenwerk.rng_constant
 scoreboard objectives remove hexenwerk.rng_variable
 scoreboard objectives remove hexenwerk.settings
 scoreboard objectives remove hexenwerk.settings_action
+scoreboard objectives remove hexenwerk.id_2
 
 tellraw @a {"translate":"Successfully uninstalled the Datapack, you can now remove it from the world folder! It also has been disabled for your convenience!","color":"green"}
 datapack disable "file/Hexenwerk-Datapack"

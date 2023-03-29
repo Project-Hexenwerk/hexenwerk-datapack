@@ -1,0 +1,1 @@
+particle minecraft:item ice ~ ~ ~ 0.3 0.3 0.3 0 1

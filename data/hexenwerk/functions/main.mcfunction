@@ -1,3 +1,6 @@
+# Scheduled Animations
+execute as @e[type=#hexenwerk:display_entity,tag=hexenwerk.anim_next_tick] at @s run function hexenwerk:animations/main
+
 # Get selected hotbar slot
 execute as @a store result score @s hexenwerk.selected_minecraft_slot run data get entity @s SelectedItemSlot
 
@@ -49,5 +52,5 @@ execute as @a run function hexenwerk:triggers/main
 execute as @a store result score @s hexenwerk.selected_minecraft_slot_old run data get entity @s SelectedItemSlot
 
 # Other Stuff
-scoreboard players add @e[tag=hexenwerk.commovus.item_display,scores={hexenwerk.spell_event_timer=1..}] hexenwerk.spell_event_timer 1
-kill @e[tag=hexenwerk.commovus.item_display,scores={hexenwerk.spell_event_timer=6..}]
+scoreboard players add @e[tag=hexenwerk.commovus_portal,scores={hexenwerk.spell_event_timer=1..}] hexenwerk.spell_event_timer 1
+kill @e[tag=hexenwerk.commovus_portal,scores={hexenwerk.spell_event_timer=7..}]
