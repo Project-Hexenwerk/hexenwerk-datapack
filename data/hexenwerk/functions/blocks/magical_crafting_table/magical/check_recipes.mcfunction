@@ -19,7 +19,6 @@ execute unless data entity @s Item.tag.RecipeItems[5] if data block ~ ~ ~ Items[
 
 # Auxiliare
 execute unless data entity @s Item.tag.RecipeItems[5] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:glistering_melon_slice"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:scute"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:scute"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:book",tag:{hexenwerk-spellbook:1b,hexenwerk-contained_spell:-1}}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:glistering_melon_slice"}] run scoreboard players set @s hexenwerk.crafting_recipe 3
-
 # Wingardium Leviosa
 execute unless data entity @s Item.tag.RecipeItems[5] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:shulker_shell"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:shulker_shell"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:shulker_shell"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:book",tag:{hexenwerk-spellbook:1b,hexenwerk-contained_spell:-1}}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:ender_pearl"}] run scoreboard players set @s hexenwerk.crafting_recipe 4
 
@@ -59,6 +58,7 @@ execute unless data entity @s Item.tag.RecipeItems[9] if data block ~ ~ ~ Items[
 execute if score @s hexenwerk.crafting_recipe matches 1 run function hexenwerk:blocks/magical_crafting_table/magical/craft/ardo
 execute if score @s hexenwerk.crafting_recipe matches 2 run function hexenwerk:blocks/magical_crafting_table/magical/craft/generic
 execute if score @s hexenwerk.crafting_recipe matches 3 run function hexenwerk:blocks/magical_crafting_table/magical/craft/auxiliare
+
 execute if score @s hexenwerk.crafting_recipe matches 4 run function hexenwerk:blocks/magical_crafting_table/magical/craft/wingardium_leviosa
 execute if score @s hexenwerk.crafting_recipe matches 5 run function hexenwerk:blocks/magical_crafting_table/magical/craft/commovus
 execute if score @s hexenwerk.crafting_recipe matches 6 run function hexenwerk:blocks/magical_crafting_table/magical/craft/aguamenti
