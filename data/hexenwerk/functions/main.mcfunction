@@ -29,7 +29,7 @@ execute as @a[predicate=hexenwerk:display/water] run function hexenwerk:mana/dis
 execute as @a[scores={hexenwerk.broken_svs=1..}] run function hexenwerk:mana/regen_of_flower
 execute as @e[scores={hexenwerk.deaths=1..}] run function hexenwerk:mana/on_death
 
-# Debug
+# Debug Actionbar
 execute as @a[tag=hexenwerk.debug] run title @s actionbar ["",{"text":"Mana: "},{"score":{"name":"@s","objective":"hexenwerk.mana_current"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_max"}},{"text":" Spell Slot: "},{"score":{"name":"@s","objective":"hexenwerk.spell_slot"}},{"text":" Spell ID: "},{"score":{"name":"@s","objective":"hexenwerk.spell_id"}}]
 
 # Dev Stone
