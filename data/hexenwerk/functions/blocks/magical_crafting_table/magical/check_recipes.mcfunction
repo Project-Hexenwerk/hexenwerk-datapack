@@ -11,6 +11,15 @@ data modify entity @s Item.tag.RecipeItems append from block ~ ~ ~ Items[{Slot:1
 data modify entity @s Item.tag.RecipeItems append from block ~ ~ ~ Items[{Slot:20b}]
 data modify entity @s Item.tag.RecipeItems append from block ~ ~ ~ Items[{Slot:21b}]
 
+item modify block ~ ~ ~ container.1 hexenwerk:remove_crafting_output_tag
+item modify block ~ ~ ~ container.2 hexenwerk:remove_crafting_output_tag
+item modify block ~ ~ ~ container.3 hexenwerk:remove_crafting_output_tag
+item modify block ~ ~ ~ container.10 hexenwerk:remove_crafting_output_tag
+item modify block ~ ~ ~ container.11 hexenwerk:remove_crafting_output_tag
+item modify block ~ ~ ~ container.12 hexenwerk:remove_crafting_output_tag
+item modify block ~ ~ ~ container.19 hexenwerk:remove_crafting_output_tag
+item modify block ~ ~ ~ container.20 hexenwerk:remove_crafting_output_tag
+item modify block ~ ~ ~ container.21 hexenwerk:remove_crafting_output_tag
 # Ardo
 execute unless data entity @s Item.tag.RecipeItems[5] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:blaze_powder"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:blaze_powder"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:blaze_powder"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:book",tag:{hexenwerk-spellbook:1b,hexenwerk-contained_spell:-1}}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:fire_charge"}] run scoreboard players set @s hexenwerk.crafting_recipe 1
 
