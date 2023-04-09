@@ -41,6 +41,10 @@ scoreboard objectives remove hexenwerk.rng_variable
 scoreboard objectives remove hexenwerk.settings
 scoreboard objectives remove hexenwerk.settings_action
 scoreboard objectives remove hexenwerk.id_2
+scoreboard objectives remove hexenwerk.mana_modifier_head
+scoreboard objectives remove hexenwerk.mana_modifier_chest
+scoreboard objectives remove hexenwerk.mana_modifier_legs
+scoreboard objectives remove hexenwerk.mana_modifier_feet
 
 tellraw @a {"translate":"Successfully uninstalled the Datapack, you can now remove it from the world folder! It also has been disabled for your convenience!","color":"green"}
 datapack disable "file/Hexenwerk-Datapack"

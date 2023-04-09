@@ -1,3 +1,4 @@
+
 scoreboard players set #mana_regen_divide hexenwerk.temp 100
 
 scoreboard players operation #mana_regen_divide hexenwerk.temp /= #default hexenwerk.mana_regen

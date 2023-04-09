@@ -5,7 +5,7 @@
       }
     },
     "rewards": {
-      "function": "hexenwerk:setup"
+      "function": "hexenwerk:player_setup"
     }
   }
   

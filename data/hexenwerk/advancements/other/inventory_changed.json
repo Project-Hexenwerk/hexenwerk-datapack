@@ -1,0 +1,12 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {}
+      }
+    },
+    "rewards": {
+      "function": "hexenwerk:armor_modifiers/main"
+    }
+  }
+  
