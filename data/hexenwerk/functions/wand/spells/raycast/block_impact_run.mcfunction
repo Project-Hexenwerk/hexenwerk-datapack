@@ -7,6 +7,7 @@ execute if score .current hexenwerk.spell_id matches 1006 run function hexenwerk
 execute if score .current hexenwerk.spell_id matches 1007 run function hexenwerk:wand/spells/raycast/spells_impact/block/iunior
 execute if score .current hexenwerk.spell_id matches 1008 run function hexenwerk:wand/spells/raycast/spells_impact/terrae_motus/main
 execute if score .current hexenwerk.spell_id matches 1009 run function hexenwerk:wand/spells/raycast/spells_impact/glacius/main
+execute if score .current hexenwerk.spell_id matches 1010 run function hexenwerk:wand/spells/raycast/spells_impact/commovus_motus/main
 #spellpack v 
 function #hexenwerk_spellpack:raycast/block_impact_run
 #spellpack ^

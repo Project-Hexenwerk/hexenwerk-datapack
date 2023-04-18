@@ -1,5 +1,5 @@
 execute positioned ~0 ~0 ~0 run function hexenwerk:wand/spells/raycast/spells_impact/utility/find_ground
-execute at @e[type=marker,tag=hexenwerk.here] run function hexenwerk:spell_events/start/display_entities/consedo/inner
+execute at @e[type=marker,tag=hexenwerk.here] align xyz positioned ~0.5 ~0.5 ~0.5 run function hexenwerk:spell_events/start/display_entities/consedo/inner
 
 execute positioned ~0 ~0 ~-1 run function hexenwerk:wand/spells/raycast/spells_impact/utility/find_ground
 execute at @e[type=marker,tag=hexenwerk.here] align xyz positioned ~0.5 ~0.5 ~0.5 run function hexenwerk:spell_events/start/display_entities/consedo/mid

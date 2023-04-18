@@ -6,5 +6,6 @@ execute if entity @s[scores={hexenwerk.spell_event_timer=200,hexenwerk.spell_eve
 execute if entity @s[scores={hexenwerk.spell_event_timer=80,hexenwerk.spell_event_id=1004}] run function hexenwerk:spell_events/end/consedo
 execute if entity @s[scores={hexenwerk.spell_event_timer=15,hexenwerk.spell_event_id=1009}] run function hexenwerk:spell_events/other/glacius
 execute if entity @s[scores={hexenwerk.spell_event_timer=20,hexenwerk.spell_event_id=1009}] run function hexenwerk:spell_events/end/glacius
+execute if entity @s[scores={hexenwerk.spell_event_timer=100,hexenwerk.spell_event_id=1010}] run function hexenwerk:spell_events/end/commovus_motus
 
 scoreboard players add @s hexenwerk.spell_event_timer 1
