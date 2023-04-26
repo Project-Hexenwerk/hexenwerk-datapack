@@ -20,6 +20,7 @@ scoreboard objectives add hexenwerk.deaths deathCount
 scoreboard objectives add hexenwerk.broken_svs minecraft.mined:minecraft.structure_void
 scoreboard objectives add hexenwerk.took_gui dummy
 scoreboard objectives add hexenwerk.has_wand dummy
+scoreboard objectives add hexenwerk.has_wand.attuned dummy
 scoreboard objectives add hexenwerk.temp dummy
 scoreboard objectives add hexenwerk.holding_wand_timer dummy
 scoreboard objectives add hexenwerk.config_only dummy

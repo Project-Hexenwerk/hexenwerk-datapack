@@ -8,3 +8,4 @@ loot replace block ~ ~ ~ container.5 loot hexenwerk:items/ender_core
 loot replace block ~ ~ ~ container.6 loot hexenwerk:items/explosive_core
 loot replace block ~ ~ ~ container.7 loot hexenwerk:items/frozen_core
 loot replace block ~ ~ ~ container.8 loot hexenwerk:items/dev_stone
+loot replace block ~ ~ ~ container.11 loot hexenwerk:items/wand_2
