@@ -1,0 +1,19 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Expansion",
+        "color": "aqua",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{hexenwerk-attunements:{spellslot_modifier:1b},hexenwerk-attuned:1b}"
+  }
+]

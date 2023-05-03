@@ -20,11 +20,13 @@ item modify block ~ ~ ~ container.12 hexenwerk:remove_crafting_output_tag
 item modify block ~ ~ ~ container.19 hexenwerk:remove_crafting_output_tag
 item modify block ~ ~ ~ container.20 hexenwerk:remove_crafting_output_tag
 item modify block ~ ~ ~ container.21 hexenwerk:remove_crafting_output_tag
-# Ardo
-execute unless data entity @s Item.tag.RecipeItems[5] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:blaze_powder"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:blaze_powder"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:blaze_powder"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:book",tag:{hexenwerk-spellbook:1b,hexenwerk-contained_spell:-1}}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:fire_charge"}] run scoreboard players set @s hexenwerk.crafting_recipe 1
 
+## Spellbooks 
 # Generic Spellbook
 execute unless data entity @s Item.tag.RecipeItems[5] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:book"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:command_block"}] run scoreboard players set @s hexenwerk.crafting_recipe 2
+
+# Ardo
+execute unless data entity @s Item.tag.RecipeItems[5] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:blaze_powder"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:blaze_powder"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:blaze_powder"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:book",tag:{hexenwerk-spellbook:1b,hexenwerk-contained_spell:-1}}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:fire_charge"}] run scoreboard players set @s hexenwerk.crafting_recipe 1
 
 # Auxiliare
 execute unless data entity @s Item.tag.RecipeItems[5] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:glistering_melon_slice"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:scute"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:scute"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:book",tag:{hexenwerk-spellbook:1b,hexenwerk-contained_spell:-1}}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:glistering_melon_slice"}] run scoreboard players set @s hexenwerk.crafting_recipe 3
@@ -55,6 +57,7 @@ execute unless data entity @s Item.tag.RecipeItems[5] if data block ~ ~ ~ Items[
 # Iunior
 execute unless data entity @s Item.tag.RecipeItems[5] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:ghast_tear"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:poppy"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:poppy"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:book",tag:{hexenwerk-spellbook:1b,hexenwerk-contained_spell:-1}}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:turtle_egg"}] run scoreboard players set @s hexenwerk.crafting_recipe 12
 
+## Items/Blocks
 # Magical Crafting Table
 execute unless data entity @s Item.tag.RecipeItems[9] if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:crafting_table"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:19b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:21b,id:"minecraft:command_block"}] run scoreboard players set @s hexenwerk.crafting_recipe 13
 
@@ -63,6 +66,10 @@ execute unless data entity @s Item.tag.RecipeItems[3] if data block ~ ~ ~ Items[
 
 # Magical Crystal
 execute unless data entity @s Item.tag.RecipeItems[9] if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:19b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:command_block"}] if data block ~ ~ ~ Items[{Slot:21b,id:"minecraft:command_block"}] run scoreboard players set @s hexenwerk.crafting_recipe 15
+
+## Attunements
+# Expansion/Slots
+execute unless data entity @s Item.tag.RecipeItems[5] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:jigsaw",tag:{hexenwerk-attunement:"expansion"}}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:jigsaw",tag:{hexenwerk-attunement:"expansion"}}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:jigsaw",tag:{hexenwerk-attunement:"expansion"}}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:warped_fungus_on_a_stick",tag:{hexenwerk-wand:1b,hexenwerk-attuned:0b}}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:jigsaw",tag:{hexenwerk-attunement:"expansion"}}] run scoreboard players set @s hexenwerk.crafting_recipe 16
 
 execute if score @s hexenwerk.crafting_recipe matches 1 run function hexenwerk:blocks/magical_crafting_table/magical/craft/ardo
 execute if score @s hexenwerk.crafting_recipe matches 2 run function hexenwerk:blocks/magical_crafting_table/magical/craft/generic
@@ -80,5 +87,6 @@ execute if score @s hexenwerk.crafting_recipe matches 12 run function hexenwerk:
 execute if score @s hexenwerk.crafting_recipe matches 13 run function hexenwerk:blocks/magical_crafting_table/magical/craft/magical_crafting_table
 execute if score @s hexenwerk.crafting_recipe matches 14 run function hexenwerk:blocks/magical_crafting_table/magical/craft/wand
 execute if score @s hexenwerk.crafting_recipe matches 15 run function hexenwerk:blocks/magical_crafting_table/magical/craft/magical_crystal
+execute if score @s hexenwerk.crafting_recipe matches 16 run function hexenwerk:blocks/magical_crafting_table/magical/craft/attunements/slots
 execute if score @s hexenwerk.crafting_recipe matches 0 run item replace block ~ ~ ~ container.15 with air
 execute if score @s hexenwerk.crafting_recipe matches 0 run scoreboard players set @s hexenwerk.crafting_result_time 0
