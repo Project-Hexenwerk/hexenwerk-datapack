@@ -90,3 +90,4 @@ execute if score @s hexenwerk.crafting_recipe matches 15 run function hexenwerk:
 execute if score @s hexenwerk.crafting_recipe matches 16 run function hexenwerk:blocks/magical_crafting_table/magical/craft/attunements/slots
 execute if score @s hexenwerk.crafting_recipe matches 0 run item replace block ~ ~ ~ container.15 with air
 execute if score @s hexenwerk.crafting_recipe matches 0 run scoreboard players set @s hexenwerk.crafting_result_time 0
+execute if score @s hexenwerk.crafting_recipe matches 0 run tag @s remove hexenwerk.modified_crafing_output
