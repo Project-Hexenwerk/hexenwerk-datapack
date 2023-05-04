@@ -3,12 +3,20 @@
     "function": "minecraft:set_lore",
     "entity": "this",
     "lore": [
-      {
-        "text": "Expansion",
-        "color": "aqua",
+      [
+        {
+        "text": "> ",
+        "color": "#e984f6",
         "bold": false,
         "italic": false
-      }
+        },
+        {
+          "translate": "attunement.hexenwerk.expansion",
+          "color": "#e984f6",
+          "bold": false,
+          "italic": false
+        }
+      ]
     ],
     "replace": true
   }

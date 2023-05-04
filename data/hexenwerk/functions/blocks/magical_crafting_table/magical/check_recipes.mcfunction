@@ -71,6 +71,9 @@ execute unless data entity @s Item.tag.RecipeItems[9] if data block ~ ~ ~ Items[
 # Expansion/Slots
 execute unless data entity @s Item.tag.RecipeItems[5] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:jigsaw",tag:{hexenwerk-attunement:"expansion"}}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:jigsaw",tag:{hexenwerk-attunement:"expansion"}}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:jigsaw",tag:{hexenwerk-attunement:"expansion"}}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:warped_fungus_on_a_stick",tag:{hexenwerk-wand:1b,hexenwerk-attuned:0b}}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:jigsaw",tag:{hexenwerk-attunement:"expansion"}}] run scoreboard players set @s hexenwerk.crafting_recipe 16
 
+# Range/Farsight
+execute unless data entity @s Item.tag.RecipeItems[5] if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:jigsaw",tag:{hexenwerk-attunement:"farsight"}}] if data block ~ ~ ~ Items[{Slot:12b,id:"minecraft:jigsaw",tag:{hexenwerk-attunement:"farsight"}}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:jigsaw",tag:{hexenwerk-attunement:"farsight"}}] if data block ~ ~ ~ Items[{Slot:11b,id:"minecraft:warped_fungus_on_a_stick",tag:{hexenwerk-wand:1b,hexenwerk-attuned:0b}}] if data block ~ ~ ~ Items[{Slot:20b,id:"minecraft:jigsaw",tag:{hexenwerk-attunement:"farsight"}}] run scoreboard players set @s hexenwerk.crafting_recipe 17
+
 execute if score @s hexenwerk.crafting_recipe matches 1 run function hexenwerk:blocks/magical_crafting_table/magical/craft/ardo
 execute if score @s hexenwerk.crafting_recipe matches 2 run function hexenwerk:blocks/magical_crafting_table/magical/craft/generic
 execute if score @s hexenwerk.crafting_recipe matches 3 run function hexenwerk:blocks/magical_crafting_table/magical/craft/auxiliare
@@ -88,6 +91,7 @@ execute if score @s hexenwerk.crafting_recipe matches 13 run function hexenwerk:
 execute if score @s hexenwerk.crafting_recipe matches 14 run function hexenwerk:blocks/magical_crafting_table/magical/craft/wand
 execute if score @s hexenwerk.crafting_recipe matches 15 run function hexenwerk:blocks/magical_crafting_table/magical/craft/magical_crystal
 execute if score @s hexenwerk.crafting_recipe matches 16 run function hexenwerk:blocks/magical_crafting_table/magical/craft/attunements/slots
+execute if score @s hexenwerk.crafting_recipe matches 17 run function hexenwerk:blocks/magical_crafting_table/magical/craft/attunements/range
 execute if score @s hexenwerk.crafting_recipe matches 0 run item replace block ~ ~ ~ container.15 with air
 execute if score @s hexenwerk.crafting_recipe matches 0 run scoreboard players set @s hexenwerk.crafting_result_time 0
 execute if score @s hexenwerk.crafting_recipe matches 0 run tag @s remove hexenwerk.modified_crafing_output

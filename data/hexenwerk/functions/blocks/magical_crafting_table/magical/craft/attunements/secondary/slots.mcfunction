@@ -10,4 +10,3 @@ item modify block ~ ~ ~ container.15 hexenwerk:attunements/wand/slots/fourth
 item modify block ~ ~ ~ container.15 hexenwerk:attunements/wand/slots/fifth
 item modify block ~ ~ ~ container.15 hexenwerk:attunements/wand/slots/tags
 tag @s add hexenwerk.modified_crafing_output
-say yos
