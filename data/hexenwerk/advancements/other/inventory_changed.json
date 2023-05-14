@@ -6,7 +6,7 @@
       }
     },
     "rewards": {
-      "function": "hexenwerk:armor_modifiers/main"
+      "function": "hexenwerk:mana_modifiers/main"
     }
   }
   

@@ -4,3 +4,4 @@ scoreboard players operation @s hexenwerk.mana_max += @s hexenwerk.mana_modifier
 scoreboard players operation @s hexenwerk.mana_max += @s hexenwerk.mana_modifier_feet
 scoreboard players operation @s hexenwerk.mana_max += @s hexenwerk.mana_modifier_head
 scoreboard players operation @s hexenwerk.mana_max += @s hexenwerk.mana_modifier_legs
+scoreboard players operation @s hexenwerk.mana_max += @s hexenwerk.mana_modifier_weapon

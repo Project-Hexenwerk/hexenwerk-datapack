@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.attunement_shard\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"attunement.hexenwerk.refill\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1730,hexenwerk-attunement_shard:1b, hexenwerk-attunement:\"refill\"}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.attunement_shard\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"attunement.hexenwerk.refill\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1734,hexenwerk-attunement_shard:1b, hexenwerk-attunement:\"refill\"}"
               }
             ]
           }
