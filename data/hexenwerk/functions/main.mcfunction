@@ -22,8 +22,7 @@ execute as @e[type=#hexenwerk:custom_block,tag=hexenwerk.block] at @s run functi
 execute as @e[type=glow_item_frame,tag=hexenwerk.place] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function hexenwerk:blocks/main_place
 
 # Display
-execute as @a[predicate=hexenwerk:display/normal] run function hexenwerk:mana/display
-execute as @a[predicate=hexenwerk:display/water] run function hexenwerk:mana/display_water
+execute as @a run function hexenwerk:mana/display_main
 
 # Misc
 execute as @a[scores={hexenwerk.broken_svs=1..}] run function hexenwerk:mana/regen_of_flower
@@ -37,7 +36,7 @@ execute as @a[predicate=hexenwerk:holding/dev_stone,scores={hexenwerk.used_wfoas
 
 # Set Scoreboards
 scoreboard players set @a[scores={hexenwerk.used_wfoas=1..}] hexenwerk.used_wfoas 0
-scoreboard players operation @a[tag=!hexenwerk.ignore_default_mana_max] hexenwerk.mana_max = #default hexenwerk.mana_max
+scoreboard players operation @a[tag=!hexenwerk.attuned_maximum,tag=!hexenwerk.bypass_mana_max] hexenwerk.mana_max = #default hexenwerk.mana_max
 
 # Unlock Triggers
 scoreboard players enable @a hexenwerk.contributors
