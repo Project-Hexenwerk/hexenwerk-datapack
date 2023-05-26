@@ -52,6 +52,9 @@ scoreboard objectives add hexenwerk.mana_modifier_chest dummy
 scoreboard objectives add hexenwerk.mana_modifier_legs dummy
 scoreboard objectives add hexenwerk.mana_modifier_feet dummy
 scoreboard objectives add hexenwerk.mana_modifier_weapon dummy
+scoreboard objectives add hexenwerk.mystical_mob.anger_time dummy
+scoreboard objectives add hexenwerk.mystical_mob.dash_time dummy
+
 
 # below might not actually be needed but i don't want to break anything so this is staying for now
 scoreboard objectives add took_gui_item dummy

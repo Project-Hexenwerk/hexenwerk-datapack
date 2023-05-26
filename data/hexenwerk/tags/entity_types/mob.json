@@ -64,6 +64,7 @@
         "minecraft:turtle",
         "minecraft:villager",
         "minecraft:wandering_trader",
+        "minecraft:allay",
         "minecraft:player"
     ]
 }

@@ -1,6 +1,19 @@
 # Scheduled Animations
 execute as @e[type=#hexenwerk:display_entity,tag=hexenwerk.anim_next_tick] at @s run function hexenwerk:animations/main
 
+# Initialize Mystical Mobs
+execute as @e[type=#hexenwerk:mob,tag=!hexenwerk.mystical_mob.initialised,type=!player] run function hexenwerk:mystical_mobs/init_mob
+
+# Run Mystical Mobs
+execute as @e[type=#hexenwerk:mob,tag=hexenwerk.mystical_mob] at @s run function hexenwerk:mystical_mobs/main
+
+# Kill Mystical Mob Markers
+execute as @e[type=marker,tag=hexenwerk.mystical_mob.marker] at @s unless entity @e[type=#hexenwerk:mob,tag=hexenwerk.mystical_mob,distance=..0.25] run function hexenwerk:mystical_mobs/die
+
+# Idle Particle Effects
+execute at @e[type=item,tag=hexenwerk.mystical_reward] run particle smoke ~ ~0.2 ~ 0.2 0.2 0.2 0 1
+execute as @e[type=marker,tag=hexenwerk.mystical_mob.soul] run function hexenwerk:mystical_mobs/soul
+
 # Get selected hotbar slot
 execute as @a store result score @s hexenwerk.selected_minecraft_slot run data get entity @s SelectedItemSlot
 
