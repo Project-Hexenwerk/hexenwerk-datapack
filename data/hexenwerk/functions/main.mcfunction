@@ -12,7 +12,7 @@ execute as @e[type=marker,tag=hexenwerk.mystical_mob.marker] at @s unless entity
 
 # Idle Particle Effects
 execute at @e[type=item,tag=hexenwerk.mystical_reward] run particle smoke ~ ~0.2 ~ 0.2 0.2 0.2 0 1
-execute as @e[type=marker,tag=hexenwerk.mystical_mob.soul] run function hexenwerk:mystical_mobs/soul
+execute as @e[type=marker,tag=hexenwerk.mystical_mob.soul] at @s run function hexenwerk:mystical_mobs/soul
 
 # Get selected hotbar slot
 execute as @a store result score @s hexenwerk.selected_minecraft_slot run data get entity @s SelectedItemSlot
