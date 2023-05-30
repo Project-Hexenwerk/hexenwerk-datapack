@@ -11,3 +11,4 @@ execute if score RNG hexenwerk.rng_variable matches 101..200 unless entity @s[ta
 execute if score RNG hexenwerk.rng_variable matches 201..300 unless entity @s[tag=hexenwerk.mystical_mob.assigned_ability] run tag @s add hexenwerk.mystical_mob.teleport
 execute if score RNG hexenwerk.rng_variable matches 301..400 unless entity @s[tag=hexenwerk.mystical_mob.assigned_ability] run tag @s add hexenwerk.mystical_mob.summon
 tag @s add hexenwerk.mystical_mob.assigned_ability
+tag @s add smithed.entity

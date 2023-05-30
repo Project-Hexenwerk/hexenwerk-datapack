@@ -1,2 +1,2 @@
-execute unless block ~ ~-0.1 ~ #hexenwerk:air run summon marker ~ ~ ~ {Tags:["hexenwerk.here"]}
+execute unless block ~ ~-0.1 ~ #hexenwerk:air run summon marker ~ ~ ~ {Tags:["hexenwerk.here","smithed.strict"]}
 execute if block ~ ~-0.1 ~ #hexenwerk:air positioned ~ ~-0.2 ~ run function hexenwerk:wand/spells/raycast/spells_impact/utility/find_ground

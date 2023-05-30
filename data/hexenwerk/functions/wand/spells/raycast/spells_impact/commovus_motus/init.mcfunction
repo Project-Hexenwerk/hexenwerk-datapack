@@ -1,4 +1,5 @@
 tag @s add hexenwerk.spell_event
+tag @s add smithed.strict
 tag @s add hexenwerk.commovus_motus_end
 tag @s add hexenwerk.commovus_motus
 scoreboard players operation @s hexenwerk.id = @p[tag=hexenwerk.spell.caster] hexenwerk.id
