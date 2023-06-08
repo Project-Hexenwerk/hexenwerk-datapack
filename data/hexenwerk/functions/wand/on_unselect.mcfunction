@@ -4,3 +4,4 @@ tag @s remove hexenwerk.attuned_mana_regen
 tag @s remove hexenwerk.attuned_maximum
 scoreboard players operation @s hexenwerk.mana_max -= @s hexenwerk.mana_modifier_weapon
 title @s subtitle ""
+say yo

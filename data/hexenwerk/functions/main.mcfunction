@@ -42,7 +42,7 @@ execute as @a[scores={hexenwerk.broken_svs=1..}] run function hexenwerk:mana/reg
 execute as @e[scores={hexenwerk.deaths=1..}] run function hexenwerk:mana/on_death
 
 # Debug Actionbar
-execute as @a[tag=hexenwerk.debug] run title @s actionbar ["",{"text":"Mana: "},{"score":{"name":"@s","objective":"hexenwerk.mana_current"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_max"}},{"text":" Spell Slot: "},{"score":{"name":"@s","objective":"hexenwerk.spell_slot"}},{"text":" Spell ID: "},{"score":{"name":"@s","objective":"hexenwerk.spell_id"}}]
+execute as @a[tag=hexenwerk.debug] run title @s actionbar ["",{"text":"Mana: "},{"score":{"name":"@s","objective":"hexenwerk.mana_current"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_max"}},{"text":" Spell Slot: "},{"score":{"name":"@s","objective":"hexenwerk.spell_slot"}},{"text":" Spell ID: "},{"score":{"name":"@s","objective":"hexenwerk.spell_id"}},{"text":" Mana Modifiers: "},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_weapon"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_feet"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_legs"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_chest"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_head"}}]
 
 # Dev Stone
 execute as @a[predicate=hexenwerk:holding/dev_stone,scores={hexenwerk.used_wfoas=1..}] at @s run function hexenwerk:dev/dev_stone/toggle

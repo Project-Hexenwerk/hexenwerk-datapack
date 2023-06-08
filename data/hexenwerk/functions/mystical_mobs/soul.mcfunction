@@ -1,4 +1,4 @@
-tp @s ~ ~0.6 ~ ~20 ~
+tp @s ~ ~1.5 ~ ~20 ~
 execute if predicate hexenwerk:percent/5 run tp @s ~ ~ ~-0.5 
 execute if predicate hexenwerk:percent/5 run tp @s ~ ~ ~0.5 
 execute if predicate hexenwerk:percent/5 run tp @s ~0.5 ~ ~
