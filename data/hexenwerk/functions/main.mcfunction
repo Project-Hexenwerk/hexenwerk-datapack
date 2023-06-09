@@ -35,14 +35,16 @@ execute as @e[type=#hexenwerk:custom_block,tag=hexenwerk.block] at @s run functi
 execute as @e[type=glow_item_frame,tag=hexenwerk.place] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function hexenwerk:blocks/main_place
 
 # Display
-execute as @a run function hexenwerk:mana/display_main
+execute as @a[predicate=hexenwerk:display/normal] run function hexenwerk:mana/display_main
+execute as @a[predicate=hexenwerk:display/water] run function hexenwerk:mana/display_water_main
 
 # Misc
 execute as @a[scores={hexenwerk.broken_svs=1..}] run function hexenwerk:mana/regen_of_flower
 execute as @e[scores={hexenwerk.deaths=1..}] run function hexenwerk:mana/on_death
 
 # Debug Actionbar
-execute as @a[tag=hexenwerk.debug] run title @s actionbar ["",{"text":"Mana: "},{"score":{"name":"@s","objective":"hexenwerk.mana_current"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_max"}},{"text":" Spell Slot: "},{"score":{"name":"@s","objective":"hexenwerk.spell_slot"}},{"text":" Spell ID: "},{"score":{"name":"@s","objective":"hexenwerk.spell_id"}},{"text":" Mana Modifiers: "},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_weapon"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_feet"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_legs"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_chest"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_head"}}]
+execute if entity @a[tag=hexenwerk.debug] run data modify storage smithed.actionbar:input message set value {json: '["",{"text":"Mana: "},{"score":{"name":"@s","objective":"hexenwerk.mana_current"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_max"}},{"text":" Spell Slot: "},{"score":{"name":"@s","objective":"hexenwerk.spell_slot"}},{"text":" Spell ID: "},{"score":{"name":"@s","objective":"hexenwerk.spell_id"}},{"text":" Mana Modifiers: "},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_weapon"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_feet"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_legs"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_chest"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_head"}}]',priority: 'persistent'}
+execute as @a[tag=hexenwerk.debug] run function #smithed.actionbar:message
 
 # Dev Stone
 execute as @a[predicate=hexenwerk:holding/dev_stone,scores={hexenwerk.used_wfoas=1..}] at @s run function hexenwerk:dev/dev_stone/toggle
