@@ -23,4 +23,4 @@ execute store result entity @s Motion[2] double 0.00003 run scoreboard players g
 
 execute as @e[tag=hexenwerk.fake_target,limit=1] rotated ~180 ~ run tp @s ~ ~ ~
 tag @s add hexenwerk.mystical_mob.used_ability
-scoreboard players set @s hexenwerk.mystical_mob.dash_time 0
+scoreboard players set @s hexenwerk.mystical_mob.ability_time 0

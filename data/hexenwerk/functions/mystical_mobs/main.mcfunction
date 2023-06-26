@@ -5,3 +5,4 @@ tag @s remove hexenwerk.this
 particle minecraft:smoke ~ ~0.5 ~ 0.2 0.4 0.2 0 1 normal
 
 execute if entity @s[tag=hexenwerk.mystical_mob.dash] run function hexenwerk:mystical_mobs/abilities/dash/main
+execute if entity @s[tag=hexenwerk.mystical_mob.smash] run function hexenwerk:mystical_mobs/abilities/smash/main

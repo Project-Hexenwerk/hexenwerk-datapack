@@ -40,7 +40,7 @@ execute as @a[predicate=hexenwerk:display/water] run function hexenwerk:mana/dis
 
 # Misc
 execute as @a[scores={hexenwerk.broken_svs=1..}] run function hexenwerk:mana/regen_of_flower
-execute as @e[scores={hexenwerk.deaths=1..}] run function hexenwerk:mana/on_death
+execute as @a[scores={hexenwerk.deaths=1..}] run function hexenwerk:mana/on_death
 
 # Debug Actionbar
 execute if entity @a[tag=hexenwerk.debug] run data modify storage smithed.actionbar:input message set value {json: '["",{"text":"Mana: "},{"score":{"name":"@s","objective":"hexenwerk.mana_current"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_max"}},{"text":" Spell Slot: "},{"score":{"name":"@s","objective":"hexenwerk.spell_slot"}},{"text":" Spell ID: "},{"score":{"name":"@s","objective":"hexenwerk.spell_id"}},{"text":" Mana Modifiers: "},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_weapon"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_feet"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_legs"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_chest"}},{"text":"/"},{"score":{"name":"@s","objective":"hexenwerk.mana_modifier_head"}}]',priority: 'persistent'}
@@ -66,5 +66,5 @@ execute as @a run function hexenwerk:triggers/main
 execute as @a store result score @s hexenwerk.selected_minecraft_slot_old run data get entity @s SelectedItemSlot
 
 # Other Stuff
-scoreboard players add @e[tag=hexenwerk.commovus_portal,scores={hexenwerk.spell_event_timer=1..}] hexenwerk.spell_event_timer 1
-kill @e[tag=hexenwerk.commovus_portal,scores={hexenwerk.spell_event_timer=7..}]
+scoreboard players add @e[type=marker,tag=hexenwerk.commovus_portal,scores={hexenwerk.spell_event_timer=1..}] hexenwerk.spell_event_timer 1
+kill @e[type=marker,tag=hexenwerk.commovus_portal,scores={hexenwerk.spell_event_timer=7..}]
