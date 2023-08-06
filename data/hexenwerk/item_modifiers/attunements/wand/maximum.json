@@ -28,6 +28,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{hexenwerk-attunements:{mana_max_modifier:25},hexenwerk-attuned:1b,CustomModelData:1726}"
+    "tag": "{hexenwerk-attunements:{mana_max_modifier:25},hexenwerk-attuned:1b,CustomModelData:1727}"
   }
 ]

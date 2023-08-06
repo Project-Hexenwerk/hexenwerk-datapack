@@ -28,7 +28,7 @@
     },
     {
       "function": "minecraft:set_nbt",
-      "tag": "{hexenwerk-attunements:{mana_cost_modifier:10},hexenwerk-attuned:1b,CustomModelData:1726}"
+      "tag": "{hexenwerk-attunements:{mana_cost_modifier:10},hexenwerk-attuned:1b,CustomModelData:1730}"
     }
   ]
   

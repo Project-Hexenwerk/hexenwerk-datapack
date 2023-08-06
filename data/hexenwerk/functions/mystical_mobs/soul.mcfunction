@@ -6,5 +6,6 @@ execute if predicate hexenwerk:percent/5 run tp @s ~-0.5 ~ ~
 
 particle witch ^ ^ ^1 0 0 0 0 1
 particle witch ^ ^ ^-1 0 0 0 0 1
-execute store result score @s hexenwerk.temp run data get entity @s Pos[2]
-execute if score @s hexewnerk.temp matches 200.. run kill @s
+execute store result score @s hexenwerk.temp run data get entity @s Pos[1]
+execute if score @s hexenwerk.temp matches 200.. run say d
+execute if score @s hexenwerk.temp matches 200.. run kill @s

@@ -28,6 +28,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{hexenwerk-attunements:{range_modifier:10},hexenwerk-attuned:1b,CustomModelData:1726}"
+    "tag": "{hexenwerk-attunements:{range_modifier:10},hexenwerk-attuned:1b,CustomModelData:1728}"
   }
 ]

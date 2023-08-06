@@ -66,5 +66,5 @@ execute as @a run function hexenwerk:triggers/main
 execute as @a store result score @s hexenwerk.selected_minecraft_slot_old run data get entity @s SelectedItemSlot
 
 # Other Stuff
-scoreboard players add @e[type=marker,tag=hexenwerk.commovus_portal,scores={hexenwerk.spell_event_timer=1..}] hexenwerk.spell_event_timer 1
-kill @e[type=marker,tag=hexenwerk.commovus_portal,scores={hexenwerk.spell_event_timer=7..}]
+scoreboard players add @e[type=item_display,tag=hexenwerk.commovus_portal] hexenwerk.spell_event_timer 1
+kill @e[type=item_display,tag=hexenwerk.commovus_portal,scores={hexenwerk.spell_event_timer=7..}]
