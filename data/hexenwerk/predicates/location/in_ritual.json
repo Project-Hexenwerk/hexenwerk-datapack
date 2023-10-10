@@ -1,0 +1,135 @@
+[
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 0,
+      "offsetY": 0,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "tag": "minecraft:candles"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 0,
+      "offsetY": 0,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "tag": "minecraft:candles"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetY": 0,
+      "offsetZ": 0,
+      "predicate": {
+        "block": {
+          "tag": "minecraft:candles"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetY": 0,
+      "offsetZ": 0,
+      "predicate": {
+        "block": {
+          "tag": "minecraft:candles"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetY": 0,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "tag": "hexenwerk:quartz"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetY": 0,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "tag": "hexenwerk:quartz"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetY": 0,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "tag": "hexenwerk:quartz"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetY": 0,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "tag": "hexenwerk:quartz"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 0,
+      "offsetY": 0,
+      "offsetZ": -3,
+      "predicate": {
+        "block": {
+          "tag": "hexenwerk:quartz"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -3,
+      "offsetY": 0,
+      "offsetZ": 0,
+      "predicate": {
+        "block": {
+          "tag": "hexenwerk:quartz"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 0,
+      "offsetY": 0,
+      "offsetZ": 3,
+      "predicate": {
+        "block": {
+          "tag": "hexenwerk:quartz"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 3,
+      "offsetY": 0,
+      "offsetZ": 0,
+      "predicate": {
+        "block": {
+          "tag": "hexenwerk:quartz"
+        }
+      }
+    }
+  ]
+  

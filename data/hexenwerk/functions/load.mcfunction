@@ -52,9 +52,10 @@ scoreboard objectives add hexenwerk.mana_modifier_chest dummy
 scoreboard objectives add hexenwerk.mana_modifier_legs dummy
 scoreboard objectives add hexenwerk.mana_modifier_feet dummy
 scoreboard objectives add hexenwerk.mana_modifier_weapon dummy
-scoreboard objectives add hexenwerk.mystical_mob.anger_time dummy
-scoreboard objectives add hexenwerk.mystical_mob.ability_time dummy
-scoreboard objectives add hexenwerk.mystical_mob.mob_count dummy
+scoreboard objectives add hexenwerk.ritual_distance dummy
+scoreboard objectives add hexenwerk.ritual_flames_timer dummy
+scoreboard objectives add hexenwerk.ritual_id dummy
+
 
 
 # below might not actually be needed but i don't want to break anything so this is staying for now
@@ -70,6 +71,9 @@ scoreboard players set #100 hexenwerk.temp 100
 # run schedules
 schedule clear hexenwerk:mana/run_regen
 function hexenwerk:mana/run_regen
+
+schedule clear hexenwerk:10t_main
+function hexenwerk:10t_main
 
 schedule clear hexenwerk:blocks/remove_gui_items
 function hexenwerk:blocks/remove_gui_items

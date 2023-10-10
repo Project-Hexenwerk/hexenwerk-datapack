@@ -1,0 +1,1 @@
+$kill @e[type=#hexenwerk:ritual_entity,tag=!hexenwerk.ritual_base_block,scores={hexenwerk.ritual_id=$(ritual_id)},limit=17,sort=nearest]
