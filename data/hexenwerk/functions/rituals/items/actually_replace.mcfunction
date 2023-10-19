@@ -1,5 +1,12 @@
-$tag @e[type=item_display,sort=nearest,tag=hexenwerk.ritual_item_display,scores={hexenwerk.ritual_id=$(ritual_id)},limit=1] add hexenwerk.that
-execute as @e[type=item_display,tag=hexenwerk.ritual_item_display,tag=hexenwerk.that,sort=nearest,limit=1] unless data entity @s {item:{id:"minecraft:air"}} run function hexenwerk:rituals/items/return_item with entity @s item
-execute if entity @a[tag=hexenwerk.this,predicate=!hexenwerk:holding/something,limit=1,sort=nearest] run data merge entity @e[type=item_display,sort=nearest,tag=hexenwerk.ritual_item_display,tag=hexenwerk.that,limit=1] {shadow_radius:0f}
-item replace entity @e[type=item_display,sort=nearest,tag=hexenwerk.ritual_item_display,tag=hexenwerk.that,limit=1] container.0 from entity @p[predicate=hexenwerk:holding/something,tag=hexenwerk.this] weapon.mainhand
+say actuakky replace
+$tag @e[type=item_display,tag=hexenwerk.ritual_item_display,scores={hexenwerk.ritual_id=$(ritual_id)}] add hexenwerk.that
+item replace entity @e[type=item_display,tag=hexenwerk.that,limit=1,sort=nearest] container.0 from entity @a[tag=hexenwerk.this,sort=nearest,limit=1] weapon.mainhand
+execute as @e[type=item_display,tag=hexenwerk.ritual_item_display,tag=hexenwerk.that,sort=nearest,limit=1] unless data entity @s item.tag run data merge entity @s {item:{tag:{hexenwerk.dummy_tag:1b}},Count:1}
+execute as @e[type=item_display,tag=hexenwerk.ritual_item_display,tag=hexenwerk.that,sort=nearest,limit=1] run data modify storage hexenwerk item set from entity @s item
+execute as @e[type=item_display,tag=hexenwerk.ritual_item_display,tag=hexenwerk.that,sort=nearest,limit=1] run function hexenwerk:rituals/items/return_item with storage hexenwerk item
+execute if score %count hexenwerk.temp matches ..0 run item replace entity @e[type=item_display,tag=hexenwerk.that,limit=1,sort=nearest] container.0 with air
+execute as @a[tag=hexenwerk.this,predicate=hexenwerk:holding/something,limit=1,sort=nearest] run function hexenwerk:rituals/items/check_item_type with storage hexenwerk
+execute as @e[type=item_display,sort=nearest,tag=hexenwerk.ritual_item_display,tag=hexenwerk.that,limit=1] if data entity @s {item:{id:"minecraft:air"}} run data merge entity @s {shadow_radius:0f}
+execute as @e[type=item_display,tag=hexenwerk.that,limit=1,sort=nearest] unless data entity @s {item:{id:"minecraft:air"}} run data merge entity @s {shadow_radius:.35f,shadow_strength:0.75f}
 tag @e[type=item_display,sort=nearest,tag=hexenwerk.ritual_item_display,tag=hexenwerk.that,limit=1] remove hexenwerk.that
+

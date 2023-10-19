@@ -2,7 +2,7 @@
 execute as @e[type=#hexenwerk:display_entity,tag=hexenwerk.anim_next_tick] at @s run function hexenwerk:animations/main
 
 # Rotate stuff
-execute as @e[type=item_display,tag=hexenwerk.ritual_display] at @s run tp @s ~ ~ ~ ~2 ~
+execute as @e[type=item_display,tag=hexenwerk.ritual_item_display] at @s run tp @s ~ ~ ~ ~2 ~
 
 # Get selected hotbar slot
 execute as @a store result score @s hexenwerk.selected_minecraft_slot run data get entity @s SelectedItemSlot
