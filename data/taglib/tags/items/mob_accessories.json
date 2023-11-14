@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        { "required": false, "id": "#taglib:horse_armor" },
+        { "required": false, "id": "minecraft:saddle" }
+    ]
+}
