@@ -1,0 +1,15 @@
+{
+  "name": "hexenwerk:wizard_tower/swamp",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "hexenwerk:wizard_towers/wizard_tower_swamp",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
