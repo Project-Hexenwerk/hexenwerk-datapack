@@ -1,4 +1,5 @@
 $tag @e[type=item_display,tag=hexenwerk.ritual_item_display,scores={hexenwerk.ritual_id=$(ritual_id)}] add hexenwerk.that
+say i am actually replace
 execute as @e[type=item_display,tag=hexenwerk.ritual_item_display,tag=hexenwerk.that,sort=nearest,limit=1] unless data entity @s item.tag run data merge entity @s {item:{tag:{hexenwerk.dummmy_tag:1b}}}
 execute as @e[type=item_display,tag=hexenwerk.ritual_item_display,tag=hexenwerk.that,sort=nearest,limit=1] run data modify storage hexenwerk item set from entity @s item
 item replace entity @e[type=item_display,tag=hexenwerk.that,limit=1,sort=nearest] container.0 from entity @a[tag=hexenwerk.this,sort=nearest,limit=1] weapon.mainhand

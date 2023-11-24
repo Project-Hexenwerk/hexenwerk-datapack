@@ -3,6 +3,6 @@ $execute unless predicate hexenwerk:holding/2d_item run data merge entity @e[typ
 execute store result score %count hexenwerk.temp run data get entity @s SelectedItem.Count
 scoreboard players remove %count hexenwerk.temp 1
 execute as @a[tag=!hexenwerk.returned_item] run say a
-item modify entity @s[] weapon.mainhand hexenwerk:subtract_one
+item modify entity @s weapon.mainhand hexenwerk:subtract_one
 tag @s remove hexenwerk.returned_item
 say owomaltine
