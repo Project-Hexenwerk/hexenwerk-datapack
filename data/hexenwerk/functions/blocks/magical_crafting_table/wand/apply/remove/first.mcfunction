@@ -5,3 +5,4 @@ data modify block ~ ~ ~ Items[{Slot: 12b}].tag.display.Lore[0] set value "[{\"te
 data modify block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spellbook_cmd[0] set value 0
 data modify block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spellbook_chat_display[0] set value "none"
 data modify block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spell_display[0] set value "{\"text\":\"\\uE501\",\"color\":\"#FF0000\",\"italic\":false}"
+data modify block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-custom_spell_data[0] set value {}

@@ -6,3 +6,4 @@ data modify block ~ ~ ~ Items[{Slot: 24b}].tag.display.Lore[] set from block ~ ~
 data modify block ~ ~ ~ Items[{Slot: 24b}].tag.CustomModelData set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spellbook_cmd[2]
 data modify block ~ ~ ~ Items[{Slot: 24b}].tag.hexenwerk-chat_display set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spell_chat_display[2]
 data modify block ~ ~ ~ Items[{Slot: 24b}].tag.hexenwerk-spell_display set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spell_display[2]
+data modify block ~ ~ ~ Items[{Slot: 24b}].tag.hexenwerk-custom_spell_data set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-custom_spell_data[2]
