@@ -41,7 +41,7 @@
          { "required": false, "id": "minecraft:blue_dye" },
          { "required": false, "id": "minecraft:bone" },
          { "required": false, "id": "minecraft:bone_meal" },
-         { "required": false, "id": "minecraft:book" },
+         { "required": false, "id": "minecraft:leather_horse_armor" },
          { "required": false, "id": "minecraft:bow" },
          { "required": false, "id": "minecraft:bowl" },
          { "required": false, "id": "minecraft:bread" },

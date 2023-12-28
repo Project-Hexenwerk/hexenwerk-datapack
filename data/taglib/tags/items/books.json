@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        { "required": false, "id": "minecraft:book" },
+        { "required": false, "id": "minecraft:leather_horse_armor" },
         { "required": false, "id": "minecraft:written_book" },
         { "required": false, "id": "minecraft:writable_book" },
         { "required": false, "id": "minecraft:enchanted_book" },

@@ -831,7 +831,7 @@
         { "required": false, "id": "minecraft:clay_ball" },
         { "required": false, "id": "minecraft:dried_kelp_block" },
         { "required": false, "id": "minecraft:paper" },
-        { "required": false, "id": "minecraft:book" },
+        { "required": false, "id": "minecraft:leather_horse_armor" },
         { "required": false, "id": "minecraft:slime_ball" },
         { "required": false, "id": "minecraft:egg" },
         { "required": false, "id": "minecraft:compass" },

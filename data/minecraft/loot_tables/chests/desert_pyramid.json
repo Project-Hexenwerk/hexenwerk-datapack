@@ -144,7 +144,7 @@
           {
             "type": "minecraft:item",
             "weight": 20,
-            "name": "minecraft:book",
+            "name": "minecraft:leather_horse_armor",
             "functions": [
               {
                 "function": "minecraft:enchant_randomly"
