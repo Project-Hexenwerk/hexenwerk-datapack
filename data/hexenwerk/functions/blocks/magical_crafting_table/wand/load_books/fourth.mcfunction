@@ -1,9 +1,5 @@
-item replace block ~ ~ ~ container.5 with minecraft:leather_horse_armor{display: {Name: '{"translate":"item.hexenwerk.spellbook","color":"#62DEDE","italic":false}', Lore: ['{"text":"none"}']}, CustomModelData: 1725, hexenwerk-contained_spell: -1, hexenwerk-lore_display: '', hexenwerk-mana_cost: -1, hexenwerk-spellbook: 1b}
-data modify block ~ ~ ~ Items[{Slot: 5b}].tag.hexenwerk-lore_display set from block ~ ~ ~ Items[{Slot: 12b}].tag.display.Lore[3]
-data modify block ~ ~ ~ Items[{Slot: 5b}].tag.hexenwerk-mana_cost set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-mana_cost[3]
-data modify block ~ ~ ~ Items[{Slot: 5b}].tag.hexenwerk-contained_spell set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spells[3]
-data modify block ~ ~ ~ Items[{Slot: 5b}].tag.display.Lore[] set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spellbook_lore[3]
-data modify block ~ ~ ~ Items[{Slot: 5b}].tag.CustomModelData set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spellbook_cmd[3]
-data modify block ~ ~ ~ Items[{Slot: 5b}].tag.hexenwerk-chat_display set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spell_chat_display[3]
-data modify block ~ ~ ~ Items[{Slot: 5b}].tag.hexenwerk-spell_display set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spell_display[3]
+item replace block ~ ~ ~ container.5 with minecraft:leather_horse_armor{display: {Name: '{"translate":"item.hexenwerk.spellbook","color":"#62DEDE","italic":false}', Lore: ['{"text":"none"}']}, CustomModelData: 1725, hexenwerk-spellbook: 1b, HideFlags:64}
+data modify block ~ ~ ~ Items[{Slot: 5b}].tag.display.Lore[] set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spell_data[3].book_lore
+data modify block ~ ~ ~ Items[{Slot: 5b}].tag.CustomModelData set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spell_data[3].book_cmd
+data modify block ~ ~ ~ Items[{Slot: 5b}].tag.display.color set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spell_data[3].book_color
 data modify block ~ ~ ~ Items[{Slot: 5b}].tag.hexenwerk-spell_data set from block ~ ~ ~ Items[{Slot: 12b}].tag.hexenwerk-spell_data[3]

@@ -7,8 +7,8 @@ execute if predicate hexenwerk:holding/wand_offhand store result score @s hexenw
 
  
 
-execute unless predicate hexenwerk:holding/wand_offhand store result score @s hexenwerk.mana_cost run data get entity @s SelectedItem.tag.hexenwerk-mana_cost[1]
-execute if predicate hexenwerk:holding/wand_offhand store result score @s hexenwerk.mana_cost run data get entity @s Inventory[{Slot:-106b}].tag.hexenwerk-mana_cost[1]
+execute unless predicate hexenwerk:holding/wand_offhand store result score @s hexenwerk.mana_cost run data get entity @s SelectedItem.tag.hexenwerk-spell_data[1].mana_cost
+execute if predicate hexenwerk:holding/wand_offhand store result score @s hexenwerk.mana_cost run data get entity @s Inventory[{Slot:-106b}].tag.hexenwerk-spell_data.mana_cost
  
 
  

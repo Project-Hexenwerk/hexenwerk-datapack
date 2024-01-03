@@ -1,19 +1,19 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:leather_horse_armor",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{color:16777215,Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Ignis Temptates\",\"color\":\"#c882e5\",\"italic\":false}']},CustomModelData:1735,hexenwerk-spellbook:1b,   hexenwerk-contained_spell:1006,hexenwerk-mana_cost: 65,hexenwerk-chat_display:'{\"text\":\"Ignis Temptates\",\"color\":\"#c882e5\"}', hexenwerk-lore_display:'{\"text\":\"\u2022 Ignis Temptates\",\"color\":\"#c882e5\",\"italic\":false}',hexenwerk-spell_display:'{\"text\":\"\uE512\",\"color\":\"#FF0000\",\"italic\":false}',HideFlags:64}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:16777215,Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Ignis Temptates\",\"color\":\"#c882e5\",\"italic\":false}']},CustomModelData:1735,hexenwerk-spellbook:1b,hexenwerk-spell_data:{book_color:16777215,name:\"Ignis Temptates\",id:\"ignis_temptates\",mana_cost: 65,lore_display:'{\"text\":\"\u2022 Ignis Temptates\",\"color\":\"#c882e5\",\"italic\":false}',spell_display:'{\"text\":\"\uE512\",\"color\":\"#FF0000\",\"italic\":false}',chat_display:'{\"text\":\"Ignis Temptates\",\"color\":\"#c882e5\"}'},HideFlags:64}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
