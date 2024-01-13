@@ -1,0 +1,1 @@
+execute if predicate hexenwerk:percent/02 run function hexenwerk:blocks/comet/start_flower_placement
