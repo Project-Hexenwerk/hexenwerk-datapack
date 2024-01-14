@@ -1,7 +1,6 @@
 execute if entity @s[type=item_display,tag=hexenwerk.magical_crafting_table,tag=!hexenwerk.ritual_base_block] if predicate hexenwerk:location/in_ritual run function hexenwerk:rituals/init
 execute if entity @s[type=item_display,tag=hexenwerk.magical_crafting_table,tag=hexenwerk.ritual_base_block] unless predicate hexenwerk:location/in_ritual run function hexenwerk:rituals/remove
 
-execute if entity @s[type=item_display,tag=hexenwerk.wand_crafter] unless block ~ ~ ~ barrel run function hexenwerk:blocks/wand_crafter/destroy
 execute if entity @s[type=item_display,tag=hexenwerk.magical_flower] unless block ~ ~ ~ structure_void run function hexenwerk:blocks/magical_flower/destroy
 execute if entity @s[type=item_display,tag=hexenwerk.magical_crafting_table] unless block ~ ~ ~ barrel run function hexenwerk:blocks/magical_crafting_table/destroy
 execute if entity @s[type=item_display,tag=hexenwerk.dev_desk] unless block ~ ~ ~ barrel run function hexenwerk:blocks/dev_desk/destroy
