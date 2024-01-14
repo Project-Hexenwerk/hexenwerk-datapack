@@ -5,7 +5,7 @@ tag @e[type=item_display,tag=hexenwerk.new] remove hexenwerk.new
 
 tag @s add hexenwerk.this
 execute as @a if score @e[type=marker,tag=hexenwerk.this,limit=1] hexenwerk.id = @s hexenwerk.id run tag @s add hexenwerk.event_owner
-execute as @e[distance=..1,tag=!hexenwerk.event_owner] run damage @s 9 hexenwerk:glacius by @a[tag=hexenwerk.event_owner,limit=1]
+execute as @e[distance=..1,tag=!hexenwerk.event_owner] run damage @s 15 hexenwerk:glacius by @a[tag=hexenwerk.event_owner,limit=1]
 tag @s remove hexenwerk.this
 
 particle minecraft:item ice ~ ~ ~ 0.3 0.3 0.3 0.1 5

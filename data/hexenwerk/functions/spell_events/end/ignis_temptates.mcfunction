@@ -35,5 +35,7 @@ fill ~ ~ ~ ~ ~ ~ fire replace light[level=5]
 
 particle explosion ~ ~ ~ 0 2 0 1 5
 
+playsound minecraft:entity.dragon_fireball.explode player @a ~ ~ ~ 1 1.2
+
 kill @s
 

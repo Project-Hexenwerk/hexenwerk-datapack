@@ -1,0 +1,1 @@
+execute align xz positioned ~0.5 ~ ~0.5 summon marker run function hexenwerk:wand/spells/commovus_motus/init
