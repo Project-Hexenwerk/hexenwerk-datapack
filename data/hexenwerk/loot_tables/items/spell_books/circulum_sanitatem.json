@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{color:16777215,Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Circulum Sanitatem\",\"color\":\"#c882e5\",\"italic\":false}']},CustomModelData:1733,hexenwerk-spellbook:1b,hexenwerk-spell_data:{book_color:16777215,name:\"Circulum Sanitatem\",id:\"circulum_sanitatem\",mana_cost: 55,lore_display:'{\"text\":\"\u2022 Circulum Sanitatem\",\"color\":\"#c882e5\",\"italic\":false}',spell_display:'{\"text\":\"\uE510\",\"color\":\"#FF0000\",\"italic\":false}',chat_display:'{\"text\":\"Circulum Sanitatem\",\"color\":\"#c882e5\"}',start_raycast:0b,events:{on_cast: \"function hexenwerk:wand/spells/circulum_sanitatem/cast\"}},HideFlags:64}"
+              "tag": "{display:{color:16777215,Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Circulum Sanitatem\",\"color\":\"#c882e5\",\"italic\":false}']},CustomModelData:1733,hexenwerk-spellbook:1b,hexenwerk-spell_data:{book_color:16777215,name:\"Circulum Sanitatem\",id:\"circulum_sanitatem\",mana_cost: 55,lore_display:'{\"text\":\"\u2022 Circulum Sanitatem\",\"color\":\"#c882e5\",\"italic\":false}',spell_display:'{\"text\":\"\uE510\",\"color\":\"#FF0000\",\"italic\":false}',chat_display:'{\"text\":\"Circulum Sanitatem\",\"color\":\"#c882e5\"}',start_raycast:0b,events:{on_cast: \"function hexenwerk:wand/spells/circulum_sanitatem/cast\"},hud_display:{book_hex:\"#FFFFFF\",name:\"Circulum Sanitatem\",custom_icon:{char:\"f\",font:\"hexenwerk:spell_display_icons\"}}},HideFlags:64}"
             }
           ]
         }

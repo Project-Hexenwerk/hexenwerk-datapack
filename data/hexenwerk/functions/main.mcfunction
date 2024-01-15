@@ -11,7 +11,7 @@ execute as @a store result score @s hexenwerk.selected_minecraft_slot run data g
 execute as @a[scores={hexenwerk.join=1..}] run function hexenwerk:mana/run_regen
 
 # Is Holding Wand
-execute as @a[predicate=hexenwerk:holding/wand] at @s run function hexenwerk:wand/main
+execute as @a[nbt={SelectedItem:{tag:{hexenwerk-wand:1b}}}] at @s run function hexenwerk:wand/main
 execute as @a[predicate=hexenwerk:holding/wand_offhand] at @s run function hexenwerk:wand/main
 
 # Is Not Holding Wand

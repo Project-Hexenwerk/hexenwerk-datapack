@@ -1,4 +1,0 @@
-$title @a subtitle [{"text":"?<!>","font":"hexenwerk:spell_display_icons"},{"text":"<$(first_char)","font":"hexenwerk:spell_display_first","color":"#FF0000"},{"text":"$(spaced_string)","font":"hexenwerk:spell_display","color":"#FF0000"},{"text":"$(last_char)","font":"hexenwerk:spell_display_last","color":"#FF0000"},{"text":"?<","font":"hexenwerk:spell_display_icons"},{"text":"!>","font":"hexenwerk:spell_display_icons","color":"red"},{"text":"<$(first_char)","font":"hexenwerk:spell_display_first","color":"#FF0000"},{"text":"$(spaced_string)","font":"hexenwerk:spell_display","color":"#FF0000"},{"text":"$(last_char)","font":"hexenwerk:spell_display_last","color":"#FF0000"}] 
-
-$tellraw @a [{"text":"$(first_char)","font":"hexenwerk:spell_display_first"},{"text":"$(spaced_string)","font":"hexenwerk:spell_display"},{"text":"$(last_char)","font":"hexenwerk:spell_display_last"}]
-

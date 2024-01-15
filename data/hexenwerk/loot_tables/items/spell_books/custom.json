@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:6379261,Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Custom Book\",\"color\":\"green\",\"italic\":false}']},CustomModelData:1800,hexenwerk-spellbook:1b,hexenwerk-spell_data:{book_color:6379261,id:\"custom_spell_lololol\",mana_cost: 30,lore_display:'{\"text\":\"\u2022 Custom Spell\",\"color\":\"green\",\"italic\":false}',spell_display:'{\"text\":\"\uE504\",\"color\":\"#FF0000\",\"italic\":false}',chat_display:'{\"text\":\"Custom Spell\",\"color\":\"green\"}',start_raycast:0b,events:{on_block_collision: \"function hexenwerk:wand/spells/wingardium_leviosa/block_impact\",on_entity_collision:{as_player: \"\",as_target: \"\"},on_cast: \"say hiii\",on_raycast_travel: \"\"},hud_display:{book_hex:\"#FFFFFF\",name:\"Custom Spell\",custom_icon:{char:\"a\",font:\"hexenwerk:custom_cool\"}}},HideFlags:64}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
