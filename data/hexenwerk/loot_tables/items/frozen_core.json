@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:jigsaw",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.frozen_core\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1729,hexenwerk-explosive_core:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

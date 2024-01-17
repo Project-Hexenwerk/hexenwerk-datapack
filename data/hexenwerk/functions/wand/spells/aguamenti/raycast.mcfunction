@@ -1,0 +1,2 @@
+execute unless predicate hexenwerk:flags/is_in_nether if predicate hexenwerk:percent/20 run particle minecraft:splash ~ ~ ~ 0 0 0 1 0 force @a[tag=!hexenwerk.hide_spell_particles]
+execute if predicate hexenwerk:flags/is_in_nether if predicate hexenwerk:percent/20 run particle minecraft:large_smoke ~ ~ ~ 0 0 0 1 0 force @a[tag=!hexenwerk.hide_spell_particles]

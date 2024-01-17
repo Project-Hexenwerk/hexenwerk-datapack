@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:jigsaw",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.attunement_shard\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"attunement.hexenwerk.farsight\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1732,hexenwerk-attunement_shard:1b, hexenwerk-attunement:\"farsight\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

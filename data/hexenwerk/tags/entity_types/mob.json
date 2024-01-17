@@ -64,6 +64,9 @@
         "minecraft:turtle",
         "minecraft:villager",
         "minecraft:wandering_trader",
-        "minecraft:player"
+        "minecraft:allay",
+        "minecraft:player",
+        "minecraft:sniffer",
+        "minecraft:camel"
     ]
 }

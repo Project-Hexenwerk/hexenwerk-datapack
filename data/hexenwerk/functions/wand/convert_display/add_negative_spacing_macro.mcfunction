@@ -1,0 +1,1 @@
+$data merge storage hexenwerk:temp {convert_display:{spaced_string:"$(spaced_string)<$(first_letter)"}}

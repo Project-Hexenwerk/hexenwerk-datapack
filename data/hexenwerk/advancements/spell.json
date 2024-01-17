@@ -9,8 +9,8 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:book",
-            "nbt": "{CustomModelData:1725}"
+            "item": "minecraft:leather_horse_armor",
+            "nbt": "{CustomModelData:1800}"
         },
         "frame": "task",
         "show_toast": true,

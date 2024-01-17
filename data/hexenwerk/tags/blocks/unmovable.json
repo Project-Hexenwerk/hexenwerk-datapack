@@ -23,6 +23,7 @@
         "minecraft:lectern",
         "minecraft:structure_block",
         "minecraft:light",
-        "minecraft:jigsaw"
+        "minecraft:jigsaw",
+        "#minecraft:shulker_boxes"
     ]
 }

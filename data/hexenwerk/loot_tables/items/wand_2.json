@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.wand\",\"color\":\"#ff6283\",\"italic\":false}',Lore:['[{\"text\":\"• \",\"color\":\"gray\",\"italic\":false},{\"translate\":\"text.hexenwerk.spell_none\",\"color\":\"gray\",\"italic\":false}]','[{\"text\":\"\"},[{\"text\":\"• \",\"color\":\"gray\",\"italic\":false},{\"translate\":\"text.hexenwerk.spell_none\",\"color\":\"gray\",\"italic\":false}]]','[[{\"text\":\"• \",\"color\":\"gray\",\"italic\":false},{\"translate\":\"text.hexenwerk.spell_none\",\"color\":\"gray\",\"italic\":false}]]','[[{\"text\":\"• \",\"color\":\"gray\",\"italic\":false},{\"translate\":\"text.hexenwerk.spell_none\",\"color\":\"gray\",\"italic\":false}]]','[[{\"text\":\"• \",\"color\":\"gray\",\"italic\":false},{\"translate\":\"text.hexenwerk.spell_none\",\"color\":\"gray\",\"italic\":false}]]']},HideFlags:4,Unbreakable:1b,CustomModelData:1725,hexenwerk-attuned:1b,hexenwerk-spells:[0,0,0,0,0],hexenwerk-mana_cost:[-1,-1,-1,-1,-1],hexenwerk-spell_data:[{},{},{},{},{}],hexenwerk-attunements:{mana_regen_modifier:5,range_modifier:50,mana_cost_modifier:-100,spellslot_modifier:1b,mana_max_modifier:25},hexenwerk-selected_wand_slot:1,hexenwerk-wand:1b,hexenwerk-spellbook_cmd:[0,0,0,0,0],hexenwerk-spell_chat_display:['empty','empty','empty','empty','empty'],hexenwerk-spellbook_lore:['empty','empty','empty','empty','empty']}"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+   

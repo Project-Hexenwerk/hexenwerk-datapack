@@ -1,0 +1,15 @@
+{
+  "name": "hexenwerk:wizard_tower/normal",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "hexenwerk:wizard_towers/wizard_tower_normal",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

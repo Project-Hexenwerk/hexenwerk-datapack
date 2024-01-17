@@ -1,0 +1,3 @@
+execute if predicate hexenwerk:percent/20 run particle minecraft:flame ~ ~ ~ 0.1 0.1 0.1 0 1 force @a[tag=!hexenwerk.hide_spell_particles]
+execute if predicate hexenwerk:percent/10 run particle dust 0.529 0.529 0.529 1 ~ ~ ~ 0.3 0.3 0.3 0 1 force @a[tag=!hexenwerk.hide_spell_particles]
+execute if predicate hexenwerk:percent/5 run particle minecraft:ash ~ ~ ~ 0.2 0.2 0.2 0 1 force @a[tag=!hexenwerk.hide_spell_particles]

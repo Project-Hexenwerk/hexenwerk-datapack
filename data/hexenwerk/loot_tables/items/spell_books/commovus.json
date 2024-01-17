@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:book",
+            "name": "minecraft:leather_horse_armor",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Commovus\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1729,hexenwerk-spellbook:1b,  hexenwerk-contained_spell:2 ,hexenwerk-mana_cost: 25, hexenwerk-chat_display:'{\"text\":\"Commovus\",\"color\":\"#62DEDE\"}', hexenwerk-lore_display:'{\"text\":\"\u2022 Commovus\",\"color\":\"gray\",\"italic\":false}',hexenwerk-spell_display:'{\"text\":\"\uE506\",\"color\":\"#FF0000\",\"italic\":false}'}"
+                "tag": "{display:{color:16777215,Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Commovus\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1729,hexenwerk-spellbook:1b,hexenwerk-spell_data:{book_color:16777215,name:\"Commovus\",id:\"commovus\",chat_display:'{\"text\":\"Commovus\",\"color\":\"#62DEDE\"}',lore_display:'{\"text\":\"\u2022 Commovus\",\"color\":\"gray\",\"italic\":false}',mana_cost: 25,start_raycast:0b,events:{on_cast: \"function hexenwerk:wand/spells/commovus/cast\"},hud_display:{book_hex:\"#FFFFFF\",name:\"Commovus\",custom_icon:{char:\"g\",font:\"hexenwerk:spell_display_icons\"}}},HideFlags:64}"
               }
             ]
           }

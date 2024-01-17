@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "hexenwerk:ignis_temptates"
+        "hexenwerk:ignis_temptates",
+        "hexenwerk:glacius"
     ]
 }

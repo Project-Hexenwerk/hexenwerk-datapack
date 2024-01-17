@@ -6,7 +6,6 @@ data merge entity @e[type=falling_block,tag=hexenwerk.earthquake_block,distance=
 kill @e[type=item,distance=..0.01,nbt={Age:0s},limit=1]
 kill @e[type=falling_block,tag=hexenwerk.earthquake_block,distance=..0.01,nbt={BlockState:{Name:"minecraft:command_block"}}]
 tag @e[type=falling_block,tag=hexenwerk.earthquake_block,distance=..0.01] remove hexenwerk.earthquake_block
-effect give @e[type=!#hexenwerk:undead,dx=1,dy=1,dz=1] instant_damage 1 1 true
-effect give @e[type=#hexenwerk:undead,dx=1,dy=1,dz=1] instant_health 1 1 true
+execute as @e[distance=..3.4,tag=!hexenwerk.event_owner] run damage @s 13 hexenwerk:terrae_motus by @a[tag=hexenwerk.event_owner,limit=1]
 setblock ~ ~-1 ~ air
 

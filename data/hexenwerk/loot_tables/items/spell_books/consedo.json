@@ -1,20 +1,19 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:book",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Consedo\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1734,hexenwerk-spellbook:1b,   hexenwerk-contained_spell:1004,hexenwerk-mana_cost: 35,hexenwerk-chat_display:'{\"text\":\"Consedo\",\"color\":\"#62DEDE\"}', hexenwerk-lore_display:'{\"text\":\"\u2022 Consedo\",\"color\":\"gray\",\"italic\":false}',hexenwerk-spell_display:'{\"text\":\"\uE511\",\"color\":\"#FF0000\",\"italic\":false}'}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:16777215,Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Consedo\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1734,hexenwerk-spellbook:1b,hexenwerk-spell_data:{book_color:16777215,name:\"Consedo\",id:\"consedo\",mana_cost: 35,lore_display:'{\"text\":\"\u2022 Consedo\",\"color\":\"gray\",\"italic\":false}',chat_display:'{\"text\":\"Consedo\",\"color\":\"#62DEDE\"}',start_raycast: true,events:{on_block_collision: \"function hexenwerk:wand/spells/consedo/impact\",on_entity_collision:{as_player: \"\",as_target: \"function hexenwerk:wand/spells/consedo/impact\"},on_cast: \"\",on_raycast_travel: \"execute if predicate hexenwerk:percent/20 run particle minecraft:dripping_honey ^ ^ ^-0.1 0 0 0 0 1 force @a[tag=!hexenwerk.hide_spell_particles]\"},hud_display:{book_hex:\"#FFFFFF\",name:\"Consedo\",custom_icon:{char:\"i\",font:\"hexenwerk:spell_display_icons\"}}},HideFlags:64}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

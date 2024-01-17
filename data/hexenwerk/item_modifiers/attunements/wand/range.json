@@ -1,0 +1,33 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+        "text": "> ",
+        "color": "#e984f6",
+        "bold": false,
+        "italic": false
+        },
+        {
+          "translate": "attunement.hexenwerk.farsight",
+          "color": "#e984f6",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": " I",
+          "color": "#e984f6",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{hexenwerk-attunements:{range_modifier:10},hexenwerk-attuned:1b,CustomModelData:1728}"
+  }
+]

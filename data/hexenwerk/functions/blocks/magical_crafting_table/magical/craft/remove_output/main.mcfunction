@@ -1,3 +1,4 @@
+tag @s remove hexenwerk.modified_crafing_output
 execute store result score @s hexenwerk.magical_crafting_slot0_count run data get block ~ ~ ~ Items[{Slot:1b}].Count
 execute store result score @s hexenwerk.magical_crafting_slot1_count run data get block ~ ~ ~ Items[{Slot:2b}].Count
 execute store result score @s hexenwerk.magical_crafting_slot2_count run data get block ~ ~ ~ Items[{Slot:3b}].Count

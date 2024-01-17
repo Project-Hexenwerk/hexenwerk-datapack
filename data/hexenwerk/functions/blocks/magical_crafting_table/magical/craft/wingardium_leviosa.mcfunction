@@ -1,4 +1,3 @@
-
 scoreboard players add @s[scores={hexenwerk.crafting_result_time=..1}] hexenwerk.crafting_result_time 1
 execute if score @s hexenwerk.crafting_result_time matches 1 run loot replace block ~ ~ ~ container.15 loot hexenwerk:items/spell_books/wingardium_leviosa
 data modify block ~ ~ ~ Items[{Slot:15b}].tag.hexenwerk-crafting_result set value 1b

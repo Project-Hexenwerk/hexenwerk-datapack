@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 0,
+          "max": 2
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:repeating_command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.magical_crystal\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1725,hexenwerk-magical_crystal:1b,BlockEntityTag:{Command:\"setblock ~ ~ ~ air\",auto:1b}}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 3,
+          "max": 7
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.magical_shard\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1725,hexenwerk-magical_shard:1b,BlockEntityTag:{Command:\"setblock ~ ~ ~ air\",auto:1b}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

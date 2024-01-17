@@ -12,3 +12,6 @@ loot replace block ~ ~ ~ container.9 loot hexenwerk:items/spell_books/ignis_temp
 loot replace block ~ ~ ~ container.10 loot hexenwerk:items/spell_books/iunior
 loot replace block ~ ~ ~ container.11 loot hexenwerk:items/spell_books/terrae_motus
 loot replace block ~ ~ ~ container.12 loot hexenwerk:items/spell_books/wingardium_leviosa
+loot replace block ~ ~ ~ container.13 loot hexenwerk:items/spell_books/glacius
+loot replace block ~ ~ ~ container.14 loot hexenwerk:items/spell_books/commovus_motus
+

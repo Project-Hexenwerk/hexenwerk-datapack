@@ -6,4 +6,10 @@ loot replace block ~ ~ ~ container.3 loot hexenwerk:items/amulet
 loot replace block ~ ~ ~ container.4 loot hexenwerk:items/blaze_core
 loot replace block ~ ~ ~ container.5 loot hexenwerk:items/ender_core
 loot replace block ~ ~ ~ container.6 loot hexenwerk:items/explosive_core
-loot replace block ~ ~ ~ container.7 loot hexenwerk:items/dev_stone
+loot replace block ~ ~ ~ container.7 loot hexenwerk:items/frozen_core
+loot replace block ~ ~ ~ container.8 loot hexenwerk:items/dev_stone
+loot replace block ~ ~ ~ container.9 loot hexenwerk:items/attunement_shards/conservation
+loot replace block ~ ~ ~ container.10 loot hexenwerk:items/attunement_shards/expansion
+loot replace block ~ ~ ~ container.11 loot hexenwerk:items/attunement_shards/farsight
+loot replace block ~ ~ ~ container.12 loot hexenwerk:items/attunement_shards/overflow
+loot replace block ~ ~ ~ container.13 loot hexenwerk:items/attunement_shards/refill

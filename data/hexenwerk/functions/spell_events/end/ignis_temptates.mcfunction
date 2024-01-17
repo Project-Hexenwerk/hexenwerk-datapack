@@ -7,7 +7,7 @@ execute as @a if score @s hexenwerk.id = @e[type=marker,tag=hexenwerk.spell_even
 execute as @e[distance=..5] run damage @s 15 hexenwerk:ignis_temptates by @a[tag=hexenwerk.event_owner,limit=1]
 tag @a remove hexenwerk.event_owner
 
-summon marker ~ ~ ~ {Tags:[hexenwerk.spell_event_helper]}
+summon marker ~ ~ ~ {Tags:["hexenwerk.spell_event_helper","smithed.strict"]}
 
 spreadplayers ~ ~ 5 5 false @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1,distance=..1]
 execute at @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1] run setblock ~ ~ ~ fire keep
@@ -34,6 +34,8 @@ kill @e[type=marker,tag=hexenwerk.spell_event_helper,limit=1]
 fill ~ ~ ~ ~ ~ ~ fire replace light[level=5]
 
 particle explosion ~ ~ ~ 0 2 0 1 5
+
+playsound minecraft:entity.dragon_fireball.explode player @a ~ ~ ~ 1 1.2
 
 kill @s
 

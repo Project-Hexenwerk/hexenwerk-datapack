@@ -1,0 +1,1 @@
+$execute as @e[type=#hexenwerk:mob,dx=0.05,dy=0.05,dz=0.05,tag=!hexenwerk.spell.caster] run $(as_target)

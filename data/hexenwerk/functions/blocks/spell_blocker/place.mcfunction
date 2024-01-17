@@ -1,4 +1,4 @@
-execute align y run summon marker ~ ~ ~ {Tags:["hexenwerk.block", "hexenwerk.spell_blocker"]}
+execute align y run summon marker ~ ~ ~ {Tags:["smithed.strict","hexenwerk.block","smithed.block", "hexenwerk.spell_blocker"]}
 
 setblock ~ ~ ~ structure_void
 

@@ -1,0 +1,33 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+        "text": "> ",
+        "color": "#e984f6",
+        "bold": false,
+        "italic": false
+        },
+        {
+          "translate": "attunement.hexenwerk.refill",
+          "color": "#e984f6",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": " I",
+          "color": "#e984f6",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{hexenwerk-attunements:{mana_regen_modifier:1},hexenwerk-attuned:1b,CustomModelData:1729}"
+  }
+]

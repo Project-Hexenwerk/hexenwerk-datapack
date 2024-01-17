@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "crimson_fungus",
+        "warped_fungus",
+        { "required": false, "id": "#taglib:nether_grass" },
+        { "required": false, "id": "#taglib:nether_vines" }
+        
+    ]
+}
