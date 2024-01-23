@@ -13,7 +13,7 @@ scoreboard players operation @s hexenwerk.temp += #max_raycast_distance hexenwer
 scoreboard players set #max_raycast_travel hexenwerk.temp 10
 scoreboard players operation @s hexenwerk.temp *= #max_raycast_travel hexenwerk.temp
 
-execute unless score @s hexenwerk.spell_id matches 0 run tellraw @a[tag=!hexenwerk.mute_spell_uses] ["","<",{"selector":"@s"},"> ",{"nbt":"wand_data.chat_display","storage":"hexenwerk:temp","interpret":true,"italic":false},"!"]
+execute unless score @s hexenwerk.spell_id matches 0 run tellraw @a[tag=!hexenwerk.mute_spell_uses] ["","<", {"selector":"@s"},"> ",{"nbt":"wand_data.chat_display","storage":"hexenwerk:temp","interpret":true,"italic":false},"!"]
 
 function hexenwerk:wand/spells/generated/start with storage hexenwerk:temp wand_data.events
 
