@@ -1,6 +1,3 @@
-# !DEBUG MESSAGE #
- 
-
 # gets the spell id of the selected spell and sets the hexenwerk.spell_id for @s to it
 execute store result score @s hexenwerk.spell_id run data get entity @s SelectedItem.tag.hexenwerk-spells[4]
 execute if predicate hexenwerk:holding/wand_offhand store result score @s hexenwerk.spell_id run data get entity @s Inventory[{Slot:-106b}].tag.hexenwerk-spells[4]

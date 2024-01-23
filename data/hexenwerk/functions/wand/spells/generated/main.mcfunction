@@ -17,7 +17,7 @@ execute unless score @s hexenwerk.spell_id matches 0 run tellraw @a[tag=!hexenwe
 
 function hexenwerk:wand/spells/generated/start with storage hexenwerk:temp wand_data.events
 
-execute if data storage hexenwerk:temp {wand_data:{start_raycast:1b}} anchored eyes positioned ^ ^ ^0.1 run function hexenwerk:wand/spells/generated/raycast with storage hexenwerk:temp wand_data.events
+execute if data storage hexenwerk:temp {wand_data:{start_raycast:1b}} anchored eyes rotated as @s positioned ^ ^ ^0.1 run function hexenwerk:wand/spells/generated/slowcast/start with storage hexenwerk:temp wand_data.events
 execute if data storage hexenwerk:temp {wand_data:{start_raycast:1b}} run playsound minecraft:entity.shulker_bullet.hit voice @a[tag=!hexenwerk.mute_spell_sounds] ~ ~ ~ 0.5 1.5
 execute if data storage hexenwerk:temp {wand_data:{start_raycast:1b}} run playsound minecraft:entity.bat.takeoff voice @a[tag=!hexenwerk.mute_spell_sounds] ~ ~ ~ 0.6 2
 

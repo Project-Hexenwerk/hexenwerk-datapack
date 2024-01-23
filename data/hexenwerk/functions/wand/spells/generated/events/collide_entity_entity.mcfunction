@@ -1,1 +1,2 @@
-$execute as @e[type=#hexenwerk:mob,dx=0.05,dy=0.05,dz=0.05,tag=!hexenwerk.spell.caster] run $(as_target)
+$execute as @e[type=#hexenwerk:mob,dx=0,limit=1,sort=nearest] at @s run $(as_target)
+return 1

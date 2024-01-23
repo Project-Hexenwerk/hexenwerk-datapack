@@ -55,8 +55,11 @@ scoreboard objectives add hexenwerk.mana_modifier_weapon dummy
 scoreboard objectives add hexenwerk.ritual_distance dummy
 scoreboard objectives add hexenwerk.ritual_flames_timer dummy
 scoreboard objectives add hexenwerk.ritual_id dummy
-
-
+scoreboard objectives add hexenwerk.spell_speed dummy
+scoreboard objectives add hexenwerk.spell_range dummy
+scoreboard objectives add hexenwerk.constant dummy
+scoreboard objectives add hexenwerk.spell_distance_traveled dummy
+scoreboard objectives add hexenwerk.spell_distance_traveled_blocks dummy
 
 # below might not actually be needed but i don't want to break anything so this is staying for now
 scoreboard objectives add took_gui_item dummy
@@ -67,6 +70,8 @@ execute unless score #default hexenwerk.mana_regen matches -2147483648..21474836
 execute unless score #max_raycast_distance hexenwerk.config_only matches -2147483648..2147483647 run scoreboard players set #max_raycast_distance hexenwerk.config_only 50
 
 scoreboard players set #100 hexenwerk.temp 100
+scoreboard players set #10 hexenwerk.constant 10
+scoreboard players set #1 hexenwerk.constant 1
 
 # run schedules
 schedule clear hexenwerk:mana/run_regen

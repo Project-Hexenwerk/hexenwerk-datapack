@@ -14,4 +14,4 @@ loot replace block ~ ~ ~ container.11 loot hexenwerk:items/spell_books/terrae_mo
 loot replace block ~ ~ ~ container.12 loot hexenwerk:items/spell_books/wingardium_leviosa
 loot replace block ~ ~ ~ container.13 loot hexenwerk:items/spell_books/glacius
 loot replace block ~ ~ ~ container.14 loot hexenwerk:items/spell_books/commovus_motus
-
+loot replace block ~ ~ ~ container.15 loot hexenwerk:items/spell_books/protego
