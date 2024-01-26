@@ -58,3 +58,5 @@ execute as @a store result score @s hexenwerk.selected_minecraft_slot_old run da
 # Other Stuff
 scoreboard players add @e[type=item_display,tag=hexenwerk.commovus_portal] hexenwerk.spell_event_timer 1
 kill @e[type=item_display,tag=hexenwerk.commovus_portal,scores={hexenwerk.spell_event_timer=7..}]
+
+# Why is it so, that when you state that "this week has gone quickly", most others agree with your statement?
