@@ -60,6 +60,7 @@ scoreboard objectives add hexenwerk.spell_range dummy
 scoreboard objectives add hexenwerk.constant dummy
 scoreboard objectives add hexenwerk.spell_distance_traveled dummy
 scoreboard objectives add hexenwerk.spell_distance_traveled_blocks dummy
+scoreboard objectives add hexenwerk.spell_distance_traveled_unmodified dummy
 
 # below might not actually be needed but i don't want to break anything so this is staying for now
 scoreboard objectives add took_gui_item dummy
