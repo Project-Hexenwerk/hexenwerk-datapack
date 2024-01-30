@@ -1,6 +1,9 @@
 # Scheduled Animations
 execute as @e[type=#hexenwerk:display_entity,tag=hexenwerk.anim_next_tick] at @s run function hexenwerk:animations/main
 
+# Update Outdated Spellbooks
+execute as @a[predicate=hexenwerk:holding/outdated_spellbook] at @s run function hexenwerk:update/spellbook with entity @s SelectedItem.tag.hexenwerk-spell_data
+
 # Rotate stuff
 execute as @e[type=item_display,tag=hexenwerk.ritual_item_display] at @s run tp @s ~ ~ ~ ~2 ~
 

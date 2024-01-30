@@ -10,7 +10,7 @@ execute if predicate hexenwerk:flags/is_sneaking if predicate hexenwerk:holding/
 scoreboard players add @s hexenwerk.holding_wand_timer 1
 
 execute unless score @s hexenwerk.selected_minecraft_slot = @s hexenwerk.selected_minecraft_slot_old run function hexenwerk:wand/on_select
-execute if score @s hexenwerk.holding_wand_timer matches 1 run function hexenwerk:wand/on_select
+execute if score @s hexenwerk.holding_wand_timer matches 1 if score @s hexenwerk.selected_minecraft_slot = @s hexenwerk.selected_minecraft_slot_old run function hexenwerk:wand/on_select
 
 data modify storage hexenwerk:temp convert_display.input set value {name:"None",book_hex:"#2B2B2B",custom_icon:{char:""}}
 

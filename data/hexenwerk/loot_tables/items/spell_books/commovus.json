@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{color:16777215,Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Commovus\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1729,hexenwerk-spellbook:1b,hexenwerk-spell_data:{book_color:16777215,name:\"Commovus\",id:\"commovus\",chat_display:'{\"text\":\"Commovus\",\"color\":\"#62DEDE\"}',lore_display:'{\"text\":\"\u2022 Commovus\",\"color\":\"gray\",\"italic\":false}',mana_cost: 25,start_raycast:0b,events:{on_cast: \"function hexenwerk:wand/spells/commovus/cast\"},hud_display:{book_hex:\"#FFFFFF\",name:\"Commovus\",custom_icon:{char:\"g\",font:\"hexenwerk:spell_display_icons\"}}},HideFlags:64}"
+                "tag": "{display:{color:16777215,Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Commovus\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1729,hexenwerk-spellbook:1b,hexenwerk-spell_data:{book_color:16777215, version: 1,name:\"Commovus\",id:\"commovus\",chat_display:'{\"text\":\"Commovus\",\"color\":\"#62DEDE\"}',lore_display:'{\"text\":\"\u2022 Commovus\",\"color\":\"gray\",\"italic\":false}',mana_cost: 25,start_raycast:0b,events:{on_cast: \"function hexenwerk:wand/spells/commovus/cast\"},hud_display:{book_hex:\"#FFFFFF\",name:\"Commovus\",custom_icon:{char:\"g\",font:\"hexenwerk:spell_display_icons\"}}},HideFlags:64}"
               }
             ]
           }
