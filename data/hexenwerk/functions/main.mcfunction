@@ -4,6 +4,9 @@ execute as @e[type=#hexenwerk:display_entity,tag=hexenwerk.anim_next_tick] at @s
 # Update Outdated Spellbooks
 execute as @a[predicate=hexenwerk:holding/outdated_spellbook] at @s run function hexenwerk:update/spellbook with entity @s SelectedItem.tag.hexenwerk-spell_data
 
+# Update Even More Outdated Spellbooks
+execute as @a if data entity @s SelectedItem.tag.hexenwerk-contained_spell at @s run function hexenwerk:update/old_convert_spell
+
 # Rotate stuff
 execute as @e[type=item_display,tag=hexenwerk.ritual_item_display] at @s run tp @s ~ ~ ~ ~2 ~
 

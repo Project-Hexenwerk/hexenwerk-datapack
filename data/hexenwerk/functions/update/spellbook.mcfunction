@@ -1,3 +1,4 @@
 $$(update_command)
 particle minecraft:totem_of_undying ~ ~1 ~ 0.4 0.4 0.4 0 40
+playsound block.note_block.bell master @s ~ ~ ~ 1 1
 tellraw @s [{"text":"[","color":"yellow","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/hexenwerk"},"hoverEvent":{"action":"show_text","contents":"Click to view Hexenwerk on Modrinth!"}},{"text":"Hexenwerk","color":"light_purple","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/hexenwerk"},"hoverEvent":{"action":"show_text","contents":"Click to view Hexenwerk on Modrinth!"}},{"text":"]","color":"yellow","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/hexenwerk"},"hoverEvent":{"action":"show_text","contents":"Click to view Hexenwerk on Modrinth!"}},{"text":" "},{"translate":"text.hexenwerk.spell_updated","color": "red"}]
