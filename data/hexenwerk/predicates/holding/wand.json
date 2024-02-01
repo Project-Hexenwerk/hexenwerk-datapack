@@ -7,7 +7,11 @@
           "items": [
             "minecraft:warped_fungus_on_a_stick"
           ],
-          "nbt": "{hexenwerk-wand:1b}"
+          "nbt": "{hexenwerk-wand:1b}",
+          "count": {
+            "min": 1,
+            "max": 64
+          }
         }
       }
     }

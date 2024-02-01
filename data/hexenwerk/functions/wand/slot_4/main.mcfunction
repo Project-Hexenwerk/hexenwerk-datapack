@@ -11,5 +11,5 @@ execute if predicate hexenwerk:holding/wand_offhand store result score @s hexenw
  
 
  
-execute if score @s hexenwerk.mana_cost >= @s hexenwerk.mana_current run tellraw @s {"translate":"text.hexenwerk.spell.not_enough_mana","color":"red"}
+execute if score @s hexenwerk.mana_cost > @s hexenwerk.mana_current run tellraw @s {"translate":"text.hexenwerk.spell.not_enough_mana","color":"red"}
 execute if score @s hexenwerk.mana_cost <= @s hexenwerk.mana_current run function hexenwerk:wand/spells/cast
