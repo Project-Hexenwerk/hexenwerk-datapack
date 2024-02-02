@@ -1,5 +1,5 @@
-execute if data block ~ ~ ~ Items[{Slot: 12b, tag: {hexenwerk-wand: 1b}}] unless score @s hexenwerk.has_wand matches 2.. run scoreboard players add @s hexenwerk.has_wand 1
-execute unless data block ~ ~ ~ Items[{Slot: 12b, tag: {hexenwerk-wand: 1b}}] if score @s hexenwerk.has_wand matches 1.. run scoreboard players set @s hexenwerk.has_wand 0
+execute if data block ~ ~ ~ Items[{Slot: 12b, tag: {hexenwerk-id:"wand"}}] unless score @s hexenwerk.has_wand matches 2.. run scoreboard players add @s hexenwerk.has_wand 1
+execute unless data block ~ ~ ~ Items[{Slot: 12b, tag: {hexenwerk-id:"wand"}}] if score @s hexenwerk.has_wand matches 1.. run scoreboard players set @s hexenwerk.has_wand 0
 
 # execute unless score @s hexenwerk.has_wand matches 0 if data block ~ ~ ~ Items[{Slot: 12b, tag: {hexenwerk-attuned:1b}}] run data remove block ~ ~ ~ Items[{Slot:12b}].tag.display.Lore[0]
 

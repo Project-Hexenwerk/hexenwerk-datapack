@@ -7,7 +7,7 @@
           "items": [
             "minecraft:warped_fungus_on_a_stick"
           ],
-          "nbt": "{hexenwerk-scroll:1b}",
+          "nbt": "{hexenwerk-id: \"scroll\"}",
           "count": {
             "min": 1,
             "max": 64

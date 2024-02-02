@@ -11,7 +11,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.frozen_core\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1729,hexenwerk-explosive_core:1b}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.frozen_core\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1729,hexenwerk-id:\"frozen_core\"}"
               }
             ]
           }

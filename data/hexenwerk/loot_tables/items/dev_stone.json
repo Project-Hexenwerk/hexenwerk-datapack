@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Developer\\'s Stone\",\"color\":\"#ff6283\",\"italic\":false}',Lore:['{\"text\":\"You weren\\'t supposed to see this\",\"color\":\"gray\",\"italic\":true}']},Unbreakable:1b,CustomModelData:1825,hexenwerk-dev_stone_deactivated:1b,hexenwerk-dev_stone:1b}"
+                "tag": "{display:{Name:'{\"text\":\"Developer\\'s Stone\",\"color\":\"#ff6283\",\"italic\":false}',Lore:['{\"text\":\"You weren\\'t supposed to see this\",\"color\":\"gray\",\"italic\":true}']},Unbreakable:1b,CustomModelData:1825,hexenwerk-dev_stone_deactivated:1b,hexenwerk-id:\"dev_stone\"}"
               }
             ]
           }

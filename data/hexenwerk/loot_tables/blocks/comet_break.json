@@ -12,7 +12,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.magical_crystal\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1725,hexenwerk-magical_crystal:1b,BlockEntityTag:{Command:\"setblock ~ ~ ~ air\",auto:1b}}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.magical_crystal\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1725,hexenwerk-id:\"magical_crystal\",BlockEntityTag:{Command:\"setblock ~ ~ ~ air\",auto:1b}}"
               }
             ]
           }
@@ -30,7 +30,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.magical_shard\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1725,hexenwerk-magical_shard:1b,BlockEntityTag:{Command:\"setblock ~ ~ ~ air\",auto:1b}}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.magical_shard\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1725,hexenwerk-id: \"comet\",BlockEntityTag:{Command:\"setblock ~ ~ ~ air\",auto:1b}}"
               }
             ]
           }

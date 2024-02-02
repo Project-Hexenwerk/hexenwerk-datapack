@@ -4,7 +4,7 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{hexenwerk-dev_stone:1b}"
+          "nbt": "{hexenwerk-id:\"dev_stone\"}"
         }
       }
     }

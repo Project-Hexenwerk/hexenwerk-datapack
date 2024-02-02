@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{color:16777215,Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Auxiliare\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1728,hexenwerk-spellbook:1b,hexenwerk-spell_data:{book_color:16777215, version: 1,name:\"Auxiliare\",id:\"aguamenti\",mana_cost: 35,lore_display:'{\"text\":\"\u2022 Auxiliare\",\"color\":\"gray\",\"italic\":false}',chat_display:'{\"text\":\"Auxiliare\",\"color\":\"#62DEDE\"}',start_raycast:0b,events:{on_cast: \"function hexenwerk:wand/spells/auxiliare/cast\"},hud_display:{book_hex:\"#FFFFFF\",name:\"Auxiliare\",custom_icon:{char:\"e\",font:\"hexenwerk:spell_display_icons\"}}},HideFlags:64}"
+              "tag": "{display:{color:16777215,Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"text\":\"Auxiliare\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1728,hexenwerk-id:\"spellbook\",hexenwerk-spell_data:{book_color:16777215, version: 1,name:\"Auxiliare\",id:\"aguamenti\",mana_cost: 35,lore_display:'{\"text\":\"\u2022 Auxiliare\",\"color\":\"gray\",\"italic\":false}',chat_display:'{\"text\":\"Auxiliare\",\"color\":\"#62DEDE\"}',start_raycast:0b,events:{on_cast: \"function hexenwerk:wand/spells/auxiliare/cast\"},hud_display:{book_hex:\"#FFFFFF\",name:\"Auxiliare\",custom_icon:{char:\"e\",font:\"hexenwerk:spell_display_icons\"}}},HideFlags:64}"
             }
           ]
         }

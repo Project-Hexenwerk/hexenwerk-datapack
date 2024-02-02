@@ -24,7 +24,7 @@
                 "items": [
                     {
                         "item": "minecraft:glow_item_frame",
-                        "nbt": "{hexenwerk-magical_crafting_table:1b}"
+                        "nbt": "{hexenwerk-id:\"magical_crafting_table\"}"
                     }
                 ]
             }

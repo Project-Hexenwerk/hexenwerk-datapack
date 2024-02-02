@@ -16,7 +16,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.blaze_core\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1726,hexenwerk-blaze_core:1b}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.blaze_core\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1726,hexenwerk-id:\"blazing_core\"}"
               }
             ]
           },

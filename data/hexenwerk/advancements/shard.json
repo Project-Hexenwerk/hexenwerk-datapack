@@ -24,7 +24,7 @@
                 "items": [
                     {
                         "item": "minecraft:command_block",
-                        "nbt": "{hexenwerk-magical_shard:1b}"
+                        "nbt": "{hexenwerk-id: \"magical_shard\"}"
                     }
                 ]
             }

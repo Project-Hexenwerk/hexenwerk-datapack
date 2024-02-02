@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{color:16777215,Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#ff6283\",\"italic\":false}',Lore:['{\"translate\":\"text.hexenwerk.spell_none\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1725,hexenwerk-spellbook:1b,hexenwerk-spell_data:{book_color:16777215, version: 1,name:\"None\",mana_cost: 0,lore_display:'{\"text\":\"\u2022 None\",\"color\":\"gray\",\"italic\":false}',chat_display:'{\"text\":\"None\",\"color\":\"gray\"}',hud_display:{book_hex:\"#FFFFFF\",name:\"None\",custom_icon:\"\"}},HideFlags:64}"
+              "tag": "{display:{color:16777215,Name:'{\"translate\":\"item.hexenwerk.spellbook\",\"color\":\"#ff6283\",\"italic\":false}',Lore:['{\"translate\":\"text.hexenwerk.spell_none\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1725,hexenwerk-id:\"spellbook\",hexenwerk-spell_data:{book_color:16777215, version: 1,name:\"None\",mana_cost: 0,lore_display:'{\"text\":\"\u2022 None\",\"color\":\"gray\",\"italic\":false}',chat_display:'{\"text\":\"None\",\"color\":\"gray\"}',hud_display:{book_hex:\"#FFFFFF\",name:\"None\",custom_icon:\"\"}},HideFlags:64}"
             }
           ]
         }

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.attunement_shard\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"attunement.hexenwerk.conservation\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1730,hexenwerk-attunement_shard:1b, hexenwerk-attunement:\"conservation\", hexenwerk-make_me_glow_uwu:1b}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.attunement_shard\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"attunement.hexenwerk.conservation\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1730,hexenwerk-id:\"attunement_shard\", hexenwerk-attunement:\"conservation\", hexenwerk-make_me_glow_uwu:1b}"
               }
             ]
           },
@@ -19,7 +19,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.attunement_shard\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"attunement.hexenwerk.expansion\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1731,hexenwerk-attunement_shard:1b, hexenwerk-attunement:\"expansion\", hexenwerk-make_me_glow_uwu:1b}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.attunement_shard\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"attunement.hexenwerk.expansion\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1731,hexenwerk-id:\"attunement_shard\", hexenwerk-attunement:\"expansion\", hexenwerk-make_me_glow_uwu:1b}"
               }
             ]
           },
@@ -29,7 +29,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.attunement_shard\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"attunement.hexenwerk.farsight\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1732,hexenwerk-attunement_shard:1b, hexenwerk-attunement:\"farsight\", hexenwerk-make_me_glow_uwu:1b}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.attunement_shard\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"attunement.hexenwerk.farsight\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1732,hexenwerk-id:\"attunement_shard\", hexenwerk-attunement:\"farsight\", hexenwerk-make_me_glow_uwu:1b}"
               }
             ]
           },
@@ -39,7 +39,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.attunement_shard\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"attunement.hexenwerk.overflow\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1733,hexenwerk-attunement_shard:1b, hexenwerk-attunement:\"overflow\", hexenwerk-make_me_glow_uwu:1b}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.attunement_shard\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"attunement.hexenwerk.overflow\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1733,hexenwerk-id:\"attunement_shard\", hexenwerk-attunement:\"overflow\", hexenwerk-make_me_glow_uwu:1b}"
               }
             ]
           },
@@ -49,7 +49,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.attunement_shard\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"attunement.hexenwerk.refill\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1734,hexenwerk-attunement_shard:1b, hexenwerk-attunement:\"refill\", hexenwerk-make_me_glow_uwu:1b}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.attunement_shard\",\"color\":\"#62DEDE\",\"italic\":false}',Lore:['{\"translate\":\"attunement.hexenwerk.refill\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:1734,hexenwerk-id:\"attunement_shard\", hexenwerk-attunement:\"refill\", hexenwerk-make_me_glow_uwu:1b}"
               }
             ]
           }

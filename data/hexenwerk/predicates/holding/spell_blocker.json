@@ -4,7 +4,7 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{hexenwerk-spell_blocker:1b}"
+          "nbt": "{hexenwerk-id:\"spell_blocker\"}"
         }
       }
     }

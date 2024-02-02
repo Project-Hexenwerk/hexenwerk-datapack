@@ -24,7 +24,7 @@
                 "items": [
                     {
                         "item": "minecraft:warped_fungus_on_a_stick",
-                        "nbt": "{hexenwerk-wand:1b}"
+                        "nbt": "{hexenwerk-id:\"wand\"}"
                     }
                 ]
             }

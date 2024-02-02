@@ -11,7 +11,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.explosive_core\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1727,hexenwerk-explosive_core:1b}"
+                "tag": "{display:{Name:'{\"translate\":\"item.hexenwerk.explosive_core\",\"color\":\"#62DEDE\",\"italic\":false}'},CustomModelData:1727,hexenwerk-id: \"explosive_core\"}"
               }
             ]
           }
