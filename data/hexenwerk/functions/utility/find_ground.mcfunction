@@ -1,2 +1,2 @@
-execute unless block ~ ~-0.1 ~ #hexenwerk:air run summon marker ~ ~1 ~ {Tags:["hexenwerk.here","smithed.strict"]}
-execute if block ~ ~-0.1 ~ #hexenwerk:air positioned ~ ~-0.2 ~ run function hexenwerk:utility/find_ground
+execute unless block ~ ~-0.1 ~ #hexenwerk:transparent run summon marker ~ ~1 ~ {Tags:["hexenwerk.here","smithed.strict"]}
+execute if block ~ ~-0.1 ~ #hexenwerk:transparent positioned ~ ~-0.2 ~ run function hexenwerk:utility/find_ground

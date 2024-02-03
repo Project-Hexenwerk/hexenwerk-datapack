@@ -105,6 +105,7 @@
         "minecraft:lever",
         "minecraft:scaffolding",
         "#minecraft:portals",
-        "minecraft:spore_blossom"
+        "minecraft:spore_blossom",
+        "minecraft:nether_portal"
     ]
 }

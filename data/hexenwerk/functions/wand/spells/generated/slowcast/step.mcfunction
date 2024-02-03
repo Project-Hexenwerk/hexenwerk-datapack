@@ -13,7 +13,7 @@ tp ~ ~ ~
 execute unless data entity @s {item:{tag:{spell_data:{on_entity_collision:{as_target:""}}}}} if score @s hexenwerk.spell_distance_traveled_blocks > #1 hexenwerk.constant store result score hit hexenwerk.temp as @e[type=#hexenwerk:mob,dx=0] positioned ~-.99 ~-.99 ~-.99 if entity @s[dx=0] positioned ~.99 ~.99 ~.99 as @e[type=item_display,tag=hexenwerk.spell_ray_marker,sort=nearest,limit=1] run function hexenwerk:wand/spells/generated/events/collide_entity_entity with entity @s item.tag.spell_data.on_entity_collision
 # ^^^ SACRED LINE DON'T TOUCH ^^^
 
-execute unless data entity @s {item:{tag:{spell_data:{on_block_collision:""}}}} store result score hit hexenwerk.temp unless block ~ ~ ~ #hexenwerk:air run function hexenwerk:wand/spells/generated/events/collide_block with entity @s item.tag.spell_data
+execute unless data entity @s {item:{tag:{spell_data:{on_block_collision:""}}}} store result score hit hexenwerk.temp unless block ~ ~ ~ #hexenwerk:transparent run function hexenwerk:wand/spells/generated/events/collide_block with entity @s item.tag.spell_data
 execute if score hit hexenwerk.temp matches 1 run kill
 
 
