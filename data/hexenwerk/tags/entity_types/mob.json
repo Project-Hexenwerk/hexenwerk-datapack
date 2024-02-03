@@ -67,6 +67,7 @@
         "minecraft:allay",
         "minecraft:player",
         "minecraft:sniffer",
-        "minecraft:camel"
+        "minecraft:camel",
+        "minecraft:trader_llama"
     ]
 }

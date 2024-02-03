@@ -66,6 +66,7 @@
         "minecraft:wandering_trader",
         "minecraft:player",
         "minecraft:armor_stand",
-        "minecraft:item"
+        "minecraft:item",
+        "minecraft:trader_llama"
     ]
 }
