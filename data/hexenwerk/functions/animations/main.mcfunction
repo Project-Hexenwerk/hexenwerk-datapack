@@ -1,3 +1,0 @@
-execute if entity @s[tag=hexenwerk.glacius_spike] run data merge entity @s {interpolation_duration:3,start_interpolation:0,transformation:[1.000f, 0.000f, 0.000f,0.000f,0.000f, 1.000f, 0.000f,-0.500f,0.000f, 0.000f, 1.000f,0.000f,0.000f, 0.000f, 0.000f,1.000f]}
-execute if entity @s[tag=hexenwerk.commovus_portal] run data merge entity @s {interpolation_duration:5,start_interpolation:0,transformation:[1f,0f,0f,-0.375f,0f,0f,0f,-0.125f,0f,0f,1f,0f,0f,0f,0f,1f]}
-tag @s remove hexenwerk.anim_next_tick

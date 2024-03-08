@@ -1,2 +1,0 @@
-execute align xz positioned ~0.5 ~ ~0.5 run kill @e[type=marker,tag=hexenwerk.commovus_motus,distance=..0.1]
-execute align xz positioned ~0.5 ~ ~0.5 summon marker run function hexenwerk:wand/spells/commovus_motus/cast_init

@@ -1,3 +1,0 @@
-function hexenwerk:blocks/magical_crafting_table/wand/load_books/kick_items/first
-function hexenwerk:blocks/magical_crafting_table/wand/load_books/kick_items/second
-function hexenwerk:blocks/magical_crafting_table/wand/load_books/kick_items/third

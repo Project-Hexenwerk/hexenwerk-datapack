@@ -1,6 +1,0 @@
-[
-  {
-    "function": "minecraft:set_nbt",
-    "tag": "{hexenwerk-selected_wand_slot:4}"
-  }
-]

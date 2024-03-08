@@ -1,7 +1,0 @@
-[
-    {
-      "function": "minecraft:set_nbt",
-      "tag": "{hexenwerk-attunements:{mana_regen_modifier:0,range_modifier:0,mana_cost_modifier:0,spellslot_modifier:0b},hexenwerk-spell_data:[{},{},{},{},{}]}"
-    }
-  ]
-  

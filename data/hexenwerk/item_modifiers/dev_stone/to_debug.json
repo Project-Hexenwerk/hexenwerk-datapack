@@ -1,7 +1,0 @@
-[
-    {
-      "function": "minecraft:set_nbt",
-      "tag": "{hexenwerk-dev_stone_dev:0b,CustomModelData:1826,hexenwerk-dev_stone_debug:1b,hexenwerk-dev_stone_deactivated:0b}"
-    }
-  ]
-  

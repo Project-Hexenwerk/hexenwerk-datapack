@@ -1,6 +1,0 @@
-stuff found in this folder has been delayed and is not actively used in the current version :)
-
-To enable, put this into main.mcfunction:
-# Mystical Mobs
-execute as @e[tag=hexenwerk.mystical_mob] at @s run function hexenwerk:mystical_mobs/main
-execute as @e[tag=hexenwerk.mystical_mobs.marker] at @s run function hexenwerk:mystical_mobs/marker_main

@@ -1,7 +1,3 @@
 {
-    "values":
-    [
-        "hexenwerk:load", 
-        "#load:_private/load"
-    ] 
+    "values":["hexenwerk:load"] 
 }

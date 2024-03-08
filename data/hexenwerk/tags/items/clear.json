@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "minecraft:barrier",
-        "minecraft:leather_horse_armor",
-        "minecraft:repeating_command_block",
-        "minecraft:glow_item_frame"
-    ]
-}
