@@ -10,6 +10,8 @@ execute as @a if data entity @s SelectedItem.tag.hexenwerk-contained_spell at @s
 # Rotate stuff
 execute as @e[type=item_display,tag=hexenwerk.ritual_item_display] at @s run tp @s ~ ~ ~ ~2 ~
 
+
+
 # Get selected hotbar slot
 execute as @a store result score @s hexenwerk.selected_minecraft_slot run data get entity @s SelectedItemSlot
 

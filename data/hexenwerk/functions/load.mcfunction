@@ -61,6 +61,7 @@ scoreboard objectives add hexenwerk.constant dummy
 scoreboard objectives add hexenwerk.spell_distance_traveled dummy
 scoreboard objectives add hexenwerk.spell_distance_traveled_blocks dummy
 scoreboard objectives add hexenwerk.spell_distance_traveled_unmodified dummy
+scoreboard objectives add hexenwerk.spirit_id dummy
 
 # below might not actually be needed but i don't want to break anything so this is staying for now
 scoreboard objectives add took_gui_item dummy
@@ -80,6 +81,9 @@ function hexenwerk:mana/run_regen
 
 schedule clear hexenwerk:10t_main
 function hexenwerk:10t_main
+
+schedule clear hexenwerk:5t_main
+function hexenwerk:5t_main
 
 schedule clear hexenwerk:blocks/remove_gui_items
 function hexenwerk:blocks/remove_gui_items
