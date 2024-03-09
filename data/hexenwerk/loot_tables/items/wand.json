@@ -1,0 +1,59 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "translate": "hexenwerk.text.no_spell",
+                    "fallback": "• None",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "hexenwerk.text.no_spell",
+                    "fallback": "• None",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "hexenwerk.text.no_spell",
+                    "fallback": "• None",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.hexenwerk.wand",
+                  "fallback": "Magical Wand",
+                  "color": "#62DEDE",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 58420001
+                }
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{hexenwerk:{id:\"wand\",version:1,spell_storage:[]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

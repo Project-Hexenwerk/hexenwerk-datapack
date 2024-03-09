@@ -1,0 +1,1 @@
+execute as @a[scores={hexenwerk.used_wfoas=1..}] run function hexenwerk:event/item/right_click/main
