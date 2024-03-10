@@ -4,8 +4,9 @@ scoreboard objectives add hexenwerk.used_wfoas minecraft.used:minecraft.warped_f
 scoreboard objectives add hexenwerk.mana dummy
 scoreboard objectives add hexenwerk.mana.max dummy
 scoreboard objectives add hexenwerk.mana.max_modifier dummy
-scoreboard objectives add hexenwerk.mana.regen dummy
 scoreboard objectives add hexenwerk.mana.regen_modifier dummy
+scoreboard objectives add hexenwerk.PUBLIC.mana.max_modifier dummy
+scoreboard objectives add hexenwerk.PUBLIC.mana.regen_modifier dummy
 
 scoreboard objectives add hexenwerk.const dummy
 scoreboard objectives add hexenwerk.temp dummy

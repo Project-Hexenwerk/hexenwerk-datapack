@@ -1,3 +1,3 @@
 execute as @a[scores={hexenwerk.used_wfoas=1..}] run function hexenwerk:event/item/right_click/main
 
-execute as @a run title @s actionbar ["",{"score":{"name":"@s","objective":"hexenwerk.mana"},"color":"dark_aqua"},"/",{"score":{"name":"@s","objective":"hexenwerk.mana.max"},"color":"dark_aqua"}]
+execute as @a run title @s actionbar [{"score":{"name":"@s","objective":"hexenwerk.mana"},"color":"dark_aqua"},{"text": " (","color": "white"},{"score":{"name":"@s","objective":"hexenwerk.mana_max_modifier"},"color":"aqua"},{"text": "/","color": "white"},{"score":{"name":"@s","objective":"hexenwerk.hexenwerk_mana_regen_modifier"},"color":"aqua"},{"text": ")","color": "white"}]
