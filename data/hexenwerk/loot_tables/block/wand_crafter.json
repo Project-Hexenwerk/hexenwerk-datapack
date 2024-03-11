@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:glow_item_frame",
+                  "Tags": ["hexenwerk.block.place","hexenwerk.block.type.magical_crafting_table"]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": "{hexenwerk:{id:\"magical_crafting_table\",version:1}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "entity": "this",
+          "name": {
+            "translate": "block.hexenwerk.magical_crafting_table",
+            "fallback": "Magical Crafting Table",
+            "color": "#62DEDE",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_model_data": 58420001
+          }
+        }
+      ]
+    }
+  ]
+}

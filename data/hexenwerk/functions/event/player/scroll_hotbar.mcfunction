@@ -1,0 +1,2 @@
+
+tellraw @a[tag=hexenwerk.debug.events] ["",{"text":"[","color":"light_purple"},{"text":"DEBUG","color":"red"},{"text":"] ","color":"light_purple"},{"selector":"@s","color":"yellow"}," triggered ",{"text":"player","color":"yellow"},{"text":"/","color":"gold"},{"text":"scroll_hotbar","color":"yellow"},{"text":" [","color":"red"},{"text":"👁","color":"green","hoverEvent":{"action":"show_text","contents":"This event is specifically being watched for for this player"}},{"text":"]","color":"red"}]

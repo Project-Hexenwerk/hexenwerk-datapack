@@ -12,19 +12,19 @@
                 "entity": "this",
                 "lore": [
                   {
-                    "translate": "hexenwerk.text.no_spell",
+                    "translate": "text.hexenwerk.no_spell",
                     "fallback": "• None",
                     "color": "gray",
                     "italic": false
                   },
                   {
-                    "translate": "hexenwerk.text.no_spell",
+                    "translate": "text.hexenwerk.no_spell",
                     "fallback": "• None",
                     "color": "gray",
                     "italic": false
                   },
                   {
-                    "translate": "hexenwerk.text.no_spell",
+                    "translate": "text.hexenwerk.no_spell",
                     "fallback": "• None",
                     "color": "gray",
                     "italic": false
