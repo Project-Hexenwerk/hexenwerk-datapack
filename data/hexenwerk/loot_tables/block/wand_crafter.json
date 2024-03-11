@@ -22,7 +22,7 @@
       "functions": [
         {
           "function": "minecraft:set_custom_data",
-          "tag": "{hexenwerk:{id:\"magical_crafting_table\",version:1}}"
+          "tag": "{hexenwerk:{id:\"magical_crafting_table\",version:1,block:1b}}"
         },
         {
           "function": "minecraft:set_name",
