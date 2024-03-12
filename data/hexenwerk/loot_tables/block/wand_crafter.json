@@ -37,7 +37,7 @@
         {
           "function": "minecraft:set_components",
           "components": {
-            "minecraft:custom_model_data": 58420001
+            "minecraft:custom_model_data": 5842002
           }
         }
       ]

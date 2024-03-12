@@ -1,0 +1,47 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glow_item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:entity_data": {
+                    "id": "minecraft:glow_item_frame",
+                    "Tags": ["hexenwerk.block.place","hexenwerk.block.type.magical_flower"]
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_custom_data",
+            "tag": "{hexenwerk:{id:\"magical_flower\",version:1,block:1b}}"
+          },
+          {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "name": {
+              "translate": "block.hexenwerk.magical_flower",
+              "fallback": "Magical Flower",
+              "color": "#62DEDE",
+              "italic": false
+            }
+          },
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": 5842005
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

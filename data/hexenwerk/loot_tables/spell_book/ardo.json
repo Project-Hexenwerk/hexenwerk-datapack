@@ -30,7 +30,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 58420001,
+                  "minecraft:custom_model_data": 5842001,
                   "minecraft:dyed_color": {"rgb":15461355, "show_in_tooltip": false},
                   "minecraft:hide_additional_tooltip": {},
                   "minecraft:attribute_modifiers": {"modifiers": [],"show_in_tooltip": false}
