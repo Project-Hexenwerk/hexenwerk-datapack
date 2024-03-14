@@ -1,1 +1,0 @@
-summon tnt ^ ^ ^2
