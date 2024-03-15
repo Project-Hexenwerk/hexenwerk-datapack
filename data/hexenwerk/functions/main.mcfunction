@@ -1,6 +1,9 @@
+kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data": {hexenwerk: {input_slot: 1b}}}}}]
+
 execute as @a[tag=hexenwerk.watch.scroll_hotbar] store result score @s hexenwerk.hotbar.selected_slot run data get entity @s SelectedItemSlot
 
 execute as @a if predicate hexenwerk:has_item/gui_element run function hexenwerk:block/magical_crafting_table/return_item_to_player/start
+execute as @a if predicate hexenwerk:has_item/gui_element_input_slot at @e[type=item_display,tag=hexenwerk.block.gui.open,tag=hexenwerk.block.type.magical_crafting_table,sort=nearest,limit=1] run function hexenwerk:block/magical_crafting_table/return_item_to_player/input_slots/start
 
 # VVV WHILE X VVV
 execute as @e[type=item_display,tag=hexenwerk.block.gui,tag=hexenwerk.block.gui.open] at @s run function hexenwerk:event/block/while/open

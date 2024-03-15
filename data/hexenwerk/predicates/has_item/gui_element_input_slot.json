@@ -1,0 +1,30 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.*": {
+              "items": "minecraft:barrier",
+              "custom_data": "{hexenwerk:{input_slot:1b}}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "player.cursor": {
+              "items": "minecraft:barrier",
+              "custom_data": "{hexenwerk:{input_slot:1b}}"
+            }
+          }
+        }
+      }
+    ]
+  }
+  

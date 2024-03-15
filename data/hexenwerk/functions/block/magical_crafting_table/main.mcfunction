@@ -1,6 +1,0 @@
-execute unless block ~ ~ ~ barrel{Items:[{Slot:6b}]} run item replace block ~ ~ ~ container.6 with barrier[minecraft:custom_model_data=5842001,custom_name='{"translate":"gui.hexenwerk.add_spellbook","fallback":"Add Spellbook","color":"white","italic":false}']{hexenwerk:{empty_slot:1b,gui_element:1b}}
-execute unless block ~ ~ ~ barrel{Items:[{Slot:12b}]} run item replace block ~ ~ ~ container.12 with barrier[minecraft:custom_model_data=5842001,custom_name='{"translate":"gui.hexenwerk.add_wand","fallback":"Add Magical Wand","color":"white","italic":false}']{hexenwerk:{empty_slot:1b,gui_element:1b}}
-execute unless block ~ ~ ~ barrel{Items:[{Slot:15b}]} run item replace block ~ ~ ~ container.15 with barrier[minecraft:custom_model_data=5842001,custom_name='{"translate":"gui.hexenwerk.add_spellbook","fallback":"Add Spellbook","color":"white","italic":false}']{hexenwerk:{empty_slot:1b,gui_element:1b}}
-execute unless block ~ ~ ~ barrel{Items:[{Slot:24b}]} run item replace block ~ ~ ~ container.24 with barrier[minecraft:custom_model_data=5842001,custom_name='{"translate":"gui.hexenwerk.add_spellbook","fallback":"Add Spellbook","color":"white","italic":false}']{hexenwerk:{empty_slot:1b,gui_element:1b}}
-
-

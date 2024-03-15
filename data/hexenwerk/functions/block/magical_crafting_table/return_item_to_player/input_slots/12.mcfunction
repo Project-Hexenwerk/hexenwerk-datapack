@@ -1,0 +1,2 @@
+function hexenwerk:block/magical_crafting_table/return_item_to_player/12
+item replace block ~ ~ ~ container.12 with barrier[minecraft:custom_model_data=5842001,custom_name='{"translate":"gui.hexenwerk.add_wand","fallback":"Add Magical Wand","color":"white","italic":false}']{hexenwerk:{input_slot:1b}}
