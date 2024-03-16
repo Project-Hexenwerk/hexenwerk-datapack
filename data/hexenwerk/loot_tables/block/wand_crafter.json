@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:entity_data": {
                   "id": "minecraft:glow_item_frame",
-                  "Tags": ["hexenwerk.block.place","hexenwerk.block.type.magical_crafting_table"]
+                  "Tags": ["hexenwerk.block.place","hexenwerk.block.type.wand_crafter"]
                 }
               }
             }
@@ -22,14 +22,14 @@
       "functions": [
         {
           "function": "minecraft:set_custom_data",
-          "tag": "{hexenwerk:{id:\"magical_crafting_table\",version:1,block:1b}}"
+          "tag": "{hexenwerk:{id:\"wand_crafter\",version:1,block:1b}}"
         },
         {
           "function": "minecraft:set_name",
           "entity": "this",
           "name": {
-            "translate": "block.hexenwerk.magical_crafting_table",
-            "fallback": "Magical Crafting Table",
+            "translate": "block.hexenwerk.wand_crafter",
+            "fallback": "Wand Crafter",
             "color": "#62DEDE",
             "italic": false
           }

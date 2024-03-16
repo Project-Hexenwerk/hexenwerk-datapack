@@ -1,1 +1,1 @@
-execute if entity @s[tag=hexenwerk.block.type.magical_crafting_table] run function hexenwerk:block/magical_crafting_table/main
+execute if entity @s[tag=hexenwerk.block.type.wand_crafter] run function hexenwerk:block/wand_crafter/main
