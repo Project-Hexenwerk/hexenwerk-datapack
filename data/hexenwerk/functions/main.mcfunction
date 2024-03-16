@@ -4,6 +4,7 @@ execute as @a[tag=hexenwerk.watch.scroll_hotbar] store result score @s hexenwerk
 
 execute as @a if predicate hexenwerk:has_item/gui_element run function hexenwerk:block/magical_crafting_table/return_item_to_player/start
 execute as @a if predicate hexenwerk:has_item/gui_element_input_slot at @e[type=item_display,tag=hexenwerk.block.gui.open,tag=hexenwerk.block.type.magical_crafting_table,sort=nearest,limit=1] run function hexenwerk:block/magical_crafting_table/return_item_to_player/input_slots/start
+execute as @a if predicate hexenwerk:has_item/wand_crafter_input at @e[type=item_display,tag=hexenwerk.block.gui.open,tag=hexenwerk.block.type.magical_crafting_table,sort=nearest,limit=1] run function hexenwerk:block/magical_crafting_table/return_item_to_player/input_slots/start
 
 # VVV WHILE X VVV
 execute as @e[type=item_display,tag=hexenwerk.block.gui,tag=hexenwerk.block.gui.open] at @s run function hexenwerk:event/block/while/open

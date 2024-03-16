@@ -48,7 +48,7 @@
               },
               {
                 "function": "minecraft:set_custom_data",
-                "tag": "{hexenwerk:{id:\"wand\",version:1,spell_storage:[{},{},{},{},{}]}}"
+                "tag": "{wand_crafter_input_item:1b,hexenwerk:{id:\"wand\",version:1,spell_storage:[{},{},{},{},{}]}}"
               }
             ]
           }
